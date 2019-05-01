@@ -1,0 +1,4 @@
+/* @option user-defined navigation position */
+@media only screen and (min-width: 600px) {
+	#navigation ul { float: right; }
+}

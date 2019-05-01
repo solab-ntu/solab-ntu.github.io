@@ -1,0 +1,4 @@
+/* @option user-defined hide sidebar */
+#primary-container {width: 100% !important;}
+#secondary-container {display: none;}
+

@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../../../fonts/ubuntu/ubuntu-regular-webfont.eot');
+	src: url('../../../fonts/ubuntu/ubuntu-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/ubuntu/ubuntu-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/ubuntu/ubuntu-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/ubuntu/ubuntu-regular-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+h1,h2,h3,h4,h5,h6,.menu,.album-title,.movie-page-title,.photo-title,.photo-background { font-family: 'Ubuntu', sans-serif; }

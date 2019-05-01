@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url('../../../fonts/josefin-sans/josefinsans-regular-webfont.eot');
+	src: url('../../../fonts/josefin-sans/josefinsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/josefin-sans/josefinsans-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/josefin-sans/josefinsans-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/josefin-sans/josefinsans-regular-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body { font-family: 'Josefin Sans', sans-serif; }

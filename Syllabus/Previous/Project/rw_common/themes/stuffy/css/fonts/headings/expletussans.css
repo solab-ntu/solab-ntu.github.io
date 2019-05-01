@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Expletus Sans';
+	src: url('../../../fonts/expletussans/expletussans-regular-webfont.eot');
+	src: url('../../../fonts/expletussans/expletussans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/expletussans/expletussans-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/expletussans/expletussans-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/expletussans/expletussans-regular-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+h1,h2,h3,h4,h5,h6,.menu,.album-title,.movie-page-title,.photo-title,.photo-background { font-family: 'Expletus Sans', sans-serif; }

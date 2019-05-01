@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Josefin Slab';
+	src: url('../../../fonts/josefinslab/josefinslab-regular-webfont.eot');
+	src: url('../../../fonts/josefinslab/josefinslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/josefinslab/josefinslab-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/josefinslab/josefinslab-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/josefinslab/josefinslab-regular-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+h1,h2,h3,h4,h5,h6,.menu,.album-title,.movie-page-title,.photo-title,.photo-background { font-family: 'Josefin Slab', sans-serif; }

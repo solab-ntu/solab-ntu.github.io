@@ -1,0 +1,3 @@
+/* @option user-defined header height */
+#banner, .orbit-wrapper, #featured{height: 450px !important;}
+#featured{overflow: hidden;}

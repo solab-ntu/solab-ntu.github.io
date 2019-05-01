@@ -1,0 +1,3 @@
+/* @option user-defined sidebar position */
+#primary-container { float: right;margin-left: 0; }
+#secondary-container { float: left;margin-left: 10px; }

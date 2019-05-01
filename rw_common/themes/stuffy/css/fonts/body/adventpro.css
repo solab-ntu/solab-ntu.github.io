@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Advent Pro';
+	src: url('../../../fonts/adventpro/adventpro-regular-webfont.eot');
+	src: url('../../../fonts/adventpro/adventpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/adventpro/adventpro-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/adventpro/adventpro-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/adventpro/adventpro-regular-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body { font-family: 'Advent Pro', sans-serif; }

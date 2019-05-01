@@ -1,0 +1,4 @@
+/* @option user-defined header height */
+#slides { max-height: 250px !important; }
+#slides .static img, #myExtraContent2 img { width: 100%; }
+.flexslider { max-height: 250px !important; }

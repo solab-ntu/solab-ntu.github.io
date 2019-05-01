@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Crimson Text';
+	src: url('../../../fonts/crimson-text/crimsontext-roman-webfont.eot');
+	src: url('../../../fonts/crimson-text/crimsontext-roman-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/crimson-text/crimsontext-roman-webfont.woff') format('woff'),
+		 url('../../../fonts/crimson-text/crimsontext-roman-webfont.ttf') format('truetype'),
+		 url('../../../fonts/crimson-text/crimsontext-roman-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body { font-family: 'Crimson Text', sans-serif; }

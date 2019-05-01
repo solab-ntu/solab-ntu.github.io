@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Exo';
+	src: url('../../../fonts/exo/exo-regular-webfont.eot');
+	src: url('../../../fonts/exo/exo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/exo/exo-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/exo/exo-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/exo/exo-regular-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body { font-family: 'Exo', serif; }

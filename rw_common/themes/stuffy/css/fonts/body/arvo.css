@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Arvo';
+	src: url('../../../fonts/arvo/arvo-regular-webfont.eot');
+	src: url('../../../fonts/arvo/arvo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/arvo/arvo-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/arvo/arvo-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/arvo/arvo-regular-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body { font-family: 'Arvo', sans-serif; }

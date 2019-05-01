@@ -1,0 +1,2 @@
+/* @option user-defined header height */
+#banner, #slides, .flexslider { height: 250px !important; }

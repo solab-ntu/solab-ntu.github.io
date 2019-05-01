@@ -1,0 +1,13 @@
+/* @option user-defined font family */
+@font-face {
+	font-family: 'Quattrocento';
+	src: url('../../../fonts/quattrocento/quattrocento-regular-webfont.eot');
+	src: url('../../../fonts/quattrocento/quattrocento-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../../fonts/quattrocento/quattrocento-regular-webfont.woff') format('woff'),
+		 url('../../../fonts/quattrocento/quattrocento-regular-webfont.ttf') format('truetype'),
+		 url('../../../fonts/quattrocento/quattrocento-regular-webfont.svg#OverlockRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body { font-family: 'Quattrocento', sans-serif; }
