@@ -123,10 +123,10 @@ class Member():
 					<nav id="navigation" class="clearfix">
 						<ul class="menu">
 							<li>
-								<a href="../index.html" rel="self">首頁|Home</a>
+								<a href="../index.html" rel="self">首頁 | Home</a>
 							</li>
 							<li>
-								<a href="../Research/Research.html" rel="self">研究|Research</a>
+								<a href="../Research/Research.html" rel="self">研究 | Research</a>
 								<ul class="menu">
 									<li>
 										<a href="../Research/Research/Research_1.html" rel="self">設計+不確定因素
@@ -147,21 +147,21 @@ class Member():
 								</ul>
 							</li>
 							<li class="current">
-								<a href="Member.html" rel="self">成員|Member</a>
+								<a href="Member.html" rel="self">成員 | Member</a>
 								<ul class="menu">
 									<li>
-										<a href="../Member/Member/Current.html" rel="self">現任成員|Current Member</a>
+										<a href="../Member/Member/Current.html" rel="self">現任成員 | Current Member</a>
 									</li>
 									<li>
-										<a href="../Member/Alumni/Alumni.html" rel="self">畢業學生|Alumni</a>
+										<a href="../Member/Alumni/Alumni.html" rel="self">畢業學生 | Alumni</a>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="../Teaching/Teaching.html" rel="self">課程|Teaching</a>
+								<a href="../Teaching/Teaching.html" rel="self">課程 | Teaching</a>
 							</li>
 							<li>
-								<a href="../ContactInfo/ContactInfo.html" rel="self">聯絡方式|Contact info</a>
+								<a href="../ContactInfo/ContactInfo.html" rel="self">聯絡方式 | Contact info</a>
 							</li>
 						</ul>
 					</nav>
@@ -393,10 +393,10 @@ class Current():
 					<nav id="navigation" class="clearfix">
 						<ul class="menu">
 							<li>
-								<a href="../../index.html" rel="self">首頁|Home</a>
+								<a href="../../index.html" rel="self">首頁 | Home</a>
 							</li>
 							<li>
-								<a href="../../Research/Research.html" rel="self">研究|Research</a>
+								<a href="../../Research/Research.html" rel="self">研究 | Research</a>
 								<ul class="menu">
 									<li>
 										<a href="../../Research/Research/Research_1.html" rel="self">設計+不確定因素
@@ -417,21 +417,21 @@ class Current():
 								</ul>
 							</li>
 							<li class="current">
-								<a href="../Member.html" rel="self">成員|Member</a>
+								<a href="../Member.html" rel="self">成員 | Member</a>
 								<ul class="menu">
 									<li>
-										<a href="../../Member/Member/Current.html" rel="self">現任成員|Current Member</a>
+										<a href="../../Member/Member/Current.html" rel="self">現任成員 | Current Member</a>
 									</li>
 									<li>
-										<a href="../../Member/Alumni/Alumni.html" rel="self">畢業學生|Alumni</a>
+										<a href="../../Member/Alumni/Alumni.html" rel="self">畢業學生 | Alumni</a>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="../../Teaching/Teaching.html" rel="self">課程|Teaching</a>
+								<a href="../../Teaching/Teaching.html" rel="self">課程 | Teaching</a>
 							</li>
 							<li>
-								<a href="../../ContactInfo/ContactInfo.html" rel="self">聯絡方式|Contact info</a>
+								<a href="../../ContactInfo/ContactInfo.html" rel="self">聯絡方式 | Contact info</a>
 							</li>
 						</ul>
 					</nav>
@@ -754,10 +754,10 @@ class Alumni():
 					<nav id="navigation" class="clearfix">
 						<ul class="menu">
 							<li>
-								<a href="../../index.html" rel="self">首頁|Home</a>
+								<a href="../../index.html" rel="self">首頁 | Home</a>
 							</li>
 							<li>
-								<a href="../../Research/Research.html" rel="self">研究|Research</a>
+								<a href="../../Research/Research.html" rel="self">研究 | Research</a>
 								<ul class="menu">
 									<li>
 										<a href="../../Research/Research/Research_1.html" rel="self">設計+不確定因素
@@ -778,21 +778,21 @@ class Alumni():
 								</ul>
 							</li>
 							<li class="current">
-								<a href="../Member.html" rel="self">成員|Member</a>
+								<a href="../Member.html" rel="self">成員 | Member</a>
 								<ul class="menu">
 									<li>
-										<a href="../../Member/Member/Current.html" rel="self">現任成員|Current Member</a>
+										<a href="../../Member/Member/Current.html" rel="self">現任成員 | Current Member</a>
 									</li>
 									<li>
-										<a href="../../Member/Alumni/Alumni.html" rel="self">畢業學生|Alumni</a>
+										<a href="../../Member/Alumni/Alumni.html" rel="self">畢業學生 | Alumni</a>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="../../Teaching/Teaching.html" rel="self">課程|Teaching</a>
+								<a href="../../Teaching/Teaching.html" rel="self">課程 | Teaching</a>
 							</li>
 							<li>
-								<a href="../../ContactInfo/ContactInfo.html" rel="self">聯絡方式|Contact info</a>
+								<a href="../../ContactInfo/ContactInfo.html" rel="self">聯絡方式 | Contact info</a>
 							</li>
 						</ul>
 					</nav>
