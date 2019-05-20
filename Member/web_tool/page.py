@@ -2,7 +2,7 @@ import io
 import re
 import os
 import codecs
-import template
+from . import template
 
 def create_member(ppl_member_tsv):
 

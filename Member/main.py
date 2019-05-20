@@ -1,7 +1,7 @@
 import os
 import shutil
 
-import member
+import web_tool
 
 try:
     os.remove('Member.html')
@@ -13,8 +13,8 @@ finally:
     os.mkdir('Alumni')
     os.mkdir('Member')
 
-member.create_member('Member.tsv')
-member.create_current('Member.tsv')
-member.create_member_page('Member.tsv')
-member.create_alumni('Alumni.tsv')
-member.create_alumni_page('Alumni.tsv')
+web_tool.page.create_member('Member.tsv')
+web_tool.page.create_current('Member.tsv')
+web_tool.page.create_member_page('Member.tsv')
+web_tool.page.create_alumni('Alumni.tsv')
+web_tool.page.create_alumni_page('Alumni.tsv')
