@@ -6,10 +6,12 @@ data = {}
 
 # -- 0
 
+i = 0
 teacher = member.People()
 teacher["name"]["chi"] = "詹魁元"
 teacher["name"]["eng"] = "Kuei-Yuan Chan"
 teacher["year"] = 7
+teacher["alumni"] = False
 teacher["lab_id"] = "實驗室負責人 Director of SOLab"
 teacher["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (97)"}
 teacher["degrees"][1] = {"chi": "美國密西根大學機械工程 博士", "eng": "Ph.D., University of Michigan (05)"}
@@ -17,10 +19,11 @@ teacher["jobs"][0] = {"chi": "台大創新設計學院教學組長", "eng": "Dir
 teacher["jobs"][1] = {"chi": "機械工程學系教授", "eng": "Professor of Mechanical Engineering", "web": None}
 teacher["jobs"][2] = {"chi": "台大副教務長", "eng": "Deputy Vice President for Academic Affairs", "web": None}
 
-data[0] = teacher
+data[i] = teacher
 
 # -- 1
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "余岱璟"
 pp["name"]["eng"] = "Dai-Jing Yu"
@@ -37,10 +40,11 @@ pp["thesis"] = {
     "file": "YuDaiJung.pdf", 
     "drive": "https://drive.google.com/file/d/170VnY9eARaFx4iB4UFgpg8d209reUYM-/view?usp=sharing"}
 
-data[1] = pp
+data[i] = pp
 
 # -- 2
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "劉智豪"
 pp["name"]["eng"] = "Chih-Hao Liu"
@@ -60,10 +64,11 @@ pp["papers"][0] = {
     "file": "2008PressureTank_DETC.pdf",
     "drive": "https://drive.google.com/open?id=12SVKWL5R1wcriPq0i94lhsvrHKJQmMj_"}
 
-data[2] = pp
+data[i] = pp
 
 # -- 3
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "何淳民"
 pp["name"]["eng"] = "Chun-Min Ho"
@@ -92,10 +97,11 @@ pp["papers"][2] = {
    "file": "2010IDETC_Equality.pdf",
    "drive": "https://drive.google.com/open?id=1LnFDwcznNNqBNCZkqKJUfHHg7uPx6W4U"}
 
-data[3] = pp
+data[i] = pp
 
 # -- 4
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "葉俊余"
 pp["name"]["eng"] = "Jiun-Yu Yeh"
@@ -107,10 +113,11 @@ pp["jobs"][0] = {
     "web": "http://www.jhing-sheng.com.tw/"}
 pp["thesis"] = {"eng": "Design of Experiment of a Bio-Inspired Flapping Mechanism"}
 
-data[4] = pp
+data[i] = pp
 
 # -- 5
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "林東信"
 pp["name"]["eng"] = "Dong-Shin Lin"
@@ -135,10 +142,11 @@ pp["papers"][1] = {
    "file": "2011NME_JointConst.pdf",
    "drive": "https://drive.google.com/open?id=1Sr-bPVHN6zHOXdKaPCyHmYnaLq1dy_4Z"}
 
-data[5] = pp
+data[i] = pp
 
 # -- 6
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "許凱勛"
 pp["name"]["eng"] = "Kai-Hsun Hsu"
@@ -159,36 +167,11 @@ pp["papers"][0] = {
    "file": "2010SQPSampling_JMD.pdf",
    "drive": "https://drive.google.com/open?id=13uggsTzCSTf4yC94QCUlFuG37roUS-vT"}
 
-data[6] = pp
-
-# -- 7
-
-pp = member.People()
-pp["name"]["chi"] = "黃彥智"
-pp["name"]["eng"] = "Yeh-Chih Huang"
-pp["year"] = 9
-pp["alumni"] = False
-pp["lab_id"] = "博士候選人 Ph.D. Candidate"
-pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (07)"}
-pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (09)"}
-pp["thesis"] = {
-    "chi": "針對機率拘束空間內最大可靠度問題之EGO演算法修正", 
-    "eng": "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space", 
-    "file": "HuangYenChih.pdf", 
-    "drive": "https://drive.google.com/open?id=1L1nhqYLK1nobKftAjdLjzQnIsHtoA1F_"}
-pp["papers"][0] = {
-   "ref": """K.-Y. Chan and Y.-C. Huang, "An Active Set Sequential Quadratic Programming with Variable Probabilistic Constraint Evaluations for Optimization Problems under Non-Gaussian Uncertainties", Journal of Mechanical Engineering Science 226(6), pp.1273-1285, 2010""",
-   "file": "2010JMES_NonGaussian.pdf",
-   "drive": "https://drive.google.com/open?id=1SArUSYEkxk4v8f9bBzQgUK_xOmdsk6CE"}
-pp["papers"][1] = {
-   "ref": """Y.-C. Huang and K.-Y. Chan, "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space", Journal of Mechanical Design, 132(6), 061002, 2010""",
-   "file": "2010EGO_MaxRel_JMD.pdf",
-   "drive": "https://drive.google.com/open?id=1SgC0DMPrXZJm9EM1NC5fG5K_KNLSgf1W"}
-
-data[7] = pp
+data[i] = pp
 
 # -- 8
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "吳昱達"
 pp["name"]["eng"] = "Yu-Ta Wu"
@@ -209,10 +192,11 @@ pp["papers"][0] = {
    "file": "2011TrafficCA_SERRA.pdf",
    "drive": "https://drive.google.com/open?id=1oHgMNYlvDfcaAE2n3Xel3jv8fxCZgo_h"}
 
-data[8] = pp
+data[i] = pp
 
 # -- 9
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "張琇雯"
 pp["name"]["eng"] = "Hsiu-Wen Chang"
@@ -229,10 +213,11 @@ pp["thesis"] = {
     "file": "ChangHsiuWen.pdf", 
     "drive": "https://drive.google.com/open?id=1BbrgBOYv5KV8zylss4jl6_pZLcYE_2-M"}
 
-data[9] = pp
+data[i] = pp
 
 # -- 10
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "洪子頡"
 pp["name"]["eng"] = "Tzu-Chieh Hung"
@@ -282,6 +267,7 @@ data[10] = pp
 
 # -- 11
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "劉季儒"
 pp["name"]["eng"] = "Chi-Ju Liu"
@@ -302,6 +288,7 @@ data[11] = pp
 
 # -- 12
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "許佳豪"
 pp["name"]["eng"] = "Chiao-Hao Hsu"
@@ -322,6 +309,7 @@ data[12] = pp
 
 # -- 13
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "張勝昌"
 pp["name"]["eng"] = "Sheng-Chang Chang"
@@ -350,6 +338,7 @@ data[13] = pp
 
 # -- 14
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "郭祐伸"
 pp["name"]["eng"] = "Yu-Shen Kuo"
@@ -365,20 +354,22 @@ pp["thesis"] = {
     "file": "", 
     "drive": ""}
 
-data[14] = pp
+data[13] = pp
 
 # -- 15
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "吳嘉珮"
 pp["name"]["eng"] = "Chia-Pei Wu"
 pp["year"] = 11
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (10)"}
 
-data[15] = pp
+data[i] = pp
 
 # -- 16
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "陳力豪"
 pp["name"]["eng"] = "Li-Hao Chen"
@@ -394,10 +385,11 @@ pp["thesis"] = {
     "file": "ChenLiHao", 
     "drive": "https://drive.google.com/open?id=1cQu1tizFqkFWF8hwFbtiW92j5Nj4eBTr"}
 
-data[16] = pp
+data[i] = pp
 
 # -- 17
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "林彬儀"
 pp["name"]["eng"] = "Pin-Yi Lin"
@@ -418,10 +410,11 @@ pp["papers"][0] = {
    "file": "",
    "drive": ""}
 
-data[17] = pp
+data[i] = pp
 
 # -- 18
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "薛伊倩"
 pp["name"]["eng"] = "Yi-Chien Hsueh"
@@ -441,10 +434,11 @@ pp["papers"][0] = {
    "file": "2014CSME_AURM2D.pdf",
    "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV"}
 
-data[18] = pp
+data[i] = pp
 
 # -- 19
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "王宏偉"
 pp["name"]["eng"] = "Hong-Wei Wang"
@@ -456,10 +450,11 @@ pp["thesis"] = {
     "file": "", 
     "drive": ""}
 
-data[19] = pp
+data[i] = pp
 
 # -- 20
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "韓佾君"
 pp["name"]["eng"] = "Yi-Chun Han"
@@ -476,10 +471,11 @@ pp["thesis"] = {
     "file": "HanYiChun.pdf", 
     "drive": "https://drive.google.com/open?id=1a2fKTyx1whggoMqqYs1xegIUO_GAgZmD"}
 
-data[20] = pp
+data[i] = pp
 
 # -- 21
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "米約瑟"
 pp["name"]["eng"] = "Joseph Millogo"
@@ -498,10 +494,11 @@ pp["papers"][0] = {
    "file": "2014ADEWS_LCAReview",
    "drive": "https://drive.google.com/open?id=10pFPL8mz5LuUfRWxuqK7Y1_ycPqB-m6B"}
 
-data[21] = pp
+data[i] = pp
 
 # -- 22
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "吳典運"
 pp["name"]["eng"] = "Dian-Yun Wu"
@@ -518,10 +515,11 @@ pp["thesis"] = {
     "file": "WuDianYun.pdf", 
     "drive": "https://drive.google.com/open?id=1jDiz31nnpqRnOXwxQZq31SCqorUWMPtW"}
 
-data[22] = pp
+data[i] = pp
 
 # -- 23
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "王東泰"
 pp["name"]["eng"] = "Dong-Tai Wang"
@@ -537,10 +535,11 @@ pp["papers"][0] = {
    "file": "",
    "drive": ""}
 
-data[23] = pp
+data[i] = pp
 
 # -- 24
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "陳煜駿"
 pp["name"]["eng"] = "Yee-Chun Tan"
@@ -556,10 +555,11 @@ pp["thesis"] = {
     "file": "", 
     "drive": ""}
 
-data[24] = pp
+data[i] = pp
 
 # -- 25
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "賴明證"
 pp["name"]["eng"] = "Min-Cheng Lai"
@@ -583,10 +583,11 @@ pp["papers"][1] = {
    "file": "2014CSME_AURM2D.pdf",
    "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV"}
 
-data[25] = pp
+data[i] = pp
 
 # -- 26
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "蘇庭玉"
 pp["name"]["eng"] = "Dale Su"
@@ -607,10 +608,11 @@ pp["papers"][0] = {
    "file": "2014IDETC2014_sudale_draft;2015JRISK_ManMachine.pdf",
    "drive": "https://drive.google.com/open?id=1BUFrGVE2OXW1_661cO9c_qVNK_DQQHDN ; https://drive.google.com/open?id=1pnW3pRsSte6Kuve5QpscSDCAJj5H4DOa"}
 
-data[26] = pp
+data[i] = pp
 
 # -- 27
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "顏肇余"
 pp["name"]["eng"] = "Chao-Yu Yen"
@@ -626,10 +628,11 @@ pp["thesis"] = {
     "file": "YenChaoYu.pdf", 
     "drive": "https://drive.google.com/open?id=16sOiHehxvbhwUj9LzBVcBquO8EA0nJFg"}
 
-data[27] = pp
+data[i] = pp
 
 # -- 28
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "張值榕"
 pp["name"]["eng"] = "Chih-Jung Chang"
@@ -653,10 +656,11 @@ pp["papers"][1] = {
    "file": "",
    "drive": ""}
 
-data[28] = pp
+data[i] = pp
 
 # -- 29
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "林佑安"
 pp["name"]["eng"] = "You-An Lin"
@@ -672,10 +676,11 @@ pp["thesis"] = {
     "file": "LinYouAn.pdf", 
     "drive": "https://drive.google.com/open?id=1N9PvtFqLt2lWo1C0-NPMFoCOf0gTSxsz"}
 
-data[29] = pp
+data[i] = pp
 
 # -- 30
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "張祐晨"
 pp["name"]["eng"] = "You-Chen Chang"
@@ -695,10 +700,11 @@ pp["papers"][0] = {
    "file": "2015IFToMM_ElectronicsReliability.pdf",
    "drive": "https://drive.google.com/open?id=1UFjQB6PD07p61CuouiAJt4IJnHwpdDAI"}
 
-data[30] = pp
+data[i] = pp
 
 # -- 31
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "陳柏安"
 pp["name"]["eng"] = "Pao-An Chen"
@@ -718,10 +724,11 @@ pp["papers"][0] = {
    "file": "2015CSME_Traffic.pdf",
    "drive": "https://drive.google.com/open?id=1Od1a9XzeXD0u7bJ_eFlNElPTRxZPmOnF"}
 
-data[31] = pp
+data[i] = pp
 
 # -- 32
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "李冠霖"
 pp["name"]["eng"] = "Kuan-Lin Li"
@@ -754,10 +761,11 @@ pp["papers"][3] = {
    "file": "2017IdentifyingJointClearanceViaRobotManipulation;.pdf",
    "drive": "https://drive.google.com/open?id=1SQ-gNonKEOLpVgICCrkjjzgYB8nFnYLB"}
 
-data[32] = pp
+data[i] = pp
 
 # -- 33
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "林柏伸"
 pp["name"]["eng"] = "Po-Shen Lin"
@@ -769,10 +777,11 @@ pp["thesis"] = {
     "file": "PoShenLin.pdf", 
     "drive": "https://drive.google.com/open?id=1c-kVdsDfJBxRAphrijrYuUg8OfwNq1bs"}
 
-data[33] = pp
+data[i] = pp
 
 # -- 34
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "林岳羿"
 pp["name"]["eng"] = "Yueh-I Lin"
@@ -800,10 +809,11 @@ pp["papers"][2] = {
    "file": "2014THCSMMT_CVTDirectSimulation.pdf",
    "drive": "https://drive.google.com/open?id=1Z3fnxiMEB6V-_b_tog2q22plpjX1alhl"}
 
-data[34] = pp
+data[i] = pp
 
 # -- 35
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "劉欣怡"
 pp["name"]["eng"] = "Shin-Yi Low"
@@ -820,10 +830,11 @@ pp["thesis"] = {
     "file": "LowShinYi.pdf", 
     "drive": "https://drive.google.com/open?id=1dBAxdFs839G99lXTOFYu2m5ZFSwFV5Ry"}
 
-data[35] = pp
+data[i] = pp
 
 # -- 36
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "游右均"
 pp["name"]["eng"] = "Yu-Chun Yu"
@@ -836,10 +847,11 @@ pp["thesis"] = {
     "file": "YuYuChun.pdf", 
     "drive": "https://drive.google.com/open?id=1ea7-sWDjCF1KeNP8yw6dfbocWrJ6cOoJ"}
 
-data[36] = pp
+data[i] = pp
 
 # -- 37
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "朱盈樺"
 pp["name"]["eng"] = "Ying-Hua Chu"
@@ -856,10 +868,11 @@ pp["thesis"] = {
     "file": "ChuYingHua.pdf", 
     "drive": "https://drive.google.com/open?id=1N7YUV68kbeGGhi0VAsaLKqAtaIU4VH04"}
 
-data[37] = pp
+data[i] = pp
 
 # -- 38
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "張顯主"
 pp["name"]["eng"] = "Xian-Zhu Chong"
@@ -876,10 +889,11 @@ pp["thesis"] = {
     "file": "ChongXianZhu.pdf", 
     "drive": "https://drive.google.com/open?id=1Lz1UeP31cz0yOEOruxich7D-I-9dAy43"}
 
-data[38] = pp
+data[i] = pp
 
 # -- 39
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "蔡穎寬"
 pp["name"]["eng"] = "Ying-Kuan Tsai"
@@ -908,10 +922,11 @@ pp["papers"][3] = {
    "file": "",
    "drive": ""}
 
-data[39] = pp
+data[i] = pp
 
 # -- 40
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "李旻憲"
 pp["name"]["eng"] = "Min-Hsien Lee"
@@ -928,10 +943,11 @@ pp["thesis"] = {
     "file": "LeeMinHsien .pdf", 
     "drive": "https://drive.google.com/open?id=1UI-EiW85FZzHUKyxDl5BUn0tBrxSpYrJ"}
 
-data[40] = pp
+data[i] = pp
 
 # -- 41
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "林峻廷"
 pp["name"]["eng"] = "Chun-Ting Lin"
@@ -944,10 +960,11 @@ pp["thesis"] = {
     "file": "LinChunTing.pdf", 
     "drive": "https://drive.google.com/open?id=1h1cEqxy63Il_p97xt-4aDefSKTsrS4sD"}
 
-data[41] = pp
+data[i] = pp
 
 # -- 42
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "徐世哲"
 pp["name"]["eng"] = "Shin-Che Hsu"
@@ -961,10 +978,38 @@ pp["thesis"] = {
     "file": "", 
     "drive": ""}
 
-data[42] = pp
+data[i] = pp
 
 # -- 43
 
+i += 1
+pp = member.People()
+pp["name"]["chi"] = "黃彥智"
+pp["name"]["eng"] = "Yeh-Chih Huang"
+pp["year"] = 9
+pp["alumni"] = False
+pp["lab_id"] = "博士候選人 Ph.D. Candidate"
+pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (07)"}
+pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (09)"}
+pp["thesis"] = {
+    "chi": "針對機率拘束空間內最大可靠度問題之EGO演算法修正", 
+    "eng": "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space", 
+    "file": "HuangYenChih.pdf", 
+    "drive": "https://drive.google.com/open?id=1L1nhqYLK1nobKftAjdLjzQnIsHtoA1F_"}
+pp["papers"][0] = {
+   "ref": """K.-Y. Chan and Y.-C. Huang, "An Active Set Sequential Quadratic Programming with Variable Probabilistic Constraint Evaluations for Optimization Problems under Non-Gaussian Uncertainties", Journal of Mechanical Engineering Science 226(6), pp.1273-1285, 2010""",
+   "file": "2010JMES_NonGaussian.pdf",
+   "drive": "https://drive.google.com/open?id=1SArUSYEkxk4v8f9bBzQgUK_xOmdsk6CE"}
+pp["papers"][1] = {
+   "ref": """Y.-C. Huang and K.-Y. Chan, "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space", Journal of Mechanical Design, 132(6), 061002, 2010""",
+   "file": "2010EGO_MaxRel_JMD.pdf",
+   "drive": "https://drive.google.com/open?id=1SgC0DMPrXZJm9EM1NC5fG5K_KNLSgf1W"}
+
+data[i] = pp
+
+# -- 44
+
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "劉員成"
 pp["name"]["eng"] = "Yuan-Cheng Liu"
@@ -978,10 +1023,11 @@ pp["thesis"] = {
     "file": "", 
     "drive": ""}
 
-data[43] = pp
+data[i] = pp
 
-# -- 44
+# -- 45
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "陳柏宇"
 pp["name"]["eng"] = "Po-Yu Chen"
@@ -995,10 +1041,11 @@ pp["thesis"] = {
     "file": "", 
     "drive": ""}
 
-data[44] = pp
+data[i] = pp
 
-# -- 45
+# -- 46
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "蔡心婷"
 pp["name"]["eng"] = "Hsin-Ting Tsai"
@@ -1012,14 +1059,16 @@ pp["thesis"] = {
     "file": "", 
     "drive": ""}
 
-data[45] = pp
+data[i] = pp
 
-# -- 46
+# -- 47
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "陳怡平"
 pp["name"]["eng"] = "Yi-Ping Chen"
 pp["year"] = 20
+pp["alumni"] = False
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (18)"}
 pp["thesis"] = {
     "chi": "用於車輛設計中的不確定因素及失效檢測方法", 
@@ -1027,10 +1076,11 @@ pp["thesis"] = {
     "file": "", 
     "drive": ""}
 
-data[46] = pp
+data[i] = pp
 
-# -- 47
+# -- 48
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "吳中信"
 pp["name"]["eng"] = "Chung-Hsin Wu"
@@ -1039,10 +1089,11 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (18)"}
 
-data[47] = pp
+data[i] = pp
 
-# -- 48
+# -- 49
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "陳奕憲"
 pp["name"]["eng"] = "Yi-Sian Chen"
@@ -1051,10 +1102,11 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中山大學 學士", "eng": "B.S., National Sun Yat-sen University (18)"}
 
-data[48] = pp
+data[i] = pp
 
-# -- 49
+# -- 50
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "陳宥廷"
 pp["name"]["eng"] = "Yu-Ting Chen"
@@ -1062,10 +1114,11 @@ pp["year"] = 20
 pp["alumni"] = False
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
 
-data[49] = pp
+data[i] = pp
 
-# -- 50
+# -- 51
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "肖路寧"
 pp["name"]["eng"] = "Lu-Ning Xiao"
@@ -1074,22 +1127,11 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "中原大學 學士", "eng": "B.S., Chung Yuan Christian University (18)"}
 
-data[50] = pp
-
-# -- 51
-
-pp = member.People()
-pp["name"]["chi"] = "呂冠頡"
-pp["name"]["eng"] = "Kuan-Chieh Lu"
-pp["year"] = 20
-pp["alumni"] = False
-pp["lab_id"] = "研究助理 Research Assistant"
-pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
-
-data[51] = pp
+data[i] = pp
 
 # -- 52
 
+i += 1
 pp = member.People()
 pp["name"]["chi"] = "吳驊祐"
 pp["name"]["eng"] = "Hua-Yu Wu"
@@ -1099,7 +1141,20 @@ pp["lab_id"] = "博士班學生 Ph.D. Student"
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (11)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (15)"}
 
-data[52] = pp
+data[i] = pp
+
+# -- 53
+
+i += 1
+pp = member.People()
+pp["name"]["chi"] = "呂冠頡"
+pp["name"]["eng"] = "Kuan-Chieh Lu"
+pp["year"] = 20
+pp["alumni"] = False
+pp["lab_id"] = "研究助理 Research Assistant"
+pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
+
+data[i] = pp
 
 # -- 
 
@@ -1124,7 +1179,7 @@ data[52] = pp
 #    "ref": """""",
 #    "file": "",
 #    "drive": ""}
-# data[] = pp
+# data[i] = pp
 
 with open('people.json', 'w', encoding='utf-8') as fp:
     json.dump(data, fp, ensure_ascii=False)
