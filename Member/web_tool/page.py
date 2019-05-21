@@ -1,14 +1,13 @@
 import io
-import re
 import os
 import codecs
 from . import template
 
-def create_member(data):
+def create_member_grid(data):
 
     members = []
 
-    for k in sorted(data):
+    for k in data.keys():
         if data[k]["alumni"] is False:
             members.append(data[k])
 
@@ -18,8 +17,8 @@ def create_member(data):
     for d in members:
 
         name = d["name"]
-        path_html = "./Member/" + name["eng"] + ".html"
-        path_pic = "./files/" + name["eng"] +".jpg"
+        path_html = "./" + name["eng"] + ".html"
+        path_pic = "../files/" + name["eng"] +".jpg"
         script += template.Member.script2.format(path_html, name["eng"], name["chi"], path_pic)
 
         if col_num % 4 == 0:
@@ -29,81 +28,25 @@ def create_member(data):
                 
         col_num += 1
 
-    script = script + template.Member.script4
-
-    try:
-        os.remove("Member.html")
-    except OSError:
-        pass
-
-    with codecs.open("Member.html", "w", encoding='utf8') as file:
-        file.write(script)
-        file.close()
-
-def create_current(data):
-
-    members = []
-
-    for k in sorted(data):
-        if data[k]["alumni"] is False:
-            members.append(data[k])
-
-    script = template.Current.script1
-    col_num = 1
-
-    for d in members:
-
-        name = d["name"]
-        path_html = "./" + name["eng"] + ".html"
-        path_pic = "../files/" + name["eng"] +".jpg"
-
-        script += template.Current.script2.format(path_html, name["eng"], name["chi"], path_pic)
-
-        if col_num % 4 == 0:
-            script += template.Current.script3_1
-        else:
-            script += template.Current.script3_2
-
-        col_num += 1
-                
-    script += template.Current.script4
-
-    try:
-        os.remove("./Member/Current.html")
-    except OSError:
-        pass
-
-    with codecs.open("./Member/Current.html", "w", encoding='utf8') as file:
-        file.write(script)
-        file.close()
+    return (members, script)
 
 def create_member_page(data):
 
-    members = []
+    _, script = create_member_grid(data)
+    script = script + template.Member.script4
 
-    for k in sorted(data):
-        if data[k]["alumni"] is False:
-            members.append(data[k])
+    try:
+        os.remove("./Member/Member.html")
+    except OSError:
+        pass
 
-    script = template.Current.script1
-    col_num = 1
+    with codecs.open("./Member/Member.html", "w", encoding='utf8') as file:
+        file.write(script)
+        file.close()
 
-    for d in members:
+def create_member_pages(data):
 
-        name = d["name"]
-        path_html = "./" + name["eng"] + ".html"
-        path_pic = "../files/" + name["eng"] +".jpg"
-
-        script += template.Current.script2.format(path_html, name["eng"], name["chi"], path_pic)
-
-        if col_num % 4 == 0:
-            script += template.Current.script3_1
-        else:
-            script += template.Current.script3_2
-
-        col_num += 1
-                
-    # --
+    members, script = create_member_grid(data)
 
     for d in members:
 
@@ -157,11 +100,11 @@ def create_member_page(data):
             file.write(script_member_page)
             file.close()    
 
-def create_alumni(data):
+def create_alumni_grid(data):
 
     alumni = []
 
-    for k in reversed(sorted(data)):
+    for k in data.keys():
         if data[k]["alumni"] is True:
             alumni.append(data[k])
 
@@ -181,7 +124,12 @@ def create_alumni(data):
             script = script + template.Alumni.script3_2
 
         col_num += 1
-                
+
+    return (alumni, script)
+
+def create_alumni_page(data):
+
+    _, script = create_alumni_grid(data)
     script = script + template.Alumni.script4
 
     try:
@@ -193,32 +141,9 @@ def create_alumni(data):
         file.write(script)
         file.close()
 
-def create_alumni_page(data):
+def create_alumni_pages(data):
 
-    alumni = []
-
-    for k in reversed(sorted(data)):
-        if data[k]["alumni"] is True:
-            alumni.append(data[k])
-
-    script = template.Alumni.script1
-    col_num = 1
-
-    for d in alumni:
-
-        name = d["name"]
-        path_html = "./" + name["eng"] + ".html"
-        path_pic = "../files/" + name["eng"] +".jpg"
-        script += template.Alumni.script2.format(path_html, name["eng"], name["chi"], path_pic)
-
-        if col_num % 4 == 0:
-            script = script + template.Alumni.script3_1
-        else:
-            script = script + template.Alumni.script3_2
-
-        col_num += 1
-                
-    # --
+    alumni, script = create_alumni_grid(data)
 
     for d in alumni:
 

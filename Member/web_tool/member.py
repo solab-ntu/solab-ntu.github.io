@@ -15,7 +15,7 @@ class People(dict):
 
     def __init__(self):
 
-        self["name"] = {"chi": None, "eng": None}
+        self["name"] = {"chi": None, "eng": None, "first": None, "second": None, "weight": None}
         self["lab_id"] = None
         self["alumni"] = True
         self["year"] = None
@@ -24,3 +24,7 @@ class People(dict):
         self["research"] = {"chi": None, "eng": None}
         self["papers"] = dict() # {id: {"ref": None, "file": None, "drive": None}, ...}
         self["degrees"] = dict() # {id: {"chi": None, "eng": None}, ...}
+
+    def set_first_second(self):
+
+        self["name"]["second"], self["name"]["first"] = self["name"]["eng"].split(" ")

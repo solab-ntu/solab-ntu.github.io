@@ -7,19 +7,20 @@ data = {}
 # -- 0
 
 i = 0
-teacher = member.People()
-teacher["name"]["chi"] = "詹魁元"
-teacher["name"]["eng"] = "Kuei-Yuan Chan"
-teacher["year"] = 7
-teacher["alumni"] = False
-teacher["lab_id"] = "實驗室負責人 Director of SOLab"
-teacher["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (97)"}
-teacher["degrees"][1] = {"chi": "美國密西根大學機械工程 博士", "eng": "Ph.D., University of Michigan (05)"}
-teacher["jobs"][0] = {"chi": "機械工程學系教授", "eng": "Professor of Mechanical Engineering", "web": None}
-teacher["jobs"][1] = {"chi": "台大創新設計學院教學組長", "eng": "Director of academic affairs, D-School@NTU", "web": None}
-teacher["jobs"][2] = {"chi": "台大副教務長", "eng": "Deputy Vice President for Academic Affairs", "web": None}
+pp = member.People()
+pp["name"]["chi"] = "詹魁元"
+pp["name"]["eng"] = "Kuei-Yuan Chan"
+pp["year"] = 7
+pp["alumni"] = False
+pp["lab_id"] = "實驗室負責人 Director of SOLab"
+pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (97)"}
+pp["degrees"][1] = {"chi": "美國密西根大學機械工程 博士", "eng": "Ph.D., University of Michigan (05)"}
+pp["jobs"][0] = {"chi": "機械工程學系教授", "eng": "Professor of Mechanical Engineering", "web": None}
+pp["jobs"][1] = {"chi": "台大創新設計學院教學組長", "eng": "Director of academic affairs, D-School@NTU", "web": None}
+pp["jobs"][2] = {"chi": "台大副教務長", "eng": "Deputy Vice President for Academic Affairs", "web": None}
 
-data[i] = teacher
+pp.set_first_second()
+data[i] = pp
 
 # -- 1
 
@@ -40,6 +41,7 @@ pp["thesis"] = {
     "file": "YuDaiJung.pdf", 
     "drive": "https://drive.google.com/file/d/170VnY9eARaFx4iB4UFgpg8d209reUYM-/view?usp=sharing"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 2
@@ -64,6 +66,7 @@ pp["papers"][0] = {
     "file": "2008PressureTank_DETC.pdf",
     "drive": "https://drive.google.com/open?id=12SVKWL5R1wcriPq0i94lhsvrHKJQmMj_"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 3
@@ -97,6 +100,7 @@ pp["papers"][2] = {
    "file": "2010IDETC_Equality.pdf",
    "drive": "https://drive.google.com/open?id=1LnFDwcznNNqBNCZkqKJUfHHg7uPx6W4U"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 4
@@ -116,6 +120,7 @@ pp["research"] = {
     "eng": "Design of Experiment of a Bio-Inspired Flapping Mechanism"
     }
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 5
@@ -145,6 +150,7 @@ pp["papers"][1] = {
    "file": "2011NME_JointConst.pdf",
    "drive": "https://drive.google.com/open?id=1Sr-bPVHN6zHOXdKaPCyHmYnaLq1dy_4Z"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 6
@@ -170,6 +176,7 @@ pp["papers"][0] = {
    "file": "2010SQPSampling_JMD.pdf",
    "drive": "https://drive.google.com/open?id=13uggsTzCSTf4yC94QCUlFuG37roUS-vT"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 8
@@ -195,6 +202,7 @@ pp["papers"][0] = {
    "file": "2011TrafficCA_SERRA.pdf",
    "drive": "https://drive.google.com/open?id=1oHgMNYlvDfcaAE2n3Xel3jv8fxCZgo_h"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 9
@@ -216,6 +224,7 @@ pp["thesis"] = {
     "file": "ChangHsiuWen.pdf", 
     "drive": "https://drive.google.com/open?id=1BbrgBOYv5KV8zylss4jl6_pZLcYE_2-M"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 10
@@ -266,7 +275,8 @@ pp["papers"][6] = {
    "file": "2014IDETC_hungtc.pdf",
    "drive": "https://drive.google.com/open?id=1h6YLL8pdfKpigy4omDsPs22VfiIoX22w"}
 
-data[10] = pp
+pp.set_first_second()
+data[i] = pp
 
 # -- 11
 
@@ -287,7 +297,8 @@ pp["thesis"] = {
     "file": "LiuChiJu.pdf", 
     "drive": "https://drive.google.com/open?id=1RahQXEy0LZXwCTVjWIKUWs6m9qEMony0"}
 
-data[11] = pp
+pp.set_first_second()
+data[i] = pp
 
 # -- 12
 
@@ -308,7 +319,8 @@ pp["thesis"] = {
     "file": "HsuChiaHao.pdf", 
     "drive": "https://drive.google.com/open?id=1u49eNSca4oYBfZc_GHXuKxHdbUfLfmx5"}
 
-data[12] = pp
+pp.set_first_second()
+data[i] = pp
 
 # -- 13
 
@@ -337,7 +349,8 @@ pp["papers"][1] = {
    "file": "2014JMES_Aesthetics.pdf",
    "drive": "https://drive.google.com/open?id=12uhsCjcQLbH-hpfR_dSeNwuj5REEQq9U"}
 
-data[13] = pp
+pp.set_first_second()
+data[i] = pp
 
 # -- 14
 
@@ -355,7 +368,8 @@ pp["research"] = {
     "chi": "", 
     "eng": "Scenario Analyses of Traffic Regulations using Nagel-Schreckenberg Model"}
 
-data[13] = pp
+pp.set_first_second()
+data[i] = pp
 
 # -- 15
 
@@ -366,6 +380,7 @@ pp["name"]["eng"] = "Chia-Pei Wu"
 pp["year"] = 11
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (10)"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 16
@@ -386,6 +401,7 @@ pp["thesis"] = {
     "file": "ChenLiHao", 
     "drive": "https://drive.google.com/open?id=1cQu1tizFqkFWF8hwFbtiW92j5Nj4eBTr"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 17
@@ -411,6 +427,7 @@ pp["papers"][0] = {
    "file": "",
    "drive": ""}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 18
@@ -435,6 +452,7 @@ pp["papers"][0] = {
    "file": "2014CSME_AURM2D.pdf",
    "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 19
@@ -449,6 +467,7 @@ pp["research"] = {
     "chi": "", 
     "eng": "GearTrain System Design and Analysis"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 20
@@ -470,6 +489,7 @@ pp["thesis"] = {
     "file": "HanYiChun.pdf", 
     "drive": "https://drive.google.com/open?id=1a2fKTyx1whggoMqqYs1xegIUO_GAgZmD"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 21
@@ -491,6 +511,7 @@ pp["papers"][0] = {
    "file": "2014ADEWS_LCAReview",
    "drive": "https://drive.google.com/open?id=10pFPL8mz5LuUfRWxuqK7Y1_ycPqB-m6B"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 22
@@ -512,6 +533,7 @@ pp["thesis"] = {
     "file": "WuDianYun.pdf", 
     "drive": "https://drive.google.com/open?id=1jDiz31nnpqRnOXwxQZq31SCqorUWMPtW"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 23
@@ -528,6 +550,7 @@ pp["thesis"] = {
     "file": "WangDongTai.pdf", 
     "drive": "https://drive.google.com/open?id=1y4eWafky0SBvDNfcu9izHSvxE_pV7FhZ"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 24
@@ -546,6 +569,7 @@ pp["research"] = {
     "chi": "", 
     "eng": "Design and Analysis of Vehicle Belt-driven Starter Generator"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 25
@@ -574,6 +598,7 @@ pp["papers"][1] = {
    "file": "2014CSME_AURM2D.pdf",
    "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 26
@@ -599,6 +624,7 @@ pp["papers"][0] = {
    "file": "2014IDETC2014_sudale_draft;2015JRISK_ManMachine.pdf",
    "drive": "https://drive.google.com/open?id=1BUFrGVE2OXW1_661cO9c_qVNK_DQQHDN ; https://drive.google.com/open?id=1pnW3pRsSte6Kuve5QpscSDCAJj5H4DOa"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 27
@@ -619,6 +645,7 @@ pp["thesis"] = {
     "file": "YenChaoYu.pdf", 
     "drive": "https://drive.google.com/open?id=16sOiHehxvbhwUj9LzBVcBquO8EA0nJFg"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 28
@@ -647,6 +674,7 @@ pp["papers"][1] = {
    "file": "",
    "drive": ""}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 29
@@ -667,6 +695,7 @@ pp["thesis"] = {
     "file": "LinYouAn.pdf", 
     "drive": "https://drive.google.com/open?id=1N9PvtFqLt2lWo1C0-NPMFoCOf0gTSxsz"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 30
@@ -691,6 +720,7 @@ pp["papers"][0] = {
    "file": "2015IFToMM_ElectronicsReliability.pdf",
    "drive": "https://drive.google.com/open?id=1UFjQB6PD07p61CuouiAJt4IJnHwpdDAI"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 31
@@ -715,6 +745,7 @@ pp["papers"][0] = {
    "file": "2015CSME_Traffic.pdf",
    "drive": "https://drive.google.com/open?id=1Od1a9XzeXD0u7bJ_eFlNElPTRxZPmOnF"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 32
@@ -752,6 +783,7 @@ pp["papers"][3] = {
    "file": "2017IdentifyingJointClearanceViaRobotManipulation;.pdf",
    "drive": "https://drive.google.com/open?id=1SQ-gNonKEOLpVgICCrkjjzgYB8nFnYLB"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 33
@@ -768,6 +800,7 @@ pp["thesis"] = {
     "file": "PoShenLin.pdf", 
     "drive": "https://drive.google.com/open?id=1c-kVdsDfJBxRAphrijrYuUg8OfwNq1bs"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 34
@@ -800,6 +833,7 @@ pp["papers"][2] = {
    "file": "2014THCSMMT_CVTDirectSimulation.pdf",
    "drive": "https://drive.google.com/open?id=1Z3fnxiMEB6V-_b_tog2q22plpjX1alhl"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 35
@@ -821,6 +855,7 @@ pp["thesis"] = {
     "file": "LowShinYi.pdf", 
     "drive": "https://drive.google.com/open?id=1dBAxdFs839G99lXTOFYu2m5ZFSwFV5Ry"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 36
@@ -838,6 +873,7 @@ pp["thesis"] = {
     "file": "YuYuChun.pdf", 
     "drive": "https://drive.google.com/open?id=1ea7-sWDjCF1KeNP8yw6dfbocWrJ6cOoJ"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 37
@@ -859,6 +895,7 @@ pp["thesis"] = {
     "file": "ChuYingHua.pdf", 
     "drive": "https://drive.google.com/open?id=1N7YUV68kbeGGhi0VAsaLKqAtaIU4VH04"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 38
@@ -880,6 +917,7 @@ pp["thesis"] = {
     "file": "ChongXianZhu.pdf", 
     "drive": "https://drive.google.com/open?id=1Lz1UeP31cz0yOEOruxich7D-I-9dAy43"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 39
@@ -913,6 +951,7 @@ pp["papers"][3] = {
    "file": "",
    "drive": ""}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 40
@@ -934,6 +973,7 @@ pp["thesis"] = {
     "file": "LeeMinHsien .pdf", 
     "drive": "https://drive.google.com/open?id=1UI-EiW85FZzHUKyxDl5BUn0tBrxSpYrJ"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 41
@@ -951,6 +991,7 @@ pp["thesis"] = {
     "file": "LinChunTing.pdf", 
     "drive": "https://drive.google.com/open?id=1h1cEqxy63Il_p97xt-4aDefSKTsrS4sD"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 42
@@ -967,6 +1008,7 @@ pp["research"] = {
     "chi": "以振動分析模擬技術提升電動車輛控制器之可靠度", 
     "eng": "Simulation-Based Vibration Analysis for Reliability Improvement of Motor Drive Controllers"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 43
@@ -994,6 +1036,7 @@ pp["papers"][1] = {
    "file": "2010EGO_MaxRel_JMD.pdf",
    "drive": "https://drive.google.com/open?id=1SgC0DMPrXZJm9EM1NC5fG5K_KNLSgf1W"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 44
@@ -1009,7 +1052,12 @@ pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National T
 pp["research"] = {
     "chi": "以機率模型預測在都市十字路口的駕駛行為", 
     "eng": "Probabilistic Modeling and Prediction of Driver Behaviors at Urban Crossroads"}
+pp["papers"][0] = {
+    "ref": """Y.-C. Liu and K.-Y. Chan, "Probabilistic Modeling of Driver Behaviors at Urban Crossroads", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
+    "file": "2019_ASME_IDETC_LiuYC.pdf",
+    "drive": "https://drive.google.com/open?id=12dFu2aELoGUm9u3HXbIBcGlOZRKCfMb6"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 45
@@ -1025,7 +1073,12 @@ pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., Nati
 pp["research"] = {
     "chi": "", 
     "eng": "Pose Calibration with Machine Vision for Uncertainty Modeling of Cyber-Physical Robot Systems"}
+pp["papers"][0] = {
+    "ref": """P.-Y. Chen and K.-Y. Chan, "Improving Hole-Searching Accuracy for Peg-in-Hole Assemble with Manipulator Harmonic Drive Uncertainty", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
+    "file": "2019_ASME_IDETC_chenpy.pdf",
+    "drive": "https://drive.google.com/open?id=1TMQWxSShVW-OpSnSfoerCChZnAYEeVhn"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 46
@@ -1041,7 +1094,12 @@ pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National C
 pp["research"] = {
     "chi": "感測器誤差對自駕車變換車道策略的敏感性評估", 
     "eng": "Assessing the sensitivity of sensor uncertainty to autonomous vehicle driving strategies during lane change maneuver"}
+pp["papers"][0] = {
+    "ref": """H.-T. Tsai and K.-Y. Chan, "Investigating the Impact of Component Uncertainty on Autonomous Vehicles Overtaking Maneuvers", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
+    "file": "2019_ASME_IDETC_tsaiht.pdf",
+    "drive": "https://drive.google.com/open?id=1G2ze7S7TR6L-j0hAJ_5JnJFXJ2XyJyku"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 47
@@ -1058,6 +1116,7 @@ pp["research"] = {
     "chi": "用於車輛設計中的不確定因素及失效檢測方法", 
     "eng": "Uncertainty Modeling and Failure Identification in Vehicle Design"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 48
@@ -1071,6 +1130,7 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (18)"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 49
@@ -1084,6 +1144,7 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中山大學 學士", "eng": "B.S., National Sun Yat-sen University (18)"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 50
@@ -1097,6 +1158,7 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 51
@@ -1110,6 +1172,7 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "中原大學 學士", "eng": "B.S., Chung Yuan Christian University (18)"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 52
@@ -1124,6 +1187,7 @@ pp["lab_id"] = "博士班學生 Ph.D. Student"
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (11)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (15)"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 53
@@ -1137,6 +1201,7 @@ pp["alumni"] = False
 pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
 
+pp.set_first_second()
 data[i] = pp
 
 # -- 
