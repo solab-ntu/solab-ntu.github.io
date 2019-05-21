@@ -568,7 +568,6 @@ class MemberPage():
 							<code><p style="line-height:15px"></code>
 							<span style="font:13px Arial, Verdana, Helvetica, sans-serif; color:#000000;">{0}</span>
 							<code></p></code>
-							<br />
 	"""
 
 	script2_2 = u"""
@@ -593,7 +592,14 @@ class MemberPage():
 
 	script3_2 = u"""		<code><p style="line-height:15px"></code>
 							<span style="font:13px Arial, Verdana, Helvetica, sans-serif; color:#000000;">
-							{0}"<a href="{3}" rel="external">{1}</a>"{2}
+							{0}
+							</span>
+							<code></p></code>
+	"""
+
+	script3_3 = u"""		<code><p style="line-height:15px"></code>
+							<span style="font:13px Arial, Verdana, Helvetica, sans-serif; color:#000000;">
+							{0} <a href="{1}" rel="external">(Link)</a>
 							</span>
 							<code></p></code>
 	"""
@@ -916,13 +922,13 @@ class AlumniPage():
 							<span style="font:14px Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#000000;font-weight:bold; "><u>現職 Present Job</u></span>
 							<code><p style="line-height:15px"></code>
 							<span style="font:13px Arial, Verdana, Helvetica, sans-serif; color:#000000;">
-								<a href="{0}" rel="external">{1}</a>
+								{1}
 							</span>
 							<br />
 							<span style="font:13px Arial, Verdana, Helvetica, sans-serif; color:#000000;">
-								<a href="{0}" rel="external">{2}</a>
+								{2} <a href="{0}" rel="external">(Link)</a>
 							</span>
-							<br /><br />
+							<br /><br /><br />
 	"""
 
 	script2_2_1 = u"""
@@ -948,11 +954,11 @@ class AlumniPage():
 							<br />
 							<code><p style="line-height:15px"></code>
 							<span style="font:13px STHeitiTC-Light; ">
-								<a href="{0}" rel="external">{1}</a>
+								{0}
 							</span>
 							<code><p style="margin-top: 0.5em;line-height:15px"></code>
 							<span style="font:13px Arial, Verdana, Helvetica, sans-serif; color:#000000;">
-								<a href="{0}" rel="external">{2}</a>
+								{1} <a href="{2}" rel="external">(Link)</a>
 							</span>
 							<code></p></code>
 	"""

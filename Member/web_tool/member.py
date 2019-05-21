@@ -21,5 +21,6 @@ class People(dict):
         self["year"] = None
         self["jobs"] = dict() # {id: {"chi": None, "eng": None, "web": None}, ...}
         self["thesis"] = {"chi": None, "eng": None, "file": None, "drive": None}
+        self["research"] = {"chi": None, "eng": None}
         self["papers"] = dict() # {id: {"ref": None, "file": None, "drive": None}, ...}
         self["degrees"] = dict() # {id: {"chi": None, "eng": None}, ...}

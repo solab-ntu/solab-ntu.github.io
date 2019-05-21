@@ -15,8 +15,8 @@ teacher["alumni"] = False
 teacher["lab_id"] = "實驗室負責人 Director of SOLab"
 teacher["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (97)"}
 teacher["degrees"][1] = {"chi": "美國密西根大學機械工程 博士", "eng": "Ph.D., University of Michigan (05)"}
-teacher["jobs"][0] = {"chi": "台大創新設計學院教學組長", "eng": "Director of academic affairs, D-School@NTU", "web": None}
-teacher["jobs"][1] = {"chi": "機械工程學系教授", "eng": "Professor of Mechanical Engineering", "web": None}
+teacher["jobs"][0] = {"chi": "機械工程學系教授", "eng": "Professor of Mechanical Engineering", "web": None}
+teacher["jobs"][1] = {"chi": "台大創新設計學院教學組長", "eng": "Director of academic affairs, D-School@NTU", "web": None}
 teacher["jobs"][2] = {"chi": "台大副教務長", "eng": "Deputy Vice President for Academic Affairs", "web": None}
 
 data[i] = teacher
@@ -111,7 +111,10 @@ pp["jobs"][0] = {
     "chi": "勁勝科技有限公司",
     "eng": "Jing Sheng Technology Co., LTD",
     "web": "http://www.jhing-sheng.com.tw/"}
-pp["thesis"] = {"eng": "Design of Experiment of a Bio-Inspired Flapping Mechanism"}
+pp["research"] = {
+    "chi": "",
+    "eng": "Design of Experiment of a Bio-Inspired Flapping Mechanism"
+    }
 
 data[i] = pp
 
@@ -348,11 +351,9 @@ pp["jobs"][0] = {
     "chi": "廣達電腦股份有限公司", 
     "eng": "Quanta Computer Incorporated", 
     "web": "http://www.quantatw.com/Quanta/chinese/Default.aspx"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "", 
-    "eng": "Scenario Analyses of Traffic Regulations using Nagel-Schreckenberg Model", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Scenario Analyses of Traffic Regulations using Nagel-Schreckenberg Model"}
 
 data[13] = pp
 
@@ -444,11 +445,9 @@ pp["name"]["chi"] = "王宏偉"
 pp["name"]["eng"] = "Hong-Wei Wang"
 pp["year"] = 12
 pp["degrees"][0] = {"chi": "國立成功大學 交換生", "eng": "Undergraduate Visiting Student, National Cheng Kung University (12)"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "", 
-    "eng": "GearTrain System Design and Analysis", 
-    "file": "", 
-    "drive": ""}
+    "eng": "GearTrain System Design and Analysis"}
 
 data[i] = pp
 
@@ -484,11 +483,9 @@ pp["alumni"] = False
 pp["lab_id"] = "博士候選人 Ph.D. Candidate"
 pp["degrees"][0] = {"chi": "土耳其東地中海大學 學士", "eng": "B.S., Eastern Mediterranean University (08)"}
 pp["degrees"][1] = {"chi": "昆山科技大學 碩士", "eng": "M.S., Kun Shan University (11)"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "", 
-    "eng": "Modified Principle Component Analysis for Time Varying Data Mining with Uncertainties", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Modified Principle Component Analysis for Time Varying Data Mining with Uncertainties"}
 pp["papers"][0] = {
    "ref": """J. Millogo and K.-Y. Chan, "Life Cycle Assessment under Uncertainty - a review", the Asia Design Engineering Workshop, Taipei, Taiwan, November 20-22, 2014""",
    "file": "2014ADEWS_LCAReview",
@@ -530,10 +527,6 @@ pp["thesis"] = {
     "eng": "Surrogate-Assisted DIRECT Algorithm for Optimization Problems with Expensive Engineering Simulations", 
     "file": "WangDongTai.pdf", 
     "drive": "https://drive.google.com/open?id=1y4eWafky0SBvDNfcu9izHSvxE_pV7FhZ"}
-pp["papers"][0] = {
-   "ref": """""",
-   "file": "",
-   "drive": ""}
 
 data[i] = pp
 
@@ -549,11 +542,9 @@ pp["jobs"][0] = {
     "chi": "", 
     "eng": "Petrofac Malaysia", 
     "web": "https://www.petrofac.com/en-gb/home/"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "", 
-    "eng": "Design and Analysis of Vehicle Belt-driven Starter Generator", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Design and Analysis of Vehicle Belt-driven Starter Generator"}
 
 data[i] = pp
 
@@ -972,11 +963,9 @@ pp["year"] = 18
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (16)"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "以振動分析模擬技術提升電動車輛控制器之可靠度", 
-    "eng": "Simulation-Based Vibration Analysis for Reliability Improvement of Motor Drive Controllers", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Simulation-Based Vibration Analysis for Reliability Improvement of Motor Drive Controllers"}
 
 data[i] = pp
 
@@ -992,7 +981,7 @@ pp["lab_id"] = "博士候選人 Ph.D. Candidate"
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (07)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (09)"}
 pp["thesis"] = {
-    "chi": "針對機率拘束空間內最大可靠度問題之EGO演算法修正", 
+    "chi": "針對機率拘束空間內最大可靠度問題之 EGO 演算法修正", 
     "eng": "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space", 
     "file": "HuangYenChih.pdf", 
     "drive": "https://drive.google.com/open?id=1L1nhqYLK1nobKftAjdLjzQnIsHtoA1F_"}
@@ -1017,11 +1006,9 @@ pp["year"] = 19
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "以機率模型預測在都市十字路口的駕駛行為", 
-    "eng": "Probabilistic Modeling and Prediction of Driver Behaviors at Urban Crossroads", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Probabilistic Modeling and Prediction of Driver Behaviors at Urban Crossroads"}
 
 data[i] = pp
 
@@ -1035,11 +1022,9 @@ pp["year"] = 19
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (17)"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "", 
-    "eng": "Pose Calibration with Machine Vision for Uncertainty Modeling of Cyber-Physical Robot Systems", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Pose Calibration with Machine Vision for Uncertainty Modeling of Cyber-Physical Robot Systems"}
 
 data[i] = pp
 
@@ -1053,11 +1038,9 @@ pp["year"] = 19
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (17)"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "感測器誤差對自駕車變換車道策略的敏感性評估", 
-    "eng": "Assessing the sensitivity of sensor uncertainty to autonomous vehicle driving strategies during lane change maneuver", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Assessing the sensitivity of sensor uncertainty to autonomous vehicle driving strategies during lane change maneuver"}
 
 data[i] = pp
 
@@ -1069,12 +1052,11 @@ pp["name"]["chi"] = "陳怡平"
 pp["name"]["eng"] = "Yi-Ping Chen"
 pp["year"] = 20
 pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (18)"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "用於車輛設計中的不確定因素及失效檢測方法", 
-    "eng": "Uncertainty Modeling and Failure Identification in Vehicle Design", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Uncertainty Modeling and Failure Identification in Vehicle Design"}
 
 data[i] = pp
 
@@ -1112,6 +1094,7 @@ pp["name"]["chi"] = "陳宥廷"
 pp["name"]["eng"] = "Yu-Ting Chen"
 pp["year"] = 20
 pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
 
 data[i] = pp
@@ -1175,6 +1158,9 @@ data[i] = pp
 #     "eng": "", 
 #     "file": "", 
 #     "drive": ""}
+# pp["research"] = {
+#     "chi": "", 
+#     "eng": ""}
 # pp["papers"][0] = {
 #    "ref": """""",
 #    "file": "",

@@ -113,37 +113,38 @@ def create_member_page(data):
         lab_id = d["lab_id"]
         jobs = d["jobs"]
         degrees = d["degrees"]
+        research = d["research"]
         thesis = d["thesis"]
         papers = d["papers"]
 
         path_pic = "../files/" + name["eng"] +".jpg"
-
         script_member_page += template.MemberPage.script2_1.format(path_pic, name["chi"], name["eng"], lab_id)
 
         if jobs:
-            company_chi = company_chi.replace(r"/", "<br /><br />")
-            company_chi = company_chi.replace(r"\n", "<br />")
-            script_member_page += template.AlumniPage.script2_2_1.format(company_chi)
-            script_member_page += "<br />"
+            tmp = ""
+            for k in sorted(jobs):
+                tmp += jobs[k]["chi"] + "<br />" + jobs[k]["eng"] + "<br /><br />"
+            script_member_page += template.AlumniPage.script2_2_1.format(tmp)
 
-        script_member_page += template.MemberPage.script2_1_1.format(education)
+        if degrees:
+            tmp = ""
+            for k in sorted(degrees):
+                tmp += degrees[k]["chi"] + "<br />" + degrees[k]["eng"] + "<br /><br />"
+            script_member_page += template.MemberPage.script2_1_1.format(tmp)
 
-        if thesis_eng != "-":
-            if thesis_file == "-":
-                script_member_page += template.MemberPage.script2_2.format(thesis_chi, thesis_eng)
-            else:
-                path_thesis = thesis_file
-                script_member_page += template.AlumniPage.script2_4.format(path_thesis, thesis_chi, thesis_eng)
+        if any(value is not None for value in research.values()):
+            script_member_page += template.MemberPage.script2_2.format(research["chi"], research["eng"])
 
-        if papers != "-":
+        if any(value is not None for value in thesis.values()):
+            script_member_page += template.AlumniPage.script2_4.format(thesis["chi"], thesis["eng"], thesis["drive"])
+
+        if papers:
             script_member_page += template.MemberPage.script3_1
-            papers = papers.split(";")
-            papers_file = papers_file.split(";")
-
-            for paper, paper_file in zip(papers, papers_file):
-                author, article, tail = paper.split('"')
-                paper_file = paper_file
-                script_member_page += template.MemberPage.script3_2.format(author, article, tail, paper_file)
+            for k, v in papers.items():
+                if v["drive"] == "":
+                    script_member_page += template.MemberPage.script3_2.format(v["ref"])
+                else:
+                    script_member_page += template.MemberPage.script3_3.format(v["ref"], v["drive"])
             
         script_member_page += template.MemberPage.script4
         
@@ -156,39 +157,30 @@ def create_member_page(data):
             file.write(script_member_page)
             file.close()    
 
-def create_alumni(ppl_alumni_tsv):
+def create_alumni(data):
+
+    alumni = []
+
+    for k in reversed(sorted(data)):
+        if data[k]["alumni"] is True:
+            alumni.append(data[k])
 
     script = template.Alumni.script1
+    col_num = 1
 
-    col_num = 0
+    for d in alumni:
 
-    for i in range(0, len(lines)-1):
-
-        data_list = re.split("""\t""", lines[i])
-        
-        name_chi    = data_list[1]
-        name_eng    = data_list[2]
-        note        = data_list[3]
-        education   = data_list[4]
-        company_chi = data_list[5]
-        company_eng = data_list[6]
-        company_web = data_list[7]
-        thesis_chi  = data_list[8]
-        thesis_eng  = data_list[9]
-        thesis_file = data_list[11]
-        papers      = data_list[12]
-        papers_file = data_list[14]
-        
-        col_num += 1
-        path_html = "./" + name_eng + ".html"
-        path_pic = "../files/" + name_eng +".jpg"
-
-        script += template.Alumni.script2.format(path_html, name_eng, name_chi, path_pic)
+        name = d["name"]
+        path_html = "./" + name["eng"] + ".html"
+        path_pic = "../files/" + name["eng"] +".jpg"
+        script += template.Alumni.script2.format(path_html, name["eng"], name["chi"], path_pic)
 
         if col_num % 4 == 0:
             script = script + template.Alumni.script3_1
         else:
             script = script + template.Alumni.script3_2
+
+        col_num += 1
                 
     script = script + template.Alumni.script4
 
@@ -201,99 +193,80 @@ def create_alumni(ppl_alumni_tsv):
         file.write(script)
         file.close()
 
-def create_alumni_page(ppl_alumni_tsv):
+def create_alumni_page(data):
+
+    alumni = []
+
+    for k in reversed(sorted(data)):
+        if data[k]["alumni"] is True:
+            alumni.append(data[k])
 
     script = template.Alumni.script1
+    col_num = 1
 
-    col_num = 0
+    for d in alumni:
 
-    for i in range(0, len(lines)-1):
-
-        data_list = re.split("""\t""", lines[i])
-        
-        name_chi    = data_list[1]
-        name_eng    = data_list[2]
-        note        = data_list[3]
-        education   = data_list[4]
-        company_chi = data_list[5]
-        company_eng = data_list[6]
-        company_web = data_list[7]
-        thesis_chi  = data_list[8]
-        thesis_eng  = data_list[9]
-        thesis_file = data_list[11]
-        papers      = data_list[12]
-        papers_file = data_list[14]
-        
-        col_num += 1
-        path_html = "./" + name_eng + ".html"
-        path_pic = "../files/" + name_eng +".jpg"
-
-        script += template.Alumni.script2.format(path_html, name_eng, name_chi, path_pic)
+        name = d["name"]
+        path_html = "./" + name["eng"] + ".html"
+        path_pic = "../files/" + name["eng"] +".jpg"
+        script += template.Alumni.script2.format(path_html, name["eng"], name["chi"], path_pic)
 
         if col_num % 4 == 0:
             script = script + template.Alumni.script3_1
         else:
             script = script + template.Alumni.script3_2
+
+        col_num += 1
                 
     # --
 
-    for i in range(0, len(lines)-1):
+    for d in alumni:
 
-        script_alumni_people = script + template.AlumniPage.script1
+        script_alumni_page = script + template.MemberPage.script1
 
-        data_list = re.split("""\t""", lines[i])
-        
-        name_chi    = data_list[1]
-        name_eng    = data_list[2]
-        note        = data_list[3]
-        education   = data_list[4]
-        company_chi = data_list[5]
-        company_eng = data_list[6]
-        company_web = data_list[7]
-        thesis_chi  = data_list[8]
-        thesis_eng  = data_list[9]
-        thesis_file = data_list[11]
-        papers      = data_list[12]
-        papers_file = data_list[14]
+        name = d["name"]
+        lab_id = d["lab_id"]
+        jobs = d["jobs"]
+        degrees = d["degrees"]
+        research = d["research"]
+        thesis = d["thesis"]
+        papers = d["papers"]
 
-        path_pic = "../files/" + name_eng +".jpg"
-        education = education.replace(r"/", "<br /><br />")
-        education = education.replace(r"\n", "<br />")
-        path_thesis = "../../Publications/Thesis/" + thesis_file + ".pdf"
+        path_pic = "../files/" + name["eng"] +".jpg"
+        script_alumni_page += template.AlumniPage.script2_1.format(path_pic, name["chi"], name["eng"])
 
-        script_alumni_people += template.AlumniPage.script2_1.format(path_pic, name_chi, name_eng)
+        if jobs:
+            tmp = ""
+            for k in sorted(jobs):
+                script_alumni_page += template.AlumniPage.script2_2.format(jobs[k]["web"], jobs[k]["chi"], jobs[k]["eng"])
 
-        if company_chi != "-":
-            script_alumni_people += template.AlumniPage.script2_2.format(company_web, company_chi, company_eng)
+        if degrees:
+            tmp = ""
+            for k in sorted(degrees):
+                tmp += degrees[k]["chi"] + "<br />" + degrees[k]["eng"] + "<br /><br />"
+            script_alumni_page += template.MemberPage.script2_1_1.format(tmp)
 
-        script_alumni_people += template.AlumniPage.script2_3.format(education)
+        if any(value is not None for value in research.values()):
+            script_alumni_page += template.MemberPage.script2_2.format(research["chi"], research["eng"])
 
-        if thesis_eng != "-":
-            if thesis_file == "-":
-                script_alumni_people += template.MemberPage.script2_2.format(thesis_chi, thesis_eng)
-            else:
-                # path_thesis = "../../Publications/Thesis/" + thesis_file + ".pdf"
-                path_thesis = thesis_file
-                script_alumni_people += template.AlumniPage.script2_4.format(path_thesis, thesis_chi, thesis_eng)
+        if any(value is not None for value in thesis.values()):
+            script_alumni_page += template.AlumniPage.script2_4.format(thesis["chi"], thesis["eng"], thesis["drive"])
 
-        if papers != "-":
-            script_alumni_people += template.MemberPage.script3_1
-            papers = papers.split(";")
-            papers_file = papers_file.split(";")
+        if papers:
+            script_alumni_page += template.MemberPage.script3_1
+            for k, v in papers.items():
+                if v["drive"] == "":
+                    script_alumni_page += template.MemberPage.script3_2.format(v["ref"])
+                else:
+                    script_alumni_page += template.MemberPage.script3_3.format(v["ref"], v["drive"])
 
-            for paper, paper_file in zip(papers, papers_file):
-                author, article, tail = paper.split('"')
-                # paper_file = "../../Publications/Papers/" + paper_file + ".pdf"
-                paper_file = paper_file
-                script_alumni_people += template.MemberPage.script3_2.format(author, article, tail, paper_file)
-
-        script_alumni_people += template.AlumniPage.script3
+        script_alumni_page += template.AlumniPage.script3
 
         try:
-            os.remove("./Alumni/" + name_eng + ".html")
+            os.remove("./Alumni/" + name["eng"] + ".html")
         except OSError:
             pass
 
-        with codecs.open("./Alumni/" + name_eng + ".html", "w", encoding='utf8') as file:
-            file.write(script_alumni_people)
+        with codecs.open("./Alumni/" + name["eng"] + ".html", "w", encoding='utf8') as file:
+            file.write(script_alumni_page)
             file.close()    
