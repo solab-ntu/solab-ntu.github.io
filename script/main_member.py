@@ -24,7 +24,7 @@ finally:
     time.sleep(1)
     os.mkdir('../People/Alumni')
 
-# # --
+# --
 
 with open('people.json', encoding='utf-8') as fp:
     data = json.loads(fp.read())
@@ -33,10 +33,12 @@ data = {int(k):v for k, v in data.items()}
 data = sorted(data.items(), key=lambda x: (x[1]["name"]["first"], x[1]["name"]["second"]))
 data = OrderedDict(data)
 
-# # --
+# --
 
-tool.page.create_member_page(data)
-tool.page.create_member_pages(data)
+member = tool.Member(data)
 
-tool.page.create_alumni_page(data)
-tool.page.create_alumni_pages(data)
+member.create_member_page()
+member.create_member_pages()
+
+member.create_alumni_page()
+member.create_alumni_pages()

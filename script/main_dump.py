@@ -1,13 +1,13 @@
 import json
 
-from tool import member
+import tool
 
 data = {}
 
 # -- 0
 
 i = 0
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "詹魁元"
 pp["name"]["eng"] = "Kuei-Yuan Chan"
 pp["year"] = 7
@@ -21,16 +21,40 @@ pp["jobs"][2] = {"chi": "台大副教務長", "eng": "Deputy Vice President for 
 pp["show_paper"] = False
 pp["papers"][0] = {
     "ref": """K.-Y. Chan, "Sequential linearization in analytical target cascading for optimization of complex multilevel systems", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, 225(2), pp.451-462, 2011""",
+    "file": "",
+    "drive": "",
     "type": "j",
     "year": 2011}
 pp["papers"][1] = {
-   "ref": """K.-Y. Chan, S. Skerlos, and P. Papalambros, "A Method for Reliability-Based Optimization with Multiple Non-Normal Stochastic Parameters : A Simplified Airshed Management Case Study", Stochastic Environmental Research and Risk Assessment, 24(1), pp.101-116, 2010""",
-   "type": "j",
-   "year": 2010}
+    "ref": """K.-Y. Chan, S. J. Skerlos, and P. Y. Papalambros, "A Method for Reliability-Based Optimization with Multiple Non-Normal Stochastic Parameters : A Simplified Airshed Management Case Study", Stochastic Environmental Research and Risk Assessment, 24(1), pp.101-116, 2010""",
+    "file": "",
+    "drive": "",
+    "type": "j",
+    "year": 2010}
 pp["papers"][2] = {
-   "ref": """K.-Y. Chan, "Sequential Linearization in Analytical Target Cascading", Journal of Mechanical Engineering Science, 225(2), pp.451-462, 2011""",
-   "type": "j",
-   "year": 2011}
+    "ref": """K.-Y. Chan, "Sequential Linearization in Analytical Target Cascading", Journal of Mechanical Engineering Science, 225(2), pp.451-462, 2011""",
+    "type": "j",
+    "file": "",
+    "drive": "",
+    "year": 2011}
+pp["papers"][3] = {
+    "ref": """K.-Y. Chan, M. Kokkolaras, P. Y. Papalambros, S. J. Skerlos and Z. Mourelatoes, "Propagation of Uncertainty in Optimal Design of Multilevel Systems: Piston-Ring/Cylinder-Liner Case Study," SAE Technical Paper 2004-01-1559, 2004""",
+    "type": "ic",
+    "file": "",
+    "drive": "",
+    "year": 2004}
+pp["papers"][4] = {
+    "ref": """K.-Y. Chan, S. J. Skerlos and P. Y. Papalambros, "Monotonicity and Active Set Strategies in Probabilistic Design Optimization", Journal of Mechanical Design 128(4), 893-900, Jan 05, 2006""",
+    "type": "j",
+    "file": "",
+    "drive": "",
+    "year": 2006}
+pp["papers"][5] = {
+    "ref": """K.-Y. Chan, S. J. Skerlos and P. Y. Papalambros, "An Adaptive Sequential Linear Programming Algorithm for Optimal Design Problems With Probabilistic Constraints", Journal of Mechanical Design 129(2), 140-149, Jan 23, 2006""",
+    "type": "j",
+    "file": "",
+    "drive": "",
+    "year": 2007}
 
 pp.set_first_second()
 data[i] = pp
@@ -38,7 +62,7 @@ data[i] = pp
 # -- 1
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "余岱璟"
 pp["name"]["eng"] = "Dai-Jing Yu"
 pp["year"] = 8
@@ -60,7 +84,7 @@ data[i] = pp
 # -- 2
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "劉智豪"
 pp["name"]["eng"] = "Chih-Hao Liu"
 pp["year"] = 8
@@ -87,7 +111,7 @@ data[i] = pp
 # -- 3
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "何淳民"
 pp["name"]["eng"] = "Chun-Min Ho"
 pp["year"] = 8
@@ -127,7 +151,7 @@ data[i] = pp
 # -- 4
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "葉俊余"
 pp["name"]["eng"] = "Jiun-Yu Yeh"
 pp["year"] = 8
@@ -147,7 +171,7 @@ data[i] = pp
 # -- 5
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "林東信"
 pp["name"]["eng"] = "Dong-Shin Lin"
 pp["year"] = 9
@@ -169,7 +193,7 @@ pp["papers"][0] = {
     "type": "j",
     "year": 2011}
 pp["papers"][1] = {
-    "ref": """K.-Y. Chan and D.-S. Lin, "Algorithm developments for optimization problems with joint reliability constraints", International Journal for Numerical Method in Engineering, 85(6), pp.768-783, 2011""",
+    "ref": """K.-Y. Chan and D.-S. Lin, "Algorithm Developments for Optimization Problems with Joint Reliability Constraints", International Journal for Numerical Method in Engineering, 85(6), pp.768-783, 2011""",
     "file": "2011NME_JointConst.pdf",
     "drive": "https://drive.google.com/open?id=1Sr-bPVHN6zHOXdKaPCyHmYnaLq1dy_4Z",
     "type": "j",
@@ -181,7 +205,7 @@ data[i] = pp
 # -- 6
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "許凱勛"
 pp["name"]["eng"] = "Kai-Hsun Hsu"
 pp["year"] = 9
@@ -209,7 +233,7 @@ data[i] = pp
 # -- 8
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "吳昱達"
 pp["name"]["eng"] = "Yu-Ta Wu"
 pp["year"] = 10
@@ -237,7 +261,7 @@ data[i] = pp
 # -- 9
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "張琇雯"
 pp["name"]["eng"] = "Hsiu-Wen Chang"
 pp["year"] = 10
@@ -259,7 +283,7 @@ data[i] = pp
 # -- 10
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "洪子頡"
 pp["name"]["eng"] = "Tzu-Chieh Hung"
 pp["year"] = 10
@@ -282,7 +306,7 @@ pp["papers"][0] = {
     "type": "j",
     "year": 2013}
 pp["papers"][1] = {
-    "ref": """T.-C. Hung and K.-Y. Chan, "Uncertainty quantification of Pareto optima in multiobjective problems", Journal of Intelligent Manufacturing, 24(2), pp.385-395, 2013""",
+    "ref": """T.-C. Hung and K.-Y. Chan, "Uncertainty Quantification of Pareto Optima in Multiobjective Problems", Journal of Intelligent Manufacturing, 24(2), pp.385-395, 2013""",
     "file": "2013ParetoQuantification_JIMS.pdf",
     "drive": "https://drive.google.com/open?id=15Tjb6TVGWkw9tzCpwyuD4VdGxapr8vlm",
     "type": "j",
@@ -324,7 +348,7 @@ data[i] = pp
 # -- 11
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "劉季儒"
 pp["name"]["eng"] = "Chi-Ju Liu"
 pp["year"] = 11
@@ -346,7 +370,7 @@ data[i] = pp
 # -- 12
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "許佳豪"
 pp["name"]["eng"] = "Chiao-Hao Hsu"
 pp["year"] = 11
@@ -368,7 +392,7 @@ data[i] = pp
 # -- 13
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "張勝昌"
 pp["name"]["eng"] = "Sheng-Chang Chang"
 pp["year"] = 11
@@ -395,6 +419,12 @@ pp["papers"][1] = {
     "drive": "https://drive.google.com/open?id=12uhsCjcQLbH-hpfR_dSeNwuj5REEQq9U",
     "type": "j",
     "year": 2014}
+pp["papers"][2] = {
+    "ref": """S.-C. Chang and K.-Y. Chan, "Multidisciplinary Design of Vehicle Silhouettes Considering Engineering and Aesthetics Measures", (Best Paper Award) International Conference on Innovative Design and Manufacturing, December 12-14, 2012""",
+    "file": "",
+    "drive": "",
+    "type": "ic",
+    "year": 2012}
 
 pp.set_first_second()
 data[i] = pp
@@ -402,7 +432,7 @@ data[i] = pp
 # -- 14
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "郭祐伸"
 pp["name"]["eng"] = "Yu-Shen Kuo"
 pp["year"] = 11
@@ -421,7 +451,7 @@ data[i] = pp
 # -- 15
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "吳嘉珮"
 pp["name"]["eng"] = "Chia-Pei Wu"
 pp["year"] = 11
@@ -433,7 +463,7 @@ data[i] = pp
 # -- 16
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "陳力豪"
 pp["name"]["eng"] = "Li-Hao Chen"
 pp["year"] = 12
@@ -448,9 +478,11 @@ pp["thesis"] = {
     "file": "ChenLiHao", 
     "drive": "https://drive.google.com/open?id=1cQu1tizFqkFWF8hwFbtiW92j5Nj4eBTr"}
 pp["papers"][0] = {
-   "ref": """L.-H. Chen and K.-Y. Chan, "風力發電廠規劃與發電機葉片設計在地理限制下之整合研究", 中國機械工程師學會第29屆全國學術研討會, 中山大學, Dec., 2012 """,
-   "type": "dc",
-   "year": 2012}
+    "ref": """L.-H. Chen and K.-Y. Chan, "風力發電廠規劃與發電機葉片設計在地理限制下之整合研究", 中國機械工程師學會第29屆全國學術研討會, 中山大學, Dec., 2012 """,
+    "type": "dc",
+    "file": "",
+    "drive": "",
+    "year": 2012}
 
 pp.set_first_second()
 data[i] = pp
@@ -458,7 +490,7 @@ data[i] = pp
 # -- 17
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "林彬儀"
 pp["name"]["eng"] = "Pin-Yi Lin"
 pp["year"] = 12
@@ -474,7 +506,9 @@ pp["thesis"] = {
     "file": "LinPinYi.pdf", 
     "drive": "https://drive.google.com/open?id=180PXCnUFZD-ps3IaKAF1I66OpHsY3xoC"}
 pp["papers"][0] = {
-    "ref": """Pin-Yi Lin and K.-Y. Chan, "Optimal Sample Augmentation and Resource Allocation for Design with Inadequate Uncertainty Data ", Proceedings of the ASME International Design Engineering Technical Conference, Montreal, Canada, August 12-15, 2012""",
+    "ref": """P.-Y. Lin and K.-Y. Chan, "Optimal Sample Augmentation and Resource Allocation for Design with Inadequate Uncertainty Data ", Proceedings of the ASME International Design Engineering Technical Conference, Montreal, Canada, August 12-15, 2012""",
+    "file": "",
+    "drive": "",
     "type": "ic",
     "year": 2012}
 
@@ -484,7 +518,7 @@ data[i] = pp
 # -- 18
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "薛伊倩"
 pp["name"]["eng"] = "Yi-Chien Hsueh"
 pp["year"] = 12
@@ -505,9 +539,11 @@ pp["papers"][0] = {
     "type": "ic",
     "year": 2014}
 pp["papers"][1] = {
-   "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
-   "type": "dc",
-   "year": 2014}
+    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
+    "type": "dc",
+    "file": "",
+    "drive": "",
+    "year": 2014}
 
 pp.set_first_second()
 data[i] = pp
@@ -515,7 +551,7 @@ data[i] = pp
 # -- 19
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "王宏偉"
 pp["name"]["eng"] = "Hong-Wei Wang"
 pp["year"] = 12
@@ -530,7 +566,7 @@ data[i] = pp
 # -- 20
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "韓佾君"
 pp["name"]["eng"] = "Yi-Chun Han"
 pp["year"] = 13
@@ -552,7 +588,7 @@ data[i] = pp
 # -- 21
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "米約瑟"
 pp["name"]["eng"] = "Joseph Millogo"
 pp["year"] = 13
@@ -576,7 +612,7 @@ data[i] = pp
 # -- 22
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "吳典運"
 pp["name"]["eng"] = "Dian-Yun Wu"
 pp["year"] = 13
@@ -598,7 +634,7 @@ data[i] = pp
 # -- 23
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "王東泰"
 pp["name"]["eng"] = "Dong-Tai Wang"
 pp["year"] = 13
@@ -615,7 +651,7 @@ data[i] = pp
 # -- 24
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "陳煜駿"
 pp["name"]["eng"] = "Yee-Chun Tan"
 pp["year"] = 13
@@ -634,7 +670,7 @@ data[i] = pp
 # -- 25
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "賴明證"
 pp["name"]["eng"] = "Min-Cheng Lai"
 pp["year"] = 14
@@ -661,9 +697,11 @@ pp["papers"][1] = {
     "type": "ic",
     "year": 2014}
 pp["papers"][2] = {
-   "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
-   "type": "dc",
-   "year": 2014}
+    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
+    "file": "",
+    "drive": "",
+    "type": "dc",
+    "year": 2014}
 
 pp.set_first_second()
 data[i] = pp
@@ -671,7 +709,7 @@ data[i] = pp
 # -- 26
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "蘇庭玉"
 pp["name"]["eng"] = "Dale Su"
 pp["year"] = 14
@@ -689,8 +727,14 @@ pp["thesis"] = {
 pp["papers"][0] = {
     "ref": """D. Su and K.-Y. Chan, "Compensating for Operational Uncertainty in Man-Machine Systems : A Case Study on Intelligent Vehicle Parking Assist System", ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems : Part B. Mechanical Engineering, 2015""",
     "file": "2014IDETC2014_sudale_draft;2015JRISK_ManMachine.pdf",
-    "drive": "https://drive.google.com/open?id=1BUFrGVE2OXW1_661cO9c_qVNK_DQQHDN ; https://drive.google.com/open?id=1pnW3pRsSte6Kuve5QpscSDCAJj5H4DOa",
+    "drive": "https://drive.google.com/open?id=1BUFrGVE2OXW1_661cO9c_qVNK_DQQHDN",
     "type": "j",
+    "year": 2014}
+pp["papers"][0] = {
+    "ref": """D. Su and K.-Y. Chan, "Compensating for Operational Uncertainty in Man-Machine Systems - a case study on intelligent vehicle parking assist", Proceedings of the ASME 2014 International Design and Engineering Technical Conference and Computers and Information in Engineering Conference, Buffalo, New York, USA, Aug 17-20, 2014""",
+    "file": "",
+    "drive": "",
+    "type": "ic",
     "year": 2014}
 
 pp.set_first_second()
@@ -699,7 +743,7 @@ data[i] = pp
 # -- 27
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "顏肇余"
 pp["name"]["eng"] = "Chao-Yu Yen"
 pp["year"] = 14
@@ -720,7 +764,7 @@ data[i] = pp
 # -- 28
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "張值榕"
 pp["name"]["eng"] = "Chih-Jung Chang"
 pp["year"] = 14
@@ -742,8 +786,10 @@ pp["papers"][0] = {
     "year": 2014}
 pp["papers"][1] = {
     "ref": """C.-J. Chang and K.-Y. Chan, "Bi-objective Wind Farm Optimization with Turbine Blade Design under Uncertainty", International Engineering Optimization Conference, Lisbon, Portugal, 2014""",
-   "type": "ic",
-   "year": 2014}
+    "file": "",
+    "drive": "",
+    "type": "ic",
+    "year": 2014}
     
 pp.set_first_second()
 data[i] = pp
@@ -751,7 +797,7 @@ data[i] = pp
 # -- 29
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "林佑安"
 pp["name"]["eng"] = "You-An Lin"
 pp["year"] = 15
@@ -766,13 +812,17 @@ pp["thesis"] = {
     "file": "LinYouAn.pdf", 
     "drive": "https://drive.google.com/open?id=1N9PvtFqLt2lWo1C0-NPMFoCOf0gTSxsz"}
 pp["papers"][0] = {
-   "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", 第十七屆全國機構機器設計學術研討會, 國立勤益科技大學, Nov. 14, 2014""",
-   "type": "dc",
-   "year": 2014}
+    "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", 第十七屆全國機構機器設計學術研討會, 國立勤益科技大學, Nov. 14, 2014""",
+    "file": "",
+    "drive": "",
+    "type": "dc",
+    "year": 2014}
 pp["papers"][1] = {
-   "ref": """Y.-A. Lin and K.-Y. Chan, "Comparisons between Direct and Inverse Analysis Methods in Continuous Variable Transmissions with Comprehensive Component Specifications", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Jun. 6, 2014""",
-   "type": "dc",
-   "year": 2014}
+    "ref": """Y.-A. Lin and K.-Y. Chan, "Comparisons between Direct and Inverse Analysis Methods in Continuous Variable Transmissions with Comprehensive Component Specifications", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Jun. 6, 2014""",
+    "file": "",
+    "drive": "",
+    "type": "dc",
+    "year": 2014}
 
 pp.set_first_second()
 data[i] = pp
@@ -780,7 +830,7 @@ data[i] = pp
 # -- 30
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "張祐晨"
 pp["name"]["eng"] = "You-Chen Chang"
 pp["year"] = 15
@@ -807,7 +857,7 @@ data[i] = pp
 # -- 31
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "陳柏安"
 pp["name"]["eng"] = "Pao-An Chen"
 pp["year"] = 16
@@ -834,7 +884,7 @@ data[i] = pp
 # -- 32
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "李冠霖"
 pp["name"]["eng"] = "Kuan-Lin Li"
 pp["year"] = 16
@@ -856,27 +906,29 @@ pp["papers"][0] = {
     "type": "ic",
     "year": 2014}
 pp["papers"][1] = {
-   "ref": """K.-L. Li, W.-T. Yang, K.-Y. Chan and P.-C. Lin, "An Optimization Technique for Serial Manipulator Robots Parameter Calibration and Accuracy Improvement", the 32nd Chinese Society of Mechanical Engineers Conference, Kaohsiung, Taiwan, December 11-12, 2015""",
-   "file": "2015CSME_RobotArm.pdf",
-   "drive": "https://drive.google.com/open?id=191ccFyFupfsBL5UbCtyB1FeV1QlS4qZG",
-   "type": "ic",
-   "year": 2015}
+    "ref": """K.-L. Li, W.-T. Yang, K.-Y. Chan and P.-C. Lin, "An Optimization Technique for Serial Manipulator Robots Parameter Calibration and Accuracy Improvement", the 32nd Chinese Society of Mechanical Engineers Conference, Kaohsiung, Taiwan, December 11-12, 2015""",
+    "file": "2015CSME_RobotArm.pdf",
+    "drive": "https://drive.google.com/open?id=191ccFyFupfsBL5UbCtyB1FeV1QlS4qZG",
+    "type": "ic",
+    "year": 2015}
 pp["papers"][2] = {
-   "ref": """K.-L. Li, W.-T. Yang, K.-Y. Chan, P.-C. Lin, "An Optimization Technique for Identifying Robot Manipulator Parameters Under Uncertainty", Springer Plus, 5:1771., 2016""",
-   "file": "2016IdentifyParameters_Springerplus.pdf",
-   "drive": "https://drive.google.com/open?id=1GD1iEPttI9TcR3A2hhX2dGUB-cwYzvr-",
-   "type": "j",
-   "year": 2016}
+    "ref": """K.-L. Li, W.-T. Yang, K.-Y. Chan, P.-C. Lin, "An Optimization Technique for Identifying Robot Manipulator Parameters Under Uncertainty", Springer Plus, 5:1771, 2016""",
+    "file": "2016IdentifyParameters_Springerplus.pdf",
+    "drive": "https://drive.google.com/open?id=1GD1iEPttI9TcR3A2hhX2dGUB-cwYzvr-",
+    "type": "j",
+    "year": 2016}
 pp["papers"][3] = {
-   "ref": """K.-L. Li, Y.-K. Tsai, and K.-Y. Chan, "Identifying Joint Clearance via Robot Manipulation", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science 232, no. 15, August, 2018""",
-   "file": "2017IdentifyingJointClearanceViaRobotManipulation;.pdf",
-   "drive": "https://drive.google.com/open?id=1SQ-gNonKEOLpVgICCrkjjzgYB8nFnYLB",
-   "type": "j",
-   "year": 2017}
+    "ref": """K.-L. Li, Y.-K. Tsai, and K.-Y. Chan, "Identifying Joint Clearance via Robot Manipulation", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science 232, no. 15, August, 2018""",
+    "file": "2017IdentifyingJointClearanceViaRobotManipulation;.pdf",
+    "drive": "https://drive.google.com/open?id=1SQ-gNonKEOLpVgICCrkjjzgYB8nFnYLB",
+    "type": "j",
+    "year": 2017}
 pp["papers"][4] = {
-   "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
-   "type": "dc",
-   "year": 2014}
+    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
+    "type": "dc",
+    "file": "",
+    "drive": "",
+    "year": 2014}
 
 pp.set_first_second()
 data[i] = pp
@@ -884,7 +936,7 @@ data[i] = pp
 # -- 33
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "林柏伸"
 pp["name"]["eng"] = "Po-Shen Lin"
 pp["year"] = 16
@@ -901,7 +953,7 @@ data[i] = pp
 # -- 34
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "林岳羿"
 pp["name"]["eng"] = "Yueh-I Lin"
 pp["year"] = 16
@@ -916,23 +968,23 @@ pp["thesis"] = {
     "file": "YuehILin.pdf", 
     "drive": "https://drive.google.com/open?id=1P7bjDBSKUW8QXsOVuMZqEASKoFZsci0V"}
 pp["papers"][0] = {
-   "ref": """Y.-A. Lin,P.-A. Chen, K.-Y. Chan, "A Method for Reducing Fuel Consumption of Urban Scooters Using Vehicle Design and Traffic Simulation", Journal of Mechanical Engineering Science, 2016""",
-   "file": "2016ReducingConsumptionVehicleTraffic_SAGE.pdf",
-   "drive": "https://drive.google.com/open?id=1PQ7-6ozJZV3WsVfWu22Xr_XRzEZh1Zat",
+    "ref": """Y.-A. Lin,P.-A. Chen, K.-Y. Chan, "A Method for Reducing Fuel Consumption of Urban Scooters Using Vehicle Design and Traffic Simulation", Journal of Mechanical Engineering Science, 2016""",
+    "file": "2016ReducingConsumptionVehicleTraffic_SAGE.pdf",
+    "drive": "https://drive.google.com/open?id=1PQ7-6ozJZV3WsVfWu22Xr_XRzEZh1Zat",
     "type": "j",
-   "year": 2016}
+    "year": 2016}
 pp["papers"][1] = {
-   "ref": """Y.-A. Lin and K.-Y. Chan, "Comparisons between Direct and Inverse Analysis Methods in Continuous Variable Transmissions with Comprehensive Component Specifications", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
-   "file": "2014CSME_CVTMethodsComparison.pdf",
-   "drive": "https://drive.google.com/open?id=18gNTA86ydBqggI6UuVm6pKq6JZTP0XXM",
-   "type": "ic",
-   "year": 2014}
-pp["papers"][2] = {
-   "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", Mechanism and Mechanical Technology Conference, Taichung, Taiwan, 2014""",
-   "file": "2014THCSMMT_CVTDirectSimulation.pdf",
-   "drive": "https://drive.google.com/open?id=1Z3fnxiMEB6V-_b_tog2q22plpjX1alhl",
+    "ref": """Y.-A. Lin and K.-Y. Chan, "Comparisons between Direct and Inverse Analysis Methods in Continuous Variable Transmissions with Comprehensive Component Specifications", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
+    "file": "2014CSME_CVTMethodsComparison.pdf",
+    "drive": "https://drive.google.com/open?id=18gNTA86ydBqggI6UuVm6pKq6JZTP0XXM",
     "type": "ic",
-   "year": 2014}
+    "year": 2014}
+pp["papers"][2] = {
+    "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", Mechanism and Mechanical Technology Conference, Taichung, Taiwan, 2014""",
+    "file": "2014THCSMMT_CVTDirectSimulation.pdf",
+    "drive": "https://drive.google.com/open?id=1Z3fnxiMEB6V-_b_tog2q22plpjX1alhl",
+    "type": "ic",
+    "year": 2014}
 
 pp.set_first_second()
 data[i] = pp
@@ -940,7 +992,7 @@ data[i] = pp
 # -- 35
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "劉欣怡"
 pp["name"]["eng"] = "Shin-Yi Low"
 pp["year"] = 16
@@ -955,14 +1007,19 @@ pp["thesis"] = {
     "eng": "Uncertainty in the Biomechanics of Taekwondo Kick", 
     "file": "LowShinYi.pdf", 
     "drive": "https://drive.google.com/open?id=1dBAxdFs839G99lXTOFYu2m5ZFSwFV5Ry"}
-
+pp["papers"][0] = {
+    "ref": """S. Low and K.-Y. Chan, "Uncertainty in the Biomechanics of Taekwondo Kick", International Workshop on Reliability for Advanced Technology, Taipei, Taiwan, Feb 16, 2017""",
+    "file": "",
+    "drive": "",
+    "type": "ic",
+    "year": 2017}
 pp.set_first_second()
 data[i] = pp
 
 # -- 36
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "游右均"
 pp["name"]["eng"] = "Yu-Chun Yu"
 pp["year"] = 17
@@ -974,9 +1031,11 @@ pp["thesis"] = {
     "file": "YuYuChun.pdf", 
     "drive": "https://drive.google.com/open?id=1ea7-sWDjCF1KeNP8yw6dfbocWrJ6cOoJ"}
 pp["papers"][0] = {
-   "ref": """Y.-C. Yu and K.-Y. Chan, "A Study on the lane-changing intension and detection for autonomous vehicles", the 21st National Conference on Vehicle Engineering, Tainan, Taiwan, Nov 18, 2016""",
-   "type": "dc",
-   "year": 2016}
+    "ref": """Y.-C. Yu and K.-Y. Chan, "A Study on the Lane-changing Intension and Detection for Autonomous Vehicles", the 21st National Conference on Vehicle Engineering, Tainan, Taiwan, Nov 18, 2016""",
+    "type": "dc",
+    "file": "",
+    "drive": "",
+    "year": 2016}
 
 pp.set_first_second()
 data[i] = pp
@@ -984,7 +1043,7 @@ data[i] = pp
 # -- 37
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "朱盈樺"
 pp["name"]["eng"] = "Ying-Hua Chu"
 pp["year"] = 17
@@ -999,6 +1058,13 @@ pp["thesis"] = {
     "eng": "Uncertainty Parameter Identification and Calibration in Dynamic Performances", 
     "file": "ChuYingHua.pdf", 
     "drive": "https://drive.google.com/open?id=1N7YUV68kbeGGhi0VAsaLKqAtaIU4VH04"}
+pp["papers"][0] = {
+    "ref": """Y.-H. Chu and K.-Y. Chan, "Uncertainty Parameter Identification and Calibration in Dynamic Performances", International Workshop on Reliability for Advanced Technology, Taipei, Taiwan, Feb 16, 2017""",
+    "file": "",
+    "drive": "",
+    "type": "ic",
+    "year": 2017}
+data[i] = pp
 
 pp.set_first_second()
 data[i] = pp
@@ -1006,7 +1072,7 @@ data[i] = pp
 # -- 38
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "張顯主"
 pp["name"]["eng"] = "Xian-Zhu Chong"
 pp["year"] = 17
@@ -1021,6 +1087,12 @@ pp["thesis"] = {
     "eng": "Improved State of Charge Estimation of Lithium-Ion Cells via Surrogate Modeling under Dynamic Operating Conditions", 
     "file": "ChongXianZhu.pdf", 
     "drive": "https://drive.google.com/open?id=1Lz1UeP31cz0yOEOruxich7D-I-9dAy43"}
+pp["papers"][0] = {
+    "ref": """J. Chong and K.-Y. Chan, "Improved State of Charge Estimation of Lithium-ion Battery via Surrogate Modeling Under Dynamic Operating Conditions", International Workshop on Reliability for Advanced Technology, Feb 16, 2017, Taipei, Taiwan""",
+    "file": "",
+    "drive": "",
+    "type": "ic",
+    "year": 2017}
 
 pp.set_first_second()
 data[i] = pp
@@ -1028,7 +1100,7 @@ data[i] = pp
 # -- 39
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "蔡穎寬"
 pp["name"]["eng"] = "Ying-Kuan Tsai"
 pp["year"] = 18
@@ -1048,14 +1120,20 @@ pp["papers"][0] = {
 pp["papers"][1] = {
     "ref": """Y.-K. Tsai, and K.-Y. Chan, "Uncertainty Estimation and Performance Optimal Design for Vertical Articulated Robot Manipulators", the 21st National Conference on Mechanism and Machine Design, National Taiwan Ocean University, Keelung, Taiwan, Oct. 26-27, 2018""",
     "type": "ic",
+    "file": "",
+    "drive": "",
     "year": 2018}   
 pp["papers"][2] = {
     "ref": """Y.-K. Tsai, and K.-Y. Chan, "Investigation on the Impact of Non-geometric Uncertainty in Dynamic Performance of Serial and Parallel Robot Manipulators", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science (2018): Accept (01-Oct-2018)""",
     "type": "j",
+    "file": "",
+    "drive": "",
     "year": 2018}
 pp["papers"][3] = {
-    "ref": """Y.-K. Tsai, and K.-Y. Chan, "Parameter Identification and Performance Optimization for Vertical Articulated Robot Manipulators under Transmission Uncertainty for Harmonic Drives", submitted to ASME. Journal of Mechanical Design 2018""",
+    "ref": """Y.-K. Tsai, and K.-Y. Chan, "Parameter Identification and Performance Optimization for Vertical Articulated Robot Manipulators under Transmission Uncertainty for Harmonic Drives", submitted to ASME. Journal of Mechanical Design, 2018""",
     "type": "j",
+    "file": "",
+    "drive": "",
     "year": 2018}   
 
 pp.set_first_second()
@@ -1064,7 +1142,7 @@ data[i] = pp
 # -- 40
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "李旻憲"
 pp["name"]["eng"] = "Min-Hsien Lee"
 pp["year"] = 18
@@ -1086,7 +1164,7 @@ data[i] = pp
 # -- 41
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "林峻廷"
 pp["name"]["eng"] = "Chun-Ting Lin"
 pp["year"] = 18
@@ -1104,7 +1182,7 @@ data[i] = pp
 # -- 42
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "徐世哲"
 pp["name"]["eng"] = "Shin-Che Hsu"
 pp["year"] = 18
@@ -1114,6 +1192,12 @@ pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., Nati
 pp["research"] = {
     "chi": "以振動分析模擬技術提升電動車輛控制器之可靠度", 
     "eng": "Simulation-Based Vibration Analysis for Reliability Improvement of Motor Drive Controllers"}
+pp["papers"][0] = {
+    "ref": """S.-C. Hsu and K.-Y. Chan, "Simulation-based Vibration Analysis for Reliability Improvement of Motor Drive Controllers", International Workshop on Reliability for Advanced Technology, Taipei, Taiwan, Feb 16, 2017""",
+    "file": "",
+    "drive": "",
+    "type": "ic",
+    "year": 2017}
 
 pp.set_first_second()
 data[i] = pp
@@ -1121,7 +1205,7 @@ data[i] = pp
 # -- 43
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "黃彥智"
 pp["name"]["eng"] = "Yeh-Chih Huang"
 pp["year"] = 9
@@ -1135,15 +1219,15 @@ pp["thesis"] = {
     "file": "HuangYenChih.pdf", 
     "drive": "https://drive.google.com/open?id=1L1nhqYLK1nobKftAjdLjzQnIsHtoA1F_"}
 pp["papers"][0] = {
-   "ref": """K.-Y. Chan and Y.-C. Huang, "An Active Set Sequential Quadratic Programming with Variable Probabilistic Constraint Evaluations for Optimization Problems under Non-Gaussian Uncertainties", Journal of Mechanical Engineering Science 226(6), pp.1273-1285, 2010""",
-   "file": "2010JMES_NonGaussian.pdf",
-   "drive": "https://drive.google.com/open?id=1SArUSYEkxk4v8f9bBzQgUK_xOmdsk6CE",
+    "ref": """K.-Y. Chan and Y.-C. Huang, "An Active Set Sequential Quadratic Programming with Variable Probabilistic Constraint Evaluations for Optimization Problems under Non-Gaussian Uncertainties", Journal of Mechanical Engineering Science 226(6), pp.1273-1285, 2010""",
+    "file": "2010JMES_NonGaussian.pdf",
+    "drive": "https://drive.google.com/open?id=1SArUSYEkxk4v8f9bBzQgUK_xOmdsk6CE",
     "type": "j",
     "year": 2010}
 pp["papers"][1] = {
-   "ref": """Y.-C. Huang and K.-Y. Chan, "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space", Journal of Mechanical Design, 132(6), 061002, 2010""",
-   "file": "2010EGO_MaxRel_JMD.pdf",
-   "drive": "https://drive.google.com/open?id=1SgC0DMPrXZJm9EM1NC5fG5K_KNLSgf1W",
+    "ref": """Y.-C. Huang and K.-Y. Chan, "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space", Journal of Mechanical Design, 132(6), 061002, 2010""",
+    "file": "2010EGO_MaxRel_JMD.pdf",
+    "drive": "https://drive.google.com/open?id=1SgC0DMPrXZJm9EM1NC5fG5K_KNLSgf1W",
     "type": "j",
     "year": 2010}
 
@@ -1153,7 +1237,7 @@ data[i] = pp
 # -- 44
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "劉員成"
 pp["name"]["eng"] = "Yuan-Cheng Liu"
 pp["year"] = 19
@@ -1176,7 +1260,7 @@ data[i] = pp
 # -- 45
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "陳柏宇"
 pp["name"]["eng"] = "Po-Yu Chen"
 pp["year"] = 19
@@ -1199,7 +1283,7 @@ data[i] = pp
 # -- 46
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "蔡心婷"
 pp["name"]["eng"] = "Hsin-Ting Tsai"
 pp["year"] = 19
@@ -1222,7 +1306,7 @@ data[i] = pp
 # -- 47
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "陳怡平"
 pp["name"]["eng"] = "Yi-Ping Chen"
 pp["year"] = 20
@@ -1239,7 +1323,7 @@ data[i] = pp
 # -- 48
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "吳中信"
 pp["name"]["eng"] = "Chung-Hsin Wu"
 pp["year"] = 20
@@ -1253,7 +1337,7 @@ data[i] = pp
 # -- 49
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "陳奕憲"
 pp["name"]["eng"] = "Yi-Sian Chen"
 pp["year"] = 20
@@ -1267,7 +1351,7 @@ data[i] = pp
 # -- 50
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "陳宥廷"
 pp["name"]["eng"] = "Yu-Ting Chen"
 pp["year"] = 20
@@ -1281,7 +1365,7 @@ data[i] = pp
 # -- 51
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "肖路寧"
 pp["name"]["eng"] = "Lu-Ning Xiao"
 pp["year"] = 20
@@ -1295,7 +1379,7 @@ data[i] = pp
 # -- 52
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "吳驊祐"
 pp["name"]["eng"] = "Hua-Yu Wu"
 pp["year"] = 20
@@ -1310,7 +1394,7 @@ data[i] = pp
 # -- 53
 
 i += 1
-pp = member.People()
+pp = tool.People()
 pp["name"]["chi"] = "呂冠頡"
 pp["name"]["eng"] = "Kuan-Chieh Lu"
 pp["year"] = 20
@@ -1323,7 +1407,7 @@ data[i] = pp
 
 # -- 
 
-# pp = member.People()
+# pp = tool.People()
 # pp["name"]["chi"] = ""
 # pp["name"]["eng"] = ""
 # pp["year"] = 
@@ -1344,11 +1428,11 @@ data[i] = pp
 #     "chi": "", 
 #     "eng": ""}
 # pp["papers"][0] = {
-#    "ref": """""",
-#    "file": "",
-#    "drive": "",
-#    "type": "",
-#    "year": }
+#     "ref": """""",
+#     "file": "",
+#     "drive": "",
+#     "type": "",
+#     "year": }
 # data[i] = pp
 
 with open('people.json', 'w', encoding='utf-8') as fp:
