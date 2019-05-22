@@ -1,6 +1,0 @@
-*.tsv
-*.pyc
-*.json
-.vscode
-.vscode/*
-__pycache__

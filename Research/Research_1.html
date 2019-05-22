@@ -1,0 +1,394 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<!-- | - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Version: 1.3
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - | -->
+
+<head>
+
+	<title>SOLab | 設計+不確定因素 Design+Uncertainty</title>
+
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="all" />
+	<meta name="generator" content="RapidWeaver" />
+	<!-- <link rel="icon" href="http://solab.me.ntu.edu.tw/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="http://solab.me.ntu.edu.tw/favicon.ico" type="image/x-icon" /> -->
+	<!-- <link rel="apple-touch-icon" href="http://solab.me.ntu.edu.tw/apple-touch-icon.png" /> -->
+	<link rel="icon" href="https://solab-ntu.github.io/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="https://solab-ntu.github.io/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="https://solab-ntu.github.io/apple-touch-icon.png" />
+
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../rw_common/themes/stuffy/styles.css" />
+	<link rel="stylesheet" href="../rw_common/themes/stuffy/styles.min.css" />
+	<link rel="stylesheet" href="../rw_common/themes/stuffy/colors-solabweb.css" />
+
+	<!-- Conditional Stylesheets for Internet Explorer 7, 8 and 9 -->
+	<!--[if IE 9]><link rel="stylesheet" href="../rw_common/themes/stuffy/css/ie/ie9.css" media="all"/><![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" href="../rw_common/themes/stuffy/css/ie/ie8.css" media="all"/><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" href="../rw_common/themes/stuffy/css/ie/ie7.css" media="all"/><![endif]-->
+
+	<!-- JavaScript : Include and embedded version -->
+	<script src="../rw_common/themes/stuffy/javascript.js"></script>
+	<script src="../rw_common/themes/stuffy/js/modernizr-respond.min.js"></script>
+	<script src="../rw_common/themes/stuffy/js/jquery.min.js"></script>
+	<script src="../rw_common/themes/stuffy/js/scripts.min.js"></script>
+	<script>
+		RwSet = {
+			pathto: "../rw_common/themes/stuffy/javascript.js",
+			baseurl: "http://solab.me.ntu.edu.tw/"
+		};
+	</script>
+
+	<!-- JavaScript & CSS : Style Variations -->
+	<script type="text/javascript" src="../rw_common/themes/stuffy/css/options/extracontent.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/body/width/1000.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="../rw_common/themes/stuffy/css/body/bg/hide.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/fonts/body/helvetica.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/fonts/headings/trebuchet.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/header/title/font-size/30.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/header/slogan/font-size/22.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/header/logo/left.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/navigation/position/right.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/navigation/font-size/14.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/primary/font-size/14.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/secondary/position/hide.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/secondary/font-size/13.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/footer/font-size/12.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/extra/font-size/16.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/banner/height/res.css" />
+	<link rel="stylesheet" type="text/css" media="screen"
+		href="../rw_common/themes/stuffy/css/banner/slides/none.css" />
+	<script type="text/javascript" src="../rw_common/themes/stuffy/css/banner/slides/fade.js"></script>
+	<script type="text/javascript" src="../rw_common/themes/stuffy/css/banner/slides/horizontal.js"></script>
+	<script type="text/javascript" src="../rw_common/themes/stuffy/css/banner/slides/reverse-true.js"></script>
+	<script type="text/javascript" src="../rw_common/themes/stuffy/css/banner/slides/slide-6000.js"></script>
+	<script type="text/javascript" src="../rw_common/themes/stuffy/css/banner/slides/anim-600.js"></script>
+	<script type="text/javascript" src="../rw_common/themes/stuffy/css/banner/slides/easing/swing.js"></script>
+
+	<style type="text/css" media="all">
+		@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+	</style>
+
+
+</head>
+
+<body>
+	<div id="wrap">
+		<header>
+			<div id="top">
+				<div id="headings" class="clearfix">
+					<div id="logo"><a href="http://solab.me.ntu.edu.tw/"><img
+								src="../rw_common/images/rwsitelogo.png" width="129" height="75"
+								alt="Site logo" /></a></div><!-- logo -->
+					<h1 id="title"><a href="http://solab.me.ntu.edu.tw/">
+							<div style="font-family: 'Noto Sans TC', sans-serif; line-height:1.1em">國立台灣大學 系統最佳化實驗室<br>
+							</div>
+						</a> <span id="slogan">
+							<div style="font-family: 'Noto Sans TC', sans-serif;">System Optimization Laboratory,
+								National Taiwan University</div>
+						</span><!-- slogan -->
+					</h1><!-- title -->
+					<div id="extraContainer1">
+						<!--extra user content renders here-->
+					</div><!-- extra content -->
+				</div>
+			</div>
+			<div id="wrap-nav">
+				<nav id="navigation" class="clearfix">
+					<ul class="menu">
+						<li><a href="../index.html" rel="self">首頁 | Home</a></li>
+						<li class="currentAncestor"><a href="../Research/Research.html" rel="self">研究 | Research</a>
+							<ul class="menu">
+								<li class="current"><a href="../Research/Research_1.html" rel="self">設計+不確定因素<br>&nbsp
+										Design+Uncertainty</a></li>
+								<li><a href="../Research/Research_2.html" rel="self">複雜系統+不確定因素<br>&nbsp
+										Complex System+Uncertainty</a></li>
+								<li><a href="../Research/Research_3.html" rel="self">動態+規劃<br>&nbsp
+										Dynamic+Planning</a></li>
+								<li><a href="../Research/Research_4.html" rel="self">智慧載具+可靠度<br>&nbsp
+										Intelligent Vehicle+Reliability</a></li>
+							</ul>
+						</li>
+						<li><a href="../Publication/Publication.html" rel="self">著作 | Publication</a></li>
+						<li><a href="../People/Member/Member.html" rel="self">成員 | Member</a>
+							<ul class="menu">
+								<li><a href="../People/Alumni/Alumni.html" rel="self">畢業學生 | Alumni</a></li>
+							</ul>
+						</li>
+						<li><a href="../Teaching/Teaching.html" rel="self">課程 | Teaching</a></li>
+						<li><a href="../ContactInfo/ContactInfo.html" rel="self">聯絡方式 | Contact info</a></li>
+					</ul>
+				</nav>
+			</div><!-- nav -->
+			<div id="header-container">
+				<div id="banner">
+					<div id="slides">
+						<div id="extraContainer2">
+							<!--extra user content renders here-->
+						</div>
+					</div><!-- extra content -->
+				</div>
+				<!-- banner -->
+			</div>
+			<!-- header-container -->
+		</header>
+		<!-- header -->
+		<div id="extraContainer3">
+			<!--extra user content renders here-->
+		</div>
+		<div id="main-container">
+			<div id="main" class="clearfix">
+				<section id="primary-container">
+					<code>
+						<table>
+							<tr>
+								<td valign=top width:"23%">
+									<table bgcolor=#F0F0F0>
+										<tr>
+											<td>
+					</code><span
+						style="font:14px STHeitiTC-Medium; font-weight:bold; color:#000000;font-weight:bold; ">設計+不確定因素<br>Design
+						+ Uncertainty</span><code></td>
+						<td style="background-color:black"></td>
+						</tr>
+						<tr height="20pt"></tr>
+						<tr>
+							<td>
+					</code><span style="font:14px STHeitiTC-Light; color:#000000;"><a
+							href="../Research/Research_2.html" rel="self"
+							title="複雜系統+不確定因素Complex System+Uncertainty">複雜系統+不確定因素<br>Complex System +
+							Uncertainty</a></span><code></td>
+						</tr>
+						<tr height="20pt"></tr>
+						<tr>
+							<td>
+					</code><span style="font:14px STHeitiTC-Light; color:#262626;"><a
+							href="../Research/Research_3.html" rel="self"
+							title="動態+規劃Dynamic+Planning">動態+規劃<br>Dynamic + Planning</a></span><code></td>
+						</tr>
+						<tr height="20pt"></tr>
+						<tr>
+							<td>
+					</code><span style="font:14px STHeitiTC-Light; color:#0000FF;"><a
+							href="../Research/Research_4.html" rel="self"
+							title="智慧載具+可靠度Intelligent Vehicle+Reliability">智慧載具+可靠度<br>Intelligent Vehicle +
+							Reliability</a></span><code></td>
+						</tr>
+						</table>
+						</td>
+						<td valign=top width="5%"></td>
+						<td valign=top width="72%">
+					</code><span
+						style="font:17px STHeitiTC-Medium; font-weight:bold; color:#000000;font-weight:bold; ">整合不確定因素模型與最佳設計方法</span><span
+						style="font:17px Verdana, serif; font-weight:bold; font-weight:bold; "><br /></span><code>
+						<p>
+					</code><span
+						style="font:14px STHeitiTC-Light; ">最佳化設計是工程師用來設計產品的主要工具，可以有系統的方式找到滿足設計條件的最佳設計。然而一旦產品所處的環境與當初設計的不同，或有其它的不確定因素存在，該結果便不再</span><span
+						style="font-size:14px; ">"</span><span style="font:14px STHeitiTC-Light; ">最佳</span><span
+						style="font-size:14px; ">"</span><span
+						style="font:14px STHeitiTC-Light; ">。可靠度最佳化在傳最佳化的架構下，正視不確定因素的存在，並探討不確定因素對產品性能的影響，讓工程師在概念設計初期便考量每個決策對產品使用時的可靠度影響，並加以改善。</span><code>
+						</p>
+						<p>
+					</code><span style="font:12px STHeitiTC-Light; ">　　</span><span
+						style="font:14px STHeitiTC-Light; ">本實驗室主要針對如何有效的整合不確定因素於最佳設計方法中進行很多探討，除了針對非高斯分布的自然界不確定因素加以整合，也探討不確定因素的整合結果對多目標最佳化的影響，進而討論。在實際應用時發現的問題我們也一一加以探討，例如如何制定合理的可靠度目標，如何將有限的資源做最理想的利用整合在可靠度模型內，如何整合壽命相關的可靠度資料作為長期可靠度判別與設計更新的依據等。</span><code>
+						</p></code><br /><br /><span
+						style="font:15px STHeitiTC-Medium; font-weight:bold; color:#000000;font-weight:bold; ">著作</span><span
+						style="font:15px Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#000000;font-weight:bold; ">|Publications</span><code>
+						<div style='line-height:1.1em; margin-left:10px'>
+					</code>
+					<ul class="disc">
+						<li><span style="font-size:11px; ">K.-L. Li, W.-T. Yang, K.-Y. Chan and P.-C. Lin,
+								&ldquo;</span><span style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=191ccFyFupfsBL5UbCtyB1FeV1QlS4qZG"
+									rel="external">An Optimization Technique for Serial Manipulator Robots Parameter
+									Calibration and Accuracy Improvement</a></span><span
+								style="font-size:11px; ">&rdquo;, the 32nd Chinese Society of Mechanical Engineers
+								Conference, Kaohsiung, Taiwan, December 11-12, 2015</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">T.-C. Hung and K.-Y. Chan, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=1oYkQAJZwZe3IRrNc1V20FO0BNVgveu8x"
+									rel="external">Multi-Objective Design and Tolerance Allocation for Single- and
+									Multi-Level Systems</a></span><span style="font-size:11px; ">&rdquo;, Journal of
+								Intelligent Manufacturing, 24(3), pp.559-573, 2013</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">T.-C. Hung and K.-Y. Chan, "</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=15Tjb6TVGWkw9tzCpwyuD4VdGxapr8vlm"
+									rel="external">Uncertainty quantification of Pareto optima in multiobjective
+									problems</a></span><span style="font-size:11px; ">", Journal of Intelligent
+								Manufacturing, 24(2), pp.385-395, 2013</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">Pin-Yi Lin and K.-Y. Chan, "Optimal Sample Augmentation and
+								Resource Allocation for Design with Inadequate Uncertainty Data ", Proceedings of the
+								ASME International Design Engineering Technical Conference, Montreal, Canada, August
+								12-15, 2012</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">C.-M. Ho and K.-Y. Chan, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=1_QvICkr6r80LyJh0G81rpzHcw1QD-A9V"
+									rel="external">Modified Reduced Gradient With Realizations Sorting for Hard Equality
+									Constraints in Reliability-Based Design Optimization</a></span><span
+								style="font-size:11px; ">&rdquo;, ASME Journal of Mechanical Design, 133(1), 011004,
+								2011</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">D.-S. Lin, C.-M. Ho, and K.-Y. Chan, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=18dQhWqEU-KqS5sm-pXeZXti2r5eEV4OS"
+									rel="external">Beta-Pareto Set Approximation for Multiobjective Optimization Under
+									Uncertainty</a></span><span style="font-size:11px; ">&rdquo;, Journal of Mechanical
+								Design, 133(8), 081003, 2011</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">K.-Y. Chan and D.-S. Lin, "</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=1Sr-bPVHN6zHOXdKaPCyHmYnaLq1dy_4Z"
+									rel="external">Algorithm developments for optimization problems with joint
+									reliability constraints</a></span><span style="font-size:11px; ">", International
+								Journal for Numerical Method in Engineering, 85(6), pp.768-783, 2011</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">T.-C. Hung and K.-Y. Chan, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=1SN8_9fjBoi6qv8JKeI7EsxqcOwyqb-Xm"
+									rel="external">Uncertainty Quantifications of Pareto Optima in Multiobjective
+									Problems</a></span><span style="font-size:11px; ">&rdquo;, the 9th World Congress on
+								Structural and Multidisciplinary Optimization, Shizuoka, Japan, June 13-17,
+								2011</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">K.-Y. Chan and Y.-C. Huang, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=1SArUSYEkxk4v8f9bBzQgUK_xOmdsk6CE"
+									rel="external">An Active Set Sequential Quadratic Programming with Variable
+									Probabilistic Constraint Evaluations for Optimization Problems under Non-Gaussian
+									Uncertainties</a></span><span style="font-size:11px; ">&rdquo;, Journal of
+								Mechanical Engineering Science 226(6), pp.1273-1285, 2010</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">Y.-C. Huang and K.-Y. Chan, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=1SgC0DMPrXZJm9EM1NC5fG5K_KNLSgf1W"
+									rel="external">A Modified Efficient Global Optimization Algorithm for Maximal
+									Reliability in a Probabilistic Constrained Space</a></span><span
+								style="font-size:11px; ">&rdquo;, Journal of Mechanical Design, 132(6), 061002,
+								2010</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">K.-S. Hsu and K.-Y. Chan, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=10Z6ZAEt-6af9Avpte2Wv_ySODEnYidk2"
+									rel="external">A Filter-Based Sample Average SQP for Optimization Problems with
+									Highly Nonlinear Probabilistic Constraints</a></span><span
+								style="font-size:11px; ">&rdquo;, Journal of Mechanical Design 132 (11), 111002,
+								2010</span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">T.-C. Hung and K.-Y. Chan, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=1jPY2Gil_TM2Ls-xrh4EApWJRBMZsIS2a"
+									rel="external">Multi-Objective Design and Tolerance Allocation for Single- and
+									Multi-Level Systems</a></span><span style="font-size:11px; ">&rdquo;, Proceedings of
+								the ASME 2010 International Design Engineering Technical Conferences, Montreal, QC,
+								Canada, August 15-18, 2010 </span><code>
+								<p>
+							</code></li>
+						<li><span style="font-size:11px; ">C.-M. Ho and K.-Y. Chan, &ldquo;</span><span
+								style="font-size:11px; "><a
+									href="https://drive.google.com/open?id=1LnFDwcznNNqBNCZkqKJUfHHg7uPx6W4U"
+									rel="external">Modified Reduced Gradient with Realizations Sorting for Hard Equality
+									Constraints in Reliability-Based Design Optimization</a></span><span
+								style="font-size:11px; ">&rdquo;, Proceedings of the ASME 2010 International Design
+								Engineering Technical Conferences, Montreal, QC, Canada, August 15-18, 2010
+							</span><code>
+								<p>
+							</code></li>
+					</ul><code>
+			</div>
+			</td>
+			</tr>
+			</table></code>
+			</section>
+			<!-- #primary-container -->
+			<aside id="secondary-container">
+				<h3></h3>
+				<div id="sidebar">
+
+				</div>
+				<!-- #sidebar -->
+				<div id="plugin-sidebar">
+
+				</div>
+				<!-- #plugin-sidebar -->
+			</aside>
+			<!-- #secondary-container -->
+		</div>
+		<!-- #main -->
+	</div>
+	<!-- #main-container -->
+	<div id="bottom">
+		<div id="breadcrumb"></div>
+		<!-- #breadcrumb -->
+		<div id="extraContainer4">
+			<!--extra user content renders here-->
+		</div>
+	</div>
+	<div id="footer-container">
+		<footer>
+			<p>&copy; 2015 Kuei-Yuan Chan <a href="#" id="rw_email_contact">Contact Me</a>
+				<script type="text/javascript">
+					var _rwObsfuscatedHref0 = "mai";
+					var _rwObsfuscatedHref1 = "lto";
+					var _rwObsfuscatedHref2 = ":ch";
+					var _rwObsfuscatedHref3 = "ank";
+					var _rwObsfuscatedHref4 = "y@n";
+					var _rwObsfuscatedHref5 = "tu.";
+					var _rwObsfuscatedHref6 = "edu";
+					var _rwObsfuscatedHref7 = ".tw";
+					var _rwObsfuscatedHref = _rwObsfuscatedHref0 + _rwObsfuscatedHref1 + _rwObsfuscatedHref2 + _rwObsfuscatedHref3 +
+						_rwObsfuscatedHref4 + _rwObsfuscatedHref5 + _rwObsfuscatedHref6 + _rwObsfuscatedHref7;
+					document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;
+				</script>
+			</p>
+		</footer>
+		<!-- footer -->
+	</div>
+	<!-- #footer-container -->
+	</div>
+	<!-- #wrap -->
+</body>
+
+</html>
