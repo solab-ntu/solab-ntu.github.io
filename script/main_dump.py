@@ -16,11 +16,11 @@ pp["lab_id"] = "實驗室負責人 Director of SOLab"
 pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (97)"}
 pp["degrees"][1] = {"chi": "美國密西根大學機械工程 博士", "eng": "Ph.D., University of Michigan (05)"}
 pp["jobs"][0] = {"chi": "機械工程學系教授", "eng": "Professor of Mechanical Engineering", "web": None}
-pp["jobs"][1] = {"chi": "台大創新設計學院教學組長", "eng": "Director of academic affairs, D-School@NTU", "web": None}
+pp["jobs"][1] = {"chi": "台大創新設計學院教學組長", "eng": "Director of Academic Affairs, D-School@NTU", "web": None}
 pp["jobs"][2] = {"chi": "台大副教務長", "eng": "Deputy Vice President for Academic Affairs", "web": None}
 pp["show_paper"] = False
 pp["papers"][0] = {
-    "ref": """K.-Y. Chan, "Sequential linearization in analytical target cascading for optimization of complex multilevel systems", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, 225(2), pp.451-462, 2011""",
+    "ref": """K.-Y. Chan, "Sequential Linearization in Analytical Target Cascading for Optimization of Complex Multilevel Systems", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, 225(2), pp.451-462, 2011""",
     "file": "",
     "drive": "",
     "type": "j",
@@ -32,25 +32,19 @@ pp["papers"][1] = {
     "type": "j",
     "year": 2010}
 pp["papers"][2] = {
-    "ref": """K.-Y. Chan, "Sequential Linearization in Analytical Target Cascading", Journal of Mechanical Engineering Science, 225(2), pp.451-462, 2011""",
-    "type": "j",
-    "file": "",
-    "drive": "",
-    "year": 2011}
-pp["papers"][3] = {
     "ref": """K.-Y. Chan, M. Kokkolaras, P. Y. Papalambros, S. J. Skerlos and Z. Mourelatoes, "Propagation of Uncertainty in Optimal Design of Multilevel Systems: Piston-Ring/Cylinder-Liner Case Study," SAE Technical Paper 2004-01-1559, 2004""",
     "type": "ic",
     "file": "",
     "drive": "",
     "year": 2004}
-pp["papers"][4] = {
-    "ref": """K.-Y. Chan, S. J. Skerlos and P. Y. Papalambros, "Monotonicity and Active Set Strategies in Probabilistic Design Optimization", Journal of Mechanical Design 128(4), 893-900, Jan 05, 2006""",
+pp["papers"][3] = {
+    "ref": """K.-Y. Chan, S. J. Skerlos and P. Y. Papalambros, "Monotonicity and Active Set Strategies in Probabilistic Design Optimization", Journal of Mechanical Design, 128(4), 893-900, Jan 05, 2006""",
     "type": "j",
     "file": "",
     "drive": "",
     "year": 2006}
-pp["papers"][5] = {
-    "ref": """K.-Y. Chan, S. J. Skerlos and P. Y. Papalambros, "An Adaptive Sequential Linear Programming Algorithm for Optimal Design Problems With Probabilistic Constraints", Journal of Mechanical Design 129(2), 140-149, Jan 23, 2006""",
+pp["papers"][4] = {
+    "ref": """K.-Y. Chan, S. J. Skerlos and P. Y. Papalambros, "An Adaptive Sequential Linear Programming Algorithm for Optimal Design Problems With Probabilistic Constraints", Journal of Mechanical Design, 129(2), 140-149, Jan 23, 2006""",
     "type": "j",
     "file": "",
     "drive": "",
@@ -249,7 +243,7 @@ pp["thesis"] = {
     "file": "WuYuTa.pdf", 
     "drive": "https://drive.google.com/open?id=1jDiz31nnpqRnOXwxQZq31SCqorUWMPtW"}
 pp["papers"][0] = {
-    "ref": """Y.-T Wu and K.-Y. Chan, "Optimal Design and Impact Analysis of Urban Traffic Regulations Under Ambient Uncertainty", Stochastic Environmental Research and Risk Assessment, 25(2), P.271-286, 2011""",
+    "ref": """Y.-T. Wu and K.-Y. Chan, "Optimal Design and Impact Analysis of Urban Traffic Regulations Under Ambient Uncertainty", Stochastic Environmental Research and Risk Assessment, 25(2), P.271-286, 2011""",
     "file": "2011TrafficCA_SERRA.pdf",
     "drive": "https://drive.google.com/open?id=1oHgMNYlvDfcaAE2n3Xel3jv8fxCZgo_h",
     "type": "j",
@@ -324,13 +318,13 @@ pp["papers"][3] = {
     "type": "ic",
     "year": 2010}
 pp["papers"][4] = {
-    "ref": """T.-C. Hung, K.-Y. Chan, "Probability-based Power Dispatch in Wind-Integrated Electrical Grid for Energy Storage Capacity Determination", Proceedings of the ASME International Design Engineering Technical Conferences & Computer and Information in Engineering Conference, Charlotte, NC, USA, 2016""",
+    "ref": """T.-C. Hung and K.-Y. Chan, "Probability-based Power Dispatch in Wind-Integrated Electrical Grid for Energy Storage Capacity Determination", Proceedings of the ASME International Design Engineering Technical Conferences & Computer and Information in Engineering Conference, Charlotte, NC, USA, 2016""",
     "file": "2016WindElectricalEnergy_ASME.pdf",
     "drive": "https://drive.google.com/open?id=1AKfxFruoFRfemdEETS2DHJ2oDa45qm3G",
     "type": "ic",
     "year": 2016}
 pp["papers"][5] = {
-    "ref": """T.-C. Hung and K.-Y. Chan, "Optimization of a Wind-Integrated Microgrid System with Equipment Sizing and Dispatch Strategy under Resource Uncertainty", Journal of Mechanical Design, 2015""",
+    "ref": """T.-C. Hung and K.-Y. Chan, "Optimization of a Wind-Integrated Microgrid System with Equipment Sizing and Dispatch Strategy under Resource Uncertainty", Journal of Mechanical Design, 137(4), 041403, Apr. 01, 2015""",
     "file": "2015Microgrid_JMD.pdf",
     "drive": "https://drive.google.com/open?id=1IiTtTVs7pHdjG11wHjwfeP2FgWcCTeyD",
     "type": "j",
@@ -414,17 +408,17 @@ pp["papers"][0] = {
     "type": "ic",
     "year": 2011}
 pp["papers"][1] = {
-    "ref": """S.-C. Chang and K.-Y. Chan, "A Preliminary Study on the Integration of Engineering and Aesthetics Measures via the Design of Vehicle Silhouettes", Journal of Mechanical Engineering Science, 2014""",
-    "file": "2014JMES_Aesthetics.pdf",
-    "drive": "https://drive.google.com/open?id=12uhsCjcQLbH-hpfR_dSeNwuj5REEQq9U",
-    "type": "j",
-    "year": 2014}
-pp["papers"][2] = {
     "ref": """S.-C. Chang and K.-Y. Chan, "Multidisciplinary Design of Vehicle Silhouettes Considering Engineering and Aesthetics Measures", (Best Paper Award) International Conference on Innovative Design and Manufacturing, December 12-14, 2012""",
     "file": "",
     "drive": "",
     "type": "ic",
     "year": 2012}
+pp["papers"][2] = {
+    "ref": """K.-Y. Chan and S.-C. Chang, "A Preliminary Study on the Integration of Engineering and Aesthetics Measures via the Design of Vehicle Silhouettes", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, Volume: 229 issue: 12, pp. 2221-2230, August 1, 2015""",
+    "file": "2014JMES_Aesthetics.pdf",
+    "drive": "https://drive.google.com/open?id=12uhsCjcQLbH-hpfR_dSeNwuj5REEQq9U",
+    "type": "j",
+    "year": 2015}
 
 pp.set_first_second()
 data[i] = pp
@@ -478,7 +472,7 @@ pp["thesis"] = {
     "file": "ChenLiHao", 
     "drive": "https://drive.google.com/open?id=1cQu1tizFqkFWF8hwFbtiW92j5Nj4eBTr"}
 pp["papers"][0] = {
-    "ref": """L.-H. Chen and K.-Y. Chan, "風力發電廠規劃與發電機葉片設計在地理限制下之整合研究", 中國機械工程師學會第29屆全國學術研討會, 中山大學, Dec., 2012 """,
+    "ref": """L.-H. Chen and K.-Y. Chan, "風力發電廠規劃與發電機葉片設計在地理限制下之整合研究", the 29st Chinese Society of Mechanical Engineers Conference, Dec., 2012""",
     "type": "dc",
     "file": "",
     "drive": "",
@@ -533,16 +527,10 @@ pp["thesis"] = {
     "file": "HsuehYiChien.pdf", 
     "drive": "https://drive.google.com/open?id=1oLV5mWTnMSrPKuJ8hu-SKhs-1YccEcMu"}
 pp["papers"][0] = {
-    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
+    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
     "file": "2014CSME_AURM2D.pdf",
     "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV",
     "type": "ic",
-    "year": 2014}
-pp["papers"][1] = {
-    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
-    "type": "dc",
-    "file": "",
-    "drive": "",
     "year": 2014}
 
 pp.set_first_second()
@@ -691,16 +679,10 @@ pp["papers"][0] = {
     "type": "ic",
     "year": 2014}
 pp["papers"][1] = {
-    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
+    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
     "file": "2014CSME_AURM2D.pdf",
     "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV",
     "type": "ic",
-    "year": 2014}
-pp["papers"][2] = {
-    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
-    "file": "",
-    "drive": "",
-    "type": "dc",
     "year": 2014}
 
 pp.set_first_second()
@@ -812,16 +794,28 @@ pp["thesis"] = {
     "file": "LinYouAn.pdf", 
     "drive": "https://drive.google.com/open?id=1N9PvtFqLt2lWo1C0-NPMFoCOf0gTSxsz"}
 pp["papers"][0] = {
-    "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", 第十七屆全國機構機器設計學術研討會, 國立勤益科技大學, Nov. 14, 2014""",
+    "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", the 17st Chinese Society of Mechanism and Machine Theory Conference, Taichung, Taiwan, Nov. 14, 2014""",
     "file": "",
     "drive": "",
     "type": "dc",
     "year": 2014}
 pp["papers"][1] = {
-    "ref": """Y.-A. Lin and K.-Y. Chan, "Comparisons between Direct and Inverse Analysis Methods in Continuous Variable Transmissions with Comprehensive Component Specifications", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Jun. 6, 2014""",
-    "file": "",
-    "drive": "",
+    "ref": """Y.-A. Lin, P.-A. Chen, K.-Y. Chan, "A Method for Reducing Fuel Consumption of Urban Scooters Using Vehicle Design and Traffic Simulation", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, Vol. 231, issue 7, pp.1252-1271, April 1, 2017""",
+    "file": "2016ReducingConsumptionVehicleTraffic_SAGE.pdf",
+    "drive": "https://drive.google.com/open?id=1PQ7-6ozJZV3WsVfWu22Xr_XRzEZh1Zat",
+    "type": "j",
+    "year": 2016}
+pp["papers"][2] = {
+    "ref": """Y.-A. Lin and K.-Y. Chan, "Comparisons between Direct and Inverse Analysis Methods in Continuous Variable Transmissions with Comprehensive Component Specifications", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
+    "file": "2014CSME_CVTMethodsComparison.pdf",
+    "drive": "https://drive.google.com/open?id=18gNTA86ydBqggI6UuVm6pKq6JZTP0XXM",
     "type": "dc",
+    "year": 2014}
+pp["papers"][3] = {
+    "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", Mechanism and Mechanical Technology Conference, Taichung, Taiwan, 2014""",
+    "file": "2014THCSMMT_CVTDirectSimulation.pdf",
+    "drive": "https://drive.google.com/open?id=1Z3fnxiMEB6V-_b_tog2q22plpjX1alhl",
+    "type": "ic",
     "year": 2014}
 
 pp.set_first_second()
@@ -900,7 +894,7 @@ pp["thesis"] = {
     "file": "KuanLinLi.pdf", 
     "drive": "https://drive.google.com/open?id=1m8XLDGgIIyljSsjk4bxAOdzoFrOh1NDP"}
 pp["papers"][0] = {
-    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
+    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
     "file": "2014CSME_AURM2D.pdf",
     "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV",
     "type": "ic",
@@ -919,15 +913,15 @@ pp["papers"][2] = {
     "year": 2016}
 pp["papers"][3] = {
     "ref": """K.-L. Li, Y.-K. Tsai, and K.-Y. Chan, "Identifying Joint Clearance via Robot Manipulation", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science 232, no. 15, August, 2018""",
-    "file": "2017IdentifyingJointClearanceViaRobotManipulation;.pdf",
+    "file": "2017IdentifyingJointClearanceViaRobotManipulation.pdf",
     "drive": "https://drive.google.com/open?id=1SQ-gNonKEOLpVgICCrkjjzgYB8nFnYLB",
     "type": "j",
-    "year": 2017}
-pp["papers"][4] = {
-    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh, and K.-Y. Chan, "Analysis of Uncertainties in Planar Robot Manipulation", 中國機械工程師學會第三十一屆全國學術研討會, 逢甲大學，Dec. 6, 2014""",
-    "type": "dc",
-    "file": "",
-    "drive": "",
+    "year": 2018}
+pp["papers"][0] = {
+    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
+    "file": "2014CSME_AURM2D.pdf",
+    "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV",
+    "type": "ic",
     "year": 2014}
 
 pp.set_first_second()
@@ -967,24 +961,6 @@ pp["thesis"] = {
     "eng": "Identifying Parameter Uncertainties in Model Calibration of Complex Systems", 
     "file": "YuehILin.pdf", 
     "drive": "https://drive.google.com/open?id=1P7bjDBSKUW8QXsOVuMZqEASKoFZsci0V"}
-pp["papers"][0] = {
-    "ref": """Y.-A. Lin,P.-A. Chen, K.-Y. Chan, "A Method for Reducing Fuel Consumption of Urban Scooters Using Vehicle Design and Traffic Simulation", Journal of Mechanical Engineering Science, 2016""",
-    "file": "2016ReducingConsumptionVehicleTraffic_SAGE.pdf",
-    "drive": "https://drive.google.com/open?id=1PQ7-6ozJZV3WsVfWu22Xr_XRzEZh1Zat",
-    "type": "j",
-    "year": 2016}
-pp["papers"][1] = {
-    "ref": """Y.-A. Lin and K.-Y. Chan, "Comparisons between Direct and Inverse Analysis Methods in Continuous Variable Transmissions with Comprehensive Component Specifications", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
-    "file": "2014CSME_CVTMethodsComparison.pdf",
-    "drive": "https://drive.google.com/open?id=18gNTA86ydBqggI6UuVm6pKq6JZTP0XXM",
-    "type": "ic",
-    "year": 2014}
-pp["papers"][2] = {
-    "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", Mechanism and Mechanical Technology Conference, Taichung, Taiwan, 2014""",
-    "file": "2014THCSMMT_CVTDirectSimulation.pdf",
-    "drive": "https://drive.google.com/open?id=1Z3fnxiMEB6V-_b_tog2q22plpjX1alhl",
-    "type": "ic",
-    "year": 2014}
 
 pp.set_first_second()
 data[i] = pp
