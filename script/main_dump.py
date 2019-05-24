@@ -1100,11 +1100,11 @@ pp["papers"][1] = {
     "drive": "",
     "year": 2018}   
 pp["papers"][2] = {
-    "ref": """Y.-K. Tsai, and K.-Y. Chan, "Investigation on the Impact of Non-geometric Uncertainty in Dynamic Performance of Serial and Parallel Robot Manipulators", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science (2018): Accept (01-Oct-2018)""",
+    "ref": """Y.-K. Tsai, and K.-Y. Chan, "Investigation on the Impact of Non-geometric Uncertainty in Dynamic Performance of Serial and Parallel Robot Manipulators", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, Vol. 233, issue 10, pp.3487-3511, May 1, 2019""",
     "type": "j",
-    "file": "",
-    "drive": "",
-    "year": 2018}
+    "file": "2019InvestigationImpactNongeometric_JMES.pdf",
+    "drive": "https://drive.google.com/open?id=1FLwBv3VCACFOUL7GMkD8IpLXbd-7Kc5w",
+    "year": 2019}
 pp["papers"][3] = {
     "ref": """Y.-K. Tsai, and K.-Y. Chan, "Parameter Identification and Performance Optimization for Vertical Articulated Robot Manipulators under Transmission Uncertainty for Harmonic Drives", submitted to ASME. Journal of Mechanical Design, 2018""",
     "type": "j",
