@@ -4,7 +4,7 @@ import tool
 
 data = {}
 
-# -- 0
+# --
 
 i = 0
 pp = tool.People()
@@ -53,7 +53,7 @@ pp["papers"][4] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 1
+# --
 
 i += 1
 pp = tool.People()
@@ -75,7 +75,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 2
+# --
 
 i += 1
 pp = tool.People()
@@ -102,7 +102,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 3
+# --
 
 i += 1
 pp = tool.People()
@@ -115,11 +115,9 @@ pp["jobs"][0] = {
     "chi": "馬牌輪胎", 
     "eng": "Continental Tire of North America, LLC", 
     "web": "http://www.continentaltire.com/"}
-pp["thesis"] = {
+pp["research"] = {
     "chi": "", 
-    "eng": "Equality Constraints in Probabilistic Optimization Problems", 
-    "file": "", 
-    "drive": ""}
+    "eng": "Equality Constraints in Probabilistic Optimization Problems"}
 pp["papers"][0] = {
     "ref": """C.-M. Ho and K.-Y. Chan, "Modified Reduced Gradient With Realizations Sorting for Hard Equality Constraints in Reliability-Based Design Optimization", ASME Journal of Mechanical Design, 133(1), 011004, 2011""",
     "file": "2011Equality_JMD.pdf",
@@ -142,7 +140,7 @@ pp["papers"][2] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 4
+# --
 
 i += 1
 pp = tool.People()
@@ -162,7 +160,7 @@ pp["research"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 5
+# --
 
 i += 1
 pp = tool.People()
@@ -196,7 +194,7 @@ pp["papers"][1] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 6
+# --
 
 i += 1
 pp = tool.People()
@@ -224,7 +222,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 8
+# --
 
 i += 1
 pp = tool.People()
@@ -252,7 +250,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 9
+# --
 
 i += 1
 pp = tool.People()
@@ -274,7 +272,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 10
+# --
 
 i += 1
 pp = tool.People()
@@ -339,7 +337,7 @@ pp["papers"][6] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 11
+# --
 
 i += 1
 pp = tool.People()
@@ -361,7 +359,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 12
+# --
 
 i += 1
 pp = tool.People()
@@ -383,7 +381,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 13
+# --
 
 i += 1
 pp = tool.People()
@@ -423,7 +421,7 @@ pp["papers"][2] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 14
+# --
 
 i += 1
 pp = tool.People()
@@ -442,7 +440,7 @@ pp["research"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 15
+# --
 
 i += 1
 pp = tool.People()
@@ -454,7 +452,7 @@ pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National C
 pp.set_first_second()
 data[i] = pp
 
-# -- 16
+# --
 
 i += 1
 pp = tool.People()
@@ -481,7 +479,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 17
+# --
 
 i += 1
 pp = tool.People()
@@ -509,7 +507,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 18
+# --
 
 i += 1
 pp = tool.People()
@@ -536,7 +534,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 19
+# --
 
 i += 1
 pp = tool.People()
@@ -551,7 +549,7 @@ pp["research"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 20
+# --
 
 i += 1
 pp = tool.People()
@@ -573,7 +571,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 21
+# --
 
 i += 1
 pp = tool.People()
@@ -597,7 +595,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 22
+# --
 
 i += 1
 pp = tool.People()
@@ -619,7 +617,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 23
+# --
 
 i += 1
 pp = tool.People()
@@ -636,7 +634,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 24
+# --
 
 i += 1
 pp = tool.People()
@@ -655,7 +653,7 @@ pp["research"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 25
+# --
 
 i += 1
 pp = tool.People()
@@ -688,7 +686,7 @@ pp["papers"][1] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 26
+# --
 
 i += 1
 pp = tool.People()
@@ -722,7 +720,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 27
+# --
 
 i += 1
 pp = tool.People()
@@ -743,7 +741,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 28
+# --
 
 i += 1
 pp = tool.People()
@@ -776,7 +774,7 @@ pp["papers"][1] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 29
+# --
 
 i += 1
 pp = tool.People()
@@ -821,7 +819,7 @@ pp["papers"][3] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 30
+# --
 
 i += 1
 pp = tool.People()
@@ -848,7 +846,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 31
+# --
 
 i += 1
 pp = tool.People()
@@ -875,7 +873,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 32
+# --
 
 i += 1
 pp = tool.People()
@@ -927,7 +925,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 33
+# --
 
 i += 1
 pp = tool.People()
@@ -944,7 +942,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 34
+# --
 
 i += 1
 pp = tool.People()
@@ -965,7 +963,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 35
+# --
 
 i += 1
 pp = tool.People()
@@ -992,7 +990,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 36
+# --
 
 i += 1
 pp = tool.People()
@@ -1016,7 +1014,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 37
+# --
 
 i += 1
 pp = tool.People()
@@ -1045,7 +1043,7 @@ data[i] = pp
 pp.set_first_second()
 data[i] = pp
 
-# -- 38
+# --
 
 i += 1
 pp = tool.People()
@@ -1073,7 +1071,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 39
+# --
 
 i += 1
 pp = tool.People()
@@ -1115,7 +1113,7 @@ pp["papers"][3] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 40
+# --
 
 i += 1
 pp = tool.People()
@@ -1137,7 +1135,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 41
+# --
 
 i += 1
 pp = tool.People()
@@ -1155,7 +1153,7 @@ pp["thesis"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 42
+# --
 
 i += 1
 pp = tool.People()
@@ -1178,7 +1176,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 43
+# --
 
 i += 1
 pp = tool.People()
@@ -1210,7 +1208,7 @@ pp["papers"][1] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 44
+# --
 
 i += 1
 pp = tool.People()
@@ -1233,7 +1231,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 45
+# --
 
 i += 1
 pp = tool.People()
@@ -1256,7 +1254,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 46
+# --
 
 i += 1
 pp = tool.People()
@@ -1279,7 +1277,7 @@ pp["papers"][0] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 47
+# --
 
 i += 1
 pp = tool.People()
@@ -1296,7 +1294,7 @@ pp["research"] = {
 pp.set_first_second()
 data[i] = pp
 
-# -- 48
+# --
 
 i += 1
 pp = tool.People()
@@ -1310,7 +1308,7 @@ pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National T
 pp.set_first_second()
 data[i] = pp
 
-# -- 49
+# --
 
 i += 1
 pp = tool.People()
@@ -1324,7 +1322,7 @@ pp["degrees"][0] = {"chi": "國立中山大學 學士", "eng": "B.S., National S
 pp.set_first_second()
 data[i] = pp
 
-# -- 50
+# --
 
 i += 1
 pp = tool.People()
@@ -1338,7 +1336,7 @@ pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National T
 pp.set_first_second()
 data[i] = pp
 
-# -- 51
+# --
 
 i += 1
 pp = tool.People()
@@ -1352,7 +1350,7 @@ pp["degrees"][0] = {"chi": "中原大學 學士", "eng": "B.S., Chung Yuan Chris
 pp.set_first_second()
 data[i] = pp
 
-# -- 52
+# --
 
 i += 1
 pp = tool.People()
@@ -1367,7 +1365,7 @@ pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National C
 pp.set_first_second()
 data[i] = pp
 
-# -- 53
+# --
 
 i += 1
 pp = tool.People()
@@ -1381,8 +1379,38 @@ pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National T
 pp.set_first_second()
 data[i] = pp
 
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "楊雅媛"
+pp["name"]["eng"] = "Ya-Yuan Yang"
+pp["year"] = 21
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (19)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "李晉毅"
+pp["name"]["eng"] = "Jin-Yi Li"
+pp["year"] = 21
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立台北科技大學 學士", "eng": "B.S., National Taipei University of Technology(19)"}
+
+pp.set_first_second()
+data[i] = pp
+
 # -- 
 
+# i += 1
 # pp = tool.People()
 # pp["name"]["chi"] = ""
 # pp["name"]["eng"] = ""
@@ -1409,6 +1437,7 @@ data[i] = pp
 #     "drive": "",
 #     "type": "",
 #     "year": }
+# pp.set_first_second()
 # data[i] = pp
 
 with open('people.json', 'w', encoding='utf-8') as fp:
