@@ -703,7 +703,7 @@ pp["thesis"] = {
     "chi": "人機系統中人為誤差補償方法", 
     "eng": "Compensating For Operational Uncertainty in Man-Machine System: A case Study On Intelligent Vehicle Parking Assist", 
     "file": "SuDale.pdf", 
-    "drive": "https://drive.google.com/open?id=1c-kVdsDfJBxRAphrijrYuUg8OfwNq1bs"}
+    "drive": "https://drive.google.com/open?id=1h0j4ZwE9-A_vo84hVN0e4R1J6LZ7pqnA"}
 pp["papers"][0] = {
     "ref": """D. Su and K.-Y. Chan, "Compensating for Operational Uncertainty in Man-Machine Systems : A Case Study on Intelligent Vehicle Parking Assist System", ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems : Part B. Mechanical Engineering, 2015""",
     "file": "2014IDETC2014_sudale_draft;2015JRISK_ManMachine.pdf",
