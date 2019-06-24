@@ -110,7 +110,7 @@ pp["name"]["chi"] = "何淳民"
 pp["name"]["eng"] = "Chun-Min Ho"
 pp["year"] = 8
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (08)"}
-pp["degrees"][1] = {"chi": "美國密西根大學機械工程 碩士", "eng": "M.S., The University of Michigan, USA (12)"}
+pp["degrees"][1] = {"chi": "美國密西根大學 碩士", "eng": "M.S., The University of Michigan, USA (12)"}
 pp["jobs"][0] = {
     "chi": "馬牌輪胎", 
     "eng": "Continental Tire of North America, LLC", 
@@ -1080,6 +1080,7 @@ pp["name"]["eng"] = "Ying-Kuan Tsai"
 pp["year"] = 18
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (16)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (18)"}
+pp["degrees"][2] = {"chi": "美國德州農工大學 博士班學生", "eng": "Ph.D. Student, Texas A&M University (19~)"}
 pp["thesis"] = {
     "chi": "垂直多關節機械手臂與並聯式機械手臂之不確定因素評估與工作表現最佳化", 
     "eng": "Uncertainty Estimation and Performance Optimization for Vertical Articulated and Parallel Robot Manipulators", 
@@ -1375,6 +1376,7 @@ pp["year"] = 20
 pp["alumni"] = False
 pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
+pp["degrees"][1] = {"chi": "美國伊利諾大學 碩士班學生", "eng": "M.S. Student, University of Illinois, Urbana-Champaign (19~)"}
 
 pp.set_first_second()
 data[i] = pp
