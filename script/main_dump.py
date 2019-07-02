@@ -110,7 +110,7 @@ pp["name"]["chi"] = "何淳民"
 pp["name"]["eng"] = "Chun-Min Ho"
 pp["year"] = 8
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (08)"}
-pp["degrees"][1] = {"chi": "美國密西根大學 碩士", "eng": "M.S., The University of Michigan, USA (12)"}
+pp["degrees"][1] = {"chi": "美國密西根大學 碩士", "eng": "M.S., The University of Michigan (12)"}
 pp["jobs"][0] = {
     "chi": "馬牌輪胎", 
     "eng": "Continental Tire of North America, LLC", 
@@ -1381,6 +1381,20 @@ pp["degrees"][1] = {"chi": "美國伊利諾大學 碩士班學生", "eng": "M.S.
 pp.set_first_second()
 data[i] = pp
 
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "鍾慕提"
+pp["name"]["eng"] = "Mu-Ti Chung"
+pp["year"] = 20
+pp["alumni"] = False
+pp["lab_id"] = "研究助理 Research Assistant"
+pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
+pp["degrees"][1] = {"chi": "美國密西根大學 碩士班學生", "eng": "M.S. Student, The University of Michigan (19~)"}
+
+pp.set_first_second()
+data[i] = pp
 
 # --
 
