@@ -13,11 +13,11 @@ class Publication():
         for k1, v1 in data.items():
             if v1["papers"]:
                 for k2, v2 in v1["papers"].items():
-                    if v2["type"] == "j" and v2 not in self.journal:
+                    if v2["type"] == "j" and v2 not in self.journal: # journal
                         self.journal.append(v2)
-                    elif v2["type"] == "ic" and v2 not in self.inter_conf:
+                    elif v2["type"] == "ic" and v2 not in self.inter_conf: # international conference
                         self.inter_conf.append(v2)
-                    elif v2["type"] == "dc" and v2 not in self.domes_conf:
+                    elif v2["type"] == "dc" and v2 not in self.domes_conf: # domestic conference
                         self.domes_conf.append(v2)
                     else:
                         pass
