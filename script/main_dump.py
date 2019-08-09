@@ -1400,6 +1400,23 @@ data[i] = pp
 
 i += 1
 pp = tool.People()
+pp["name"]["chi"] = "林駿汗"
+pp["name"]["eng"] = "Henry Lin"
+pp["year"] = 21
+pp["alumni"] = True
+pp["lab_id"] = "專題生 Graduate Student"
+pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (21)"}
+pp["research"] = {
+    "chi": "四連桿公差制定與動態模擬", 
+    "eng": "Four Bar Linkage Mechanism Tolerance Allocation and Dynamic Simulation"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
 pp["name"]["chi"] = "楊雅媛"
 pp["name"]["eng"] = "Ya-Yuan Yang"
 pp["year"] = 21
