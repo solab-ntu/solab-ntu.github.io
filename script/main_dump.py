@@ -1216,9 +1216,9 @@ pp = tool.People()
 pp["name"]["chi"] = "劉員成"
 pp["name"]["eng"] = "Yuan-Cheng Liu"
 pp["year"] = 19
-pp["alumni"] = False
-pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
 pp["research"] = {
     "chi": "以機率模型預測在都市十字路口的駕駛行為", 
     "eng": "Probabilistic Modeling and Prediction of Driver Behaviors at Urban Crossroads"}
@@ -1239,9 +1239,9 @@ pp = tool.People()
 pp["name"]["chi"] = "陳柏宇"
 pp["name"]["eng"] = "Po-Yu Chen"
 pp["year"] = 19
-pp["alumni"] = False
-pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (17)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
 pp["research"] = {
     "chi": "", 
     "eng": "Pose Calibration with Machine Vision for Uncertainty Modeling of Cyber-Physical Robot Systems"}
@@ -1262,9 +1262,9 @@ pp = tool.People()
 pp["name"]["chi"] = "蔡心婷"
 pp["name"]["eng"] = "Hsin-Ting Tsai"
 pp["year"] = 19
-pp["alumni"] = False
-pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (17)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
 pp["research"] = {
     "chi": "感測器誤差對自駕車變換車道策略的敏感性評估", 
     "eng": "Assessing the sensitivity of sensor uncertainty to autonomous vehicle driving strategies during lane change maneuver"}
