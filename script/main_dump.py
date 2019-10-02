@@ -49,6 +49,12 @@ pp["papers"][4] = {
     "file": "",
     "drive": "",
     "year": 2007}
+pp["papers"][4] = {
+    "ref": """K.-S. Lin, K.-Y. Chan and J.-J. Lee, "Kinematic error analysis and tolerance allocation of cycloidal gear reducers", Mechanism and Machine Theory, Vol. 124, Pages 73-91, June 2018""",
+    "type": "j",
+    "file": "2018KinematicErrorGearReducers_MMT.pdf",
+    "drive": "https://drive.google.com/file/d/1YXhjruf6mCqc0neUL5dBS3W6S38um_ki/view?usp=sharing",
+    "year": 2018}
 
 pp.set_first_second()
 data[i] = pp
@@ -591,6 +597,12 @@ pp["papers"][0] = {
     "drive": "https://drive.google.com/open?id=10pFPL8mz5LuUfRWxuqK7Y1_ycPqB-m6B",
     "type": "ic",
     "year": 2014}
+pp["papers"][1] = {
+    "ref": """J. Millogo and K.-Y. Chan, "Multivariate Analysis of Extrapolating Time-Invariant Data with Uncertainty", International Journal for Uncertainty Quantification, (Accepted, 2019)""",
+    "file": "",
+    "drive": "",
+    "type": "j",
+    "year": 2019}
 
 pp.set_first_second()
 data[i] = pp
@@ -798,7 +810,7 @@ pp["papers"][0] = {
     "type": "dc",
     "year": 2014}
 pp["papers"][1] = {
-    "ref": """Y.-A. Lin, P.-A. Chen, K.-Y. Chan, "A Method for Reducing Fuel Consumption of Urban Scooters Using Vehicle Design and Traffic Simulation", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, Vol. 231, issue 7, pp.1252-1271, April 1, 2017""",
+    "ref": """Y.-A. Lin, P.-A. Chen and K.-Y. Chan, "A Method for Reducing Fuel Consumption of Urban Scooters Using Vehicle Design and Traffic Simulation", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, Vol. 231, issue 7, pp.1252-1271, April 1, 2017""",
     "file": "2016ReducingConsumptionVehicleTraffic_SAGE.pdf",
     "drive": "https://drive.google.com/open?id=1PQ7-6ozJZV3WsVfWu22Xr_XRzEZh1Zat",
     "type": "j",
@@ -904,7 +916,7 @@ pp["papers"][1] = {
     "type": "ic",
     "year": 2015}
 pp["papers"][2] = {
-    "ref": """K.-L. Li, W.-T. Yang, K.-Y. Chan, P.-C. Lin, "An Optimization Technique for Identifying Robot Manipulator Parameters Under Uncertainty", Springer Plus, 5:1771, 2016""",
+    "ref": """K.-L. Li, W.-T. Yang, K.-Y. Chan and P.-C. Lin, "An Optimization Technique for Identifying Robot Manipulator Parameters Under Uncertainty", Springer Plus, 5:1771, 2016""",
     "file": "2016IdentifyParameters_Springerplus.pdf",
     "drive": "https://drive.google.com/open?id=1GD1iEPttI9TcR3A2hhX2dGUB-cwYzvr-",
     "type": "j",
