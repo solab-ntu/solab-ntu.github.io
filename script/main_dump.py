@@ -717,17 +717,17 @@ pp["thesis"] = {
     "file": "SuDale.pdf", 
     "drive": "https://drive.google.com/open?id=1h0j4ZwE9-A_vo84hVN0e4R1J6LZ7pqnA"}
 pp["papers"][0] = {
-    "ref": """D. Su and K.-Y. Chan, "Compensating for Operational Uncertainty in Man-Machine Systems : A Case Study on Intelligent Vehicle Parking Assist System", ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems : Part B. Mechanical Engineering, 2015""",
-    "file": "2014IDETC2014_sudale_draft;2015JRISK_ManMachine.pdf",
-    "drive": "https://drive.google.com/open?id=1BUFrGVE2OXW1_661cO9c_qVNK_DQQHDN",
-    "type": "j",
-    "year": 2014}
-pp["papers"][0] = {
     "ref": """D. Su and K.-Y. Chan, "Compensating for Operational Uncertainty in Man-Machine Systems - a case study on intelligent vehicle parking assist", Proceedings of the ASME 2014 International Design and Engineering Technical Conference and Computers and Information in Engineering Conference, Buffalo, New York, USA, Aug 17-20, 2014""",
-    "file": "",
-    "drive": "",
+    "file": "2014IDETC2014_sudale_draft",
+    "drive": "https://drive.google.com/open?id=1BUFrGVE2OXW1_661cO9c_qVNK_DQQHDN",
     "type": "ic",
     "year": 2014}
+pp["papers"][1] = {
+    "ref": """D. Su and K.-Y. Chan, "Compensating for Operational Uncertainty in Man-Machine Systems : A Case Study on Intelligent Vehicle Parking Assist System", ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems : Part B. Mechanical Engineering, 2015""",
+    "file": "2015JRISK_ManMachine.pdf",
+    "drive": "https://drive.google.com/open?id=1pnW3pRsSte6Kuve5QpscSDCAJj5H4DOa",
+    "type": "j",
+    "year": 2015}
 
 pp.set_first_second()
 data[i] = pp
