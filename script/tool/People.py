@@ -5,6 +5,7 @@ demo["year"] = None
 demo["lab_id"] = None
 demo["alumni"] = True
 demo["thesis"] = {"chi": None, "eng": None, "file": None, "drive": None}
+demo["thesis2"] = {"chi": None, "eng": None, "file": None, "drive": None}
 demo["degrees"][id] = {"chi": None, "eng": None}
 demo["jobs"][id] = {"chi": None, "eng": None, "web": None}
 demo["papers"][id] = {"ref": None, "file": None, "drive": None, "type": None, "year": None}
@@ -21,6 +22,7 @@ class People(dict):
         self["year"] = None
         self["jobs"] = dict() # {id: {"chi": None, "eng": None, "web": None}, ...}
         self["thesis"] = {"chi": None, "eng": None, "file": None, "drive": None}
+        self["thesis2"] = {"chi": None, "eng": None, "file": None, "drive": None}
         self["research"] = {"chi": None, "eng": None}
         self["papers"] = dict() # {id: {"ref": None, "file": None, "drive": None, "type": None, "year": None}, ...}
         self["show_paper"] = True

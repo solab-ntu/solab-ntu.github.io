@@ -295,8 +295,13 @@ pp["jobs"][0] = {
 pp["thesis"] = {
     "chi": "不確定因素下整合風能微電網系統之設備規劃與配電策略最佳化", 
     "eng": "Optimization of A Wind-Integrated Microgrid System with Equipment Sizing and Dispatch Strategy", 
-    "file": "TzuChiehHung.pdf", 
+    "file": "TzuChiehHung-phd.pdf", 
     "drive": "https://drive.google.com/open?id=1hLzPLXtLL_fsoGHFw5LaJqVGUjod5nmc"}
+pp["thesis2"] = {
+    "chi": "多目標最佳設計與公差配置於單層與多層系統之整合", 
+    "eng": "Multi-objective Design and Tolerance Allocation for Single- and Multi-Level Systems", 
+    "file": "TzuChiehHung-master.pdf", 
+    "drive": "https://drive.google.com/open?id=14TZzkgaqV35ERNSyIEBylkxBmLblcbYE"}
 pp["papers"][0] = {
     "ref": """T.-C. Hung and K.-Y. Chan, "Multi-Objective Design and Tolerance Allocation for Single- and Multi-Level Systems", Journal of Intelligent Manufacturing, 24(3), pp.559-573, 2013""",
     "file": "2013ToleranceAllocation_JIMS.pdf",

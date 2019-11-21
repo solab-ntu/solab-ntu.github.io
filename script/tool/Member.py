@@ -64,6 +64,7 @@ class Member:
             degrees = d["degrees"]
             research = d["research"]
             thesis = d["thesis"]
+            thesis2 = d["thesis2"]
             papers = d["papers"]
             show_paper = d["show_paper"]
 
@@ -86,7 +87,11 @@ class Member:
                 script_member_page += template.MemberPage.script2_2.format(research["chi"], research["eng"])
 
             if any(value is not None for value in thesis.values()):
-                script_member_page += template.AlumniPage.script2_4.format(thesis["chi"], thesis["eng"], thesis["drive"])
+                script_member_page += template.AlumniPage.script2_4
+                script_member_page += template.AlumniPage.script2_5.format(thesis["chi"], thesis["eng"], thesis["drive"])
+
+            if any(value is not None for value in thesis2.values()):
+                script_member_page += template.AlumniPage.script2_5.format(thesis2["chi"], thesis2["eng"], thesis2["drive"])
 
             if papers and show_paper:
                 script_member_page += template.MemberPage.script3_1
@@ -156,6 +161,7 @@ class Member:
             degrees = d["degrees"]
             research = d["research"]
             thesis = d["thesis"]
+            thesis2 = d["thesis2"]
             papers = d["papers"]
 
             path_pic = "../files/" + name["eng"] +".jpg"
@@ -176,7 +182,11 @@ class Member:
                 script_alumni_page += template.MemberPage.script2_2.format(research["chi"], research["eng"])
 
             if any(value is not None for value in thesis.values()):
-                script_alumni_page += template.AlumniPage.script2_4.format(thesis["chi"], thesis["eng"], thesis["drive"])
+                script_alumni_page += template.AlumniPage.script2_4
+                script_alumni_page += template.AlumniPage.script2_5.format(thesis["chi"], thesis["eng"], thesis["drive"])
+
+            if any(value is not None for value in thesis2.values()):
+                script_alumni_page += template.AlumniPage.script2_5.format(thesis2["chi"], thesis2["eng"], thesis2["drive"])
 
             if papers:
                 script_alumni_page += template.MemberPage.script3_1

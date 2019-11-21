@@ -685,6 +685,9 @@ class AlumniPage():
     script2_4 = u"""
                             <span style="font:14px Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#000000;font-weight:bold; "><u>學位論文 Thesis</u></span>
                             <br />
+    """
+
+    script2_5 = u"""
                             <code><p style="line-height:15px"></code>
                             <span style="font:13px STHeitiTC-Light; ">
                                 {0}
