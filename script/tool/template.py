@@ -163,7 +163,7 @@ class Member():
                                 <a href="../../ContactInfo/ContactInfo.html" rel="self">聯絡方式 | Contact info</a>
                             </li>
                             <li>
-                                <a href="https://sites.google.com/solab.me.ntu.edu.tw/solab-wiki?pli=1&authuser=1" rel="self">Wiki</a>
+                                <a href="https://sites.google.com/solab.me.ntu.edu.tw/solab-wiki" rel="self">Wiki</a>
                             </li>
                         </ul>
                     </nav>
@@ -531,7 +531,7 @@ class Alumni():
                                 <a href="../../ContactInfo/ContactInfo.html" rel="self">聯絡方式 | Contact info</a>
                             </li>
                             <li>
-                                <a href="https://sites.google.com/solab.me.ntu.edu.tw/solab-wiki?pli=1&authuser=1" rel="self">Wiki</a>
+                                <a href="https://sites.google.com/solab.me.ntu.edu.tw/solab-wiki" rel="self">Wiki</a>
                             </li>
                         </ul>
                     </nav>
@@ -878,7 +878,7 @@ Version: 1.3
                         <li><a href="../Teaching/Teaching.html" rel="self">課程 | Teaching</a></li>
                         <li><a href="../ContactInfo/ContactInfo.html" rel="self">聯絡方式 | Contact info</a></li>
                         <li>
-                            <a href="https://sites.google.com/solab.me.ntu.edu.tw/solab-wiki?pli=1&authuser=1" rel="self">Wiki</a>
+                            <a href="https://sites.google.com/solab.me.ntu.edu.tw/solab-wiki" rel="self">Wiki</a>
                         </li>
                     </ul>
                 </nav>
