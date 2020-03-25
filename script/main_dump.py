@@ -69,13 +69,13 @@ pp["year"] = 8
 pp["degrees"][0] = {"chi": "元智大學 學士", "eng": "B.S., Yuan Ze University (05)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "National Cheng Kung University (08)"}
 pp["jobs"][0] = {
-    "chi": "德賽自動化技術有限公司", 
-    "eng": "Huizhou Desay Automation Technology Co., LTD", 
+    "chi": "德賽自動化技術有限公司",
+    "eng": "Huizhou Desay Automation Technology Co., LTD",
     "web": "http://auto.desay.com/"}
 pp["thesis"] = {
-    "chi": "多目標最佳化之解集合在不確定因素下之分析及預測", 
-    "eng": "Analysis and Prediction of the Shifts of Pareto Sets for Multi-Objective Optimization under Uncertainty", 
-    "file": "YuDaiJung.pdf", 
+    "chi": "多目標最佳化之解集合在不確定因素下之分析及預測",
+    "eng": "Analysis and Prediction of the Shifts of Pareto Sets for Multi-Objective Optimization under Uncertainty",
+    "file": "YuDaiJung.pdf",
     "drive": "https://drive.google.com/file/d/170VnY9eARaFx4iB4UFgpg8d209reUYM-/view?usp=sharing"}
 
 pp.set_first_second()
@@ -90,13 +90,13 @@ pp["name"]["eng"] = "Chih-Hao Liu"
 pp["year"] = 8
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (03)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (08)"}
-pp["jobs"][0] = {"chi": "瑞士商弗克司股份有限公司", 
-    "eng": "Fox Factory Switzerland GmbH", 
+pp["jobs"][0] = {"chi": "瑞士商弗克司股份有限公司",
+    "eng": "Fox Factory Switzerland GmbH",
     "web": "http://www.ridefox.com/"}
 pp["thesis"] = {
-    "chi": "壓力瓶在不確定因素下之構型最佳化設計", 
-    "eng": "Reliability-Based Shape Optimization of a Pressure Tank under Random and Stochastic Environments", 
-    "file": "LiuChihHao.pdf", 
+    "chi": "壓力瓶在不確定因素下之構型最佳化設計",
+    "eng": "Reliability-Based Shape Optimization of a Pressure Tank under Random and Stochastic Environments",
+    "file": "LiuChihHao.pdf",
     "drive": "https://drive.google.com/open?id=18WeMFU4-H6nHpx__kqc3dAns1OGJGuST"}
 pp["papers"][0] = {
     "ref": """C.-H. Liu and K.-Y. Chan, "Reliability-Based Shape Optimization Of A Pressure Tank Under Random And Stochastic Environments", Proceedings of the ASME 2008 International Design Engineering Technical Conferences & Computers and Information in Engineering Conference, IDETC/CIE 2008, August 3-6, 2008, Brooklyn, New York, USA""",
@@ -118,11 +118,11 @@ pp["year"] = 8
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (08)"}
 pp["degrees"][1] = {"chi": "美國密西根大學 碩士", "eng": "M.S., The University of Michigan (12)"}
 pp["jobs"][0] = {
-    "chi": "馬牌輪胎", 
-    "eng": "Continental Tire of North America, LLC", 
+    "chi": "馬牌輪胎",
+    "eng": "Continental Tire of North America, LLC",
     "web": "http://www.continentaltire.com/"}
 pp["research"] = {
-    "chi": "", 
+    "chi": "",
     "eng": "Equality Constraints in Probabilistic Optimization Problems"}
 pp["papers"][0] = {
     "ref": """C.-M. Ho and K.-Y. Chan, "Modified Reduced Gradient With Realizations Sorting for Hard Equality Constraints in Reliability-Based Design Optimization", ASME Journal of Mechanical Design, 133(1), 011004, 2011""",
@@ -176,13 +176,13 @@ pp["year"] = 9
 pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (07)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (09)"}
 pp["jobs"][0] = {
-    "chi": "美商史丹利七和國際股份有限公司", 
-    "eng": "The Stanley Works", 
+    "chi": "美商史丹利七和國際股份有限公司",
+    "eng": "The Stanley Works",
     "web": "http://stanley.stanleyblackanddecker.com.tw/"}
 pp["thesis"] = {
-    "chi": "以 β-Pareto 預測法解決不確定因素下之多目標最佳化", 
-    "eng": "A Method to Predict β-Pareto Frontiers for Multiobjective Optimization under Uncertainty", 
-    "file": "LinDongShin.pdf", 
+    "chi": "以 β-Pareto 預測法解決不確定因素下之多目標最佳化",
+    "eng": "A Method to Predict β-Pareto Frontiers for Multiobjective Optimization under Uncertainty",
+    "file": "LinDongShin.pdf",
     "drive": "https://drive.google.com/open?id=1us2mY5qJBk1ppEfMXPupw4JCmXGmzQsq"}
 pp["papers"][0] = {
     "ref": """D.-S. Lin, C.-M. Ho, and K.-Y. Chan, "Beta-Pareto Set Approximation for Multiobjective Optimization Under Uncertainty", Journal of Mechanical Design, 133(8), 081003, 2011""",
@@ -210,13 +210,13 @@ pp["year"] = 9
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (07)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (09)"}
 pp["jobs"][0] = {
-    "chi": "台灣積體電路製造股份有限公司", 
-    "eng": "Taiwan Semiconductor Manufacturing Company (TSMC)", 
+    "chi": "台灣積體電路製造股份有限公司",
+    "eng": "Taiwan Semiconductor Manufacturing Company (TSMC)",
     "web": "http://www.tsmc.com.tw/chinese/default.htm"}
 pp["thesis"] = {
-    "chi": "隨機取樣 SQP 演算法以解決非線性可靠度限制式之最佳化問題", 
-    "eng": "A Filter-Based Sample Average SQP for Optimization Problems with Highly Nonlinear Probabilistic Constraints", 
-    "file": "HsuKaiHsun.pdf", 
+    "chi": "隨機取樣 SQP 演算法以解決非線性可靠度限制式之最佳化問題",
+    "eng": "A Filter-Based Sample Average SQP for Optimization Problems with Highly Nonlinear Probabilistic Constraints",
+    "file": "HsuKaiHsun.pdf",
     "drive": "https://drive.google.com/open?id=1xFUdSoXCd_DuM9Evv35lZl9fTMQT4EHl"}
 pp["papers"][0] = {
     "ref": """K.-S. Hsu and K.-Y. Chan, "A Filter-Based Sample Average SQP for Optimization Problems with Highly Nonlinear Probabilistic Constraints", Journal of Mechanical Design 132 (11), 111002, 2010""",
@@ -238,13 +238,13 @@ pp["year"] = 10
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (08)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (10)"}
 pp["jobs"][0] = {
-    "chi": "國立台灣大學創新設計學院", 
-    "eng": "D-School, National Taiwan University", 
+    "chi": "國立台灣大學創新設計學院",
+    "eng": "D-School, National Taiwan University",
     "web": "http://dschool.ntu.edu.tw/"}
 pp["thesis"] = {
-    "chi": "可靠度最佳化方法應用於不確定因素下之城市交通法規制定", 
-    "eng": "Extension of Probabilistic Optimization to UrbanTraffic Policy-Setting Under Uncertainty", 
-    "file": "WuYuTa.pdf", 
+    "chi": "可靠度最佳化方法應用於不確定因素下之城市交通法規制定",
+    "eng": "Extension of Probabilistic Optimization to UrbanTraffic Policy-Setting Under Uncertainty",
+    "file": "WuYuTa.pdf",
     "drive": "https://drive.google.com/open?id=1jDiz31nnpqRnOXwxQZq31SCqorUWMPtW"}
 pp["papers"][0] = {
     "ref": """Y.-T. Wu and K.-Y. Chan, "Optimal Design and Impact Analysis of Urban Traffic Regulations Under Ambient Uncertainty", Stochastic Environmental Research and Risk Assessment, 25(2), P.271-286, 2011""",
@@ -266,13 +266,13 @@ pp["year"] = 10
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (08)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (10)"}
 pp["jobs"][0] = {
-    "chi": "華創車電技術中心股份有限公司", 
-    "eng": "Hua-Chuang Automobile Information Technical Center Co., Ltd.", 
+    "chi": "華創車電技術中心股份有限公司",
+    "eng": "Hua-Chuang Automobile Information Technical Center Co., Ltd.",
     "web": "http://www.haitec.com.tw/tc/"}
 pp["thesis"] = {
-    "chi": "移動式汙染源於不確定因素下制訂法規與測站點之循序最佳化方法", 
-    "eng": "Sequential Optimization of Transportation Regulations and Receptor Locations for Urban Mobile Emissions Under Uncertainty", 
-    "file": "ChangHsiuWen.pdf", 
+    "chi": "移動式汙染源於不確定因素下制訂法規與測站點之循序最佳化方法",
+    "eng": "Sequential Optimization of Transportation Regulations and Receptor Locations for Urban Mobile Emissions Under Uncertainty",
+    "file": "ChangHsiuWen.pdf",
     "drive": "https://drive.google.com/open?id=1BbrgBOYv5KV8zylss4jl6_pZLcYE_2-M"}
 
 pp.set_first_second()
@@ -289,18 +289,18 @@ pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National C
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (10)"}
 pp["degrees"][2] = {"chi": "國立台灣大學 博士", "eng": "Ph.D., National Taiwan University (16)"}
 pp["jobs"][0] = {
-    "chi": "宏碁股份有限公司", 
-    "eng": "Acer Incorporated", 
+    "chi": "宏碁股份有限公司",
+    "eng": "Acer Incorporated",
     "web": "https://www.acer.com/ac/zh/TW/content/home"}
 pp["thesis"] = {
-    "chi": "不確定因素下整合風能微電網系統之設備規劃與配電策略最佳化", 
-    "eng": "Optimization of A Wind-Integrated Microgrid System with Equipment Sizing and Dispatch Strategy", 
-    "file": "TzuChiehHung-phd.pdf", 
+    "chi": "不確定因素下整合風能微電網系統之設備規劃與配電策略最佳化",
+    "eng": "Optimization of A Wind-Integrated Microgrid System with Equipment Sizing and Dispatch Strategy",
+    "file": "TzuChiehHung-phd.pdf",
     "drive": "https://drive.google.com/open?id=1hLzPLXtLL_fsoGHFw5LaJqVGUjod5nmc"}
 pp["thesis2"] = {
-    "chi": "多目標最佳設計與公差配置於單層與多層系統之整合", 
-    "eng": "Multi-objective Design and Tolerance Allocation for Single- and Multi-Level Systems", 
-    "file": "TzuChiehHung-master.pdf", 
+    "chi": "多目標最佳設計與公差配置於單層與多層系統之整合",
+    "eng": "Multi-objective Design and Tolerance Allocation for Single- and Multi-Level Systems",
+    "file": "TzuChiehHung-master.pdf",
     "drive": "https://drive.google.com/open?id=14TZzkgaqV35ERNSyIEBylkxBmLblcbYE"}
 pp["papers"][0] = {
     "ref": """T.-C. Hung and K.-Y. Chan, "Multi-Objective Design and Tolerance Allocation for Single- and Multi-Level Systems", Journal of Intelligent Manufacturing, 24(3), pp.559-573, 2013""",
@@ -358,13 +358,13 @@ pp["year"] = 11
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (09)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (11)"}
 pp["jobs"][0] = {
-    "chi": "將群智權集團", 
-    "eng": "JC IP Group", 
+    "chi": "將群智權集團",
+    "eng": "JC IP Group",
     "web": "http://www.jcipgroup.com/"}
 pp["thesis"] = {
-    "chi": "時變可靠度最佳化演算法：PHI2 與 MADS 之整合", 
-    "eng": "Integration of PHI2 Method with MADS for Optimization with Time-Variant Reliability Constraints", 
-    "file": "LiuChiJu.pdf", 
+    "chi": "時變可靠度最佳化演算法：PHI2 與 MADS 之整合",
+    "eng": "Integration of PHI2 Method with MADS for Optimization with Time-Variant Reliability Constraints",
+    "file": "LiuChiJu.pdf",
     "drive": "https://drive.google.com/open?id=1RahQXEy0LZXwCTVjWIKUWs6m9qEMony0"}
 
 pp.set_first_second()
@@ -380,13 +380,13 @@ pp["year"] = 11
 pp["degrees"][0] = {"chi": "國立雲林科技大學 學士", "eng": "B.S., National Yunlin University of Science and Technology (09)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (11)"}
 pp["jobs"][0] = {
-    "chi": "台灣積體電路製造股份有限公司", 
-    "eng": "Taiwan Semiconductor Manufacturing Company (TSMC)", 
+    "chi": "台灣積體電路製造股份有限公司",
+    "eng": "Taiwan Semiconductor Manufacturing Company (TSMC)",
     "web": "http://www.tsmc.com.tw/chinese/default.htm"}
 pp["thesis"] = {
-    "chi": "可靠度設限資料之反應曲面於工程設計演進之應用", 
-    "eng": "Surrogate-Assisted Design Evolution with Censored Reliability Data in Engineering Design", 
-    "file": "HsuChiaHao.pdf", 
+    "chi": "可靠度設限資料之反應曲面於工程設計演進之應用",
+    "eng": "Surrogate-Assisted Design Evolution with Censored Reliability Data in Engineering Design",
+    "file": "HsuChiaHao.pdf",
     "drive": "https://drive.google.com/open?id=1u49eNSca4oYBfZc_GHXuKxHdbUfLfmx5"}
 
 pp.set_first_second()
@@ -402,13 +402,13 @@ pp["year"] = 11
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (09)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (11)"}
 pp["jobs"][0] = {
-    "chi": "華創車電技術中心股份有限公司", 
-    "eng": "Hua-Chuang Automobile Information Technical Center Co., Ltd.", 
+    "chi": "華創車電技術中心股份有限公司",
+    "eng": "Hua-Chuang Automobile Information Technical Center Co., Ltd.",
     "web": "http://www.haitec.com.tw/tc/"}
 pp["thesis"] = {
-    "chi": "複雜工程系統的循序暫緩設計方法", 
-    "eng": "Iterative Suspension and Solution Strategy for Complex Multidisciplinary Engineering Design", 
-    "file": "ChangShenChang.pdf", 
+    "chi": "複雜工程系統的循序暫緩設計方法",
+    "eng": "Iterative Suspension and Solution Strategy for Complex Multidisciplinary Engineering Design",
+    "file": "ChangShenChang.pdf",
     "drive": "https://drive.google.com/open?id=1pn0nsgK8s7nHnpTs-9XU-8AevJzY8i6U"}
 pp["papers"][0] = {
     "ref": """S.-C. Chang and K.-Y. Chan, "Iterative Decomposition and Solution Strategy for Complex Engineering Problems", the 9th World Congress on Structural and Multidisciplinary Optimization, Shizuoka, Japan, June 13-17, 2011""",
@@ -441,11 +441,11 @@ pp["name"]["eng"] = "Yu-Shen Kuo"
 pp["year"] = 11
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (10)"}
 pp["jobs"][0] = {
-    "chi": "廣達電腦股份有限公司", 
-    "eng": "Quanta Computer Incorporated", 
+    "chi": "廣達電腦股份有限公司",
+    "eng": "Quanta Computer Incorporated",
     "web": "http://www.quantatw.com/Quanta/chinese/Default.aspx"}
 pp["research"] = {
-    "chi": "", 
+    "chi": "",
     "eng": "Scenario Analyses of Traffic Regulations using Nagel-Schreckenberg Model"}
 
 pp.set_first_second()
@@ -472,13 +472,13 @@ pp["name"]["eng"] = "Li-Hao Chen"
 pp["year"] = 12
 pp["degrees"][0] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (12)"}
 pp["jobs"][0] = {
-    "chi": "友達光電股份有限公司", 
-    "eng": "AU Optronics Corporation", 
+    "chi": "友達光電股份有限公司",
+    "eng": "AU Optronics Corporation",
     "web": "https://auo.com/zh-TW"}
 pp["thesis"] = {
-    "chi": "風力發電場規劃與發電機葉片設計在地理限制下之整合研究", 
-    "eng": "Wind Farm Optimization with Turbine Blade Design Considering Geographical Constraints", 
-    "file": "ChenLiHao", 
+    "chi": "風力發電場規劃與發電機葉片設計在地理限制下之整合研究",
+    "eng": "Wind Farm Optimization with Turbine Blade Design Considering Geographical Constraints",
+    "file": "ChenLiHao",
     "drive": "https://drive.google.com/open?id=1cQu1tizFqkFWF8hwFbtiW92j5Nj4eBTr"}
 pp["papers"][0] = {
     "ref": """L.-H. Chen and K.-Y. Chan, "風力發電廠規劃與發電機葉片設計在地理限制下之整合研究", the 29st Chinese Society of Mechanical Engineers Conference, Dec., 2012""",
@@ -500,13 +500,13 @@ pp["year"] = 12
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (10)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (13)"}
 pp["jobs"][0] = {
-    "chi": "東元電機股份有限公司", 
-    "eng": "TECO Electric and Machinery Co., Ltd.", 
+    "chi": "東元電機股份有限公司",
+    "eng": "TECO Electric and Machinery Co., Ltd.",
     "web": "http://www.teco.com.tw/"}
 pp["thesis"] = {
-    "chi": "針對非充裕不確定資料設計之最佳取樣與資源配置", 
-    "eng": "Optimal Sample Augmentation and Resource Allocation for Design with Inadequate Uncertainty Data", 
-    "file": "LinPinYi.pdf", 
+    "chi": "針對非充裕不確定資料設計之最佳取樣與資源配置",
+    "eng": "Optimal Sample Augmentation and Resource Allocation for Design with Inadequate Uncertainty Data",
+    "file": "LinPinYi.pdf",
     "drive": "https://drive.google.com/open?id=180PXCnUFZD-ps3IaKAF1I66OpHsY3xoC"}
 pp["papers"][0] = {
     "ref": """P.-Y. Lin and K.-Y. Chan, "Optimal Sample Augmentation and Resource Allocation for Design with Inadequate Uncertainty Data ", Proceedings of the ASME International Design Engineering Technical Conference, Montreal, Canada, August 12-15, 2012""",
@@ -527,13 +527,13 @@ pp["name"]["eng"] = "Yi-Chien Hsueh"
 pp["year"] = 12
 pp["degrees"][0] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (12)"}
 pp["jobs"][0] = {
-    "chi": "華創車電技術中心股份有限公司", 
-    "eng": "Hua-Chuang Automobile Information Technical Center Co., Ltd.", 
+    "chi": "華創車電技術中心股份有限公司",
+    "eng": "Hua-Chuang Automobile Information Technical Center Co., Ltd.",
     "web": "http://www.haitec.com.tw/tc/"}
 pp["thesis"] = {
-    "chi": "公差與剛性對機械手臂於承載下精度之影響", 
-    "eng": "Impact of Tolerance and Stiffness on the Accuracy of Manipulators with Payload", 
-    "file": "HsuehYiChien.pdf", 
+    "chi": "公差與剛性對機械手臂於承載下精度之影響",
+    "eng": "Impact of Tolerance and Stiffness on the Accuracy of Manipulators with Payload",
+    "file": "HsuehYiChien.pdf",
     "drive": "https://drive.google.com/open?id=1oLV5mWTnMSrPKuJ8hu-SKhs-1YccEcMu"}
 pp["papers"][0] = {
     "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
@@ -554,7 +554,7 @@ pp["name"]["eng"] = "Hong-Wei Wang"
 pp["year"] = 12
 pp["degrees"][0] = {"chi": "國立成功大學 交換生", "eng": "Undergraduate Visiting Student, National Cheng Kung University (12)"}
 pp["research"] = {
-    "chi": "", 
+    "chi": "",
     "eng": "GearTrain System Design and Analysis"}
 
 pp.set_first_second()
@@ -570,13 +570,13 @@ pp["year"] = 13
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (11)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (13)"}
 pp["jobs"][0] = {
-    "chi": "泰金寶電通股份有限公司", 
-    "eng": "Cal-Comp Electronics & Communications Co., Ltd", 
+    "chi": "泰金寶電通股份有限公司",
+    "eng": "Cal-Comp Electronics & Communications Co., Ltd",
     "web": "http://www.newkinpogroup.com/big5/"}
 pp["thesis"] = {
-    "chi": "貝氏更新法應用於皮帶系統與不確定性壽命資料之設計整合", 
-    "eng": "A Bayesian Based Updating Scheme for Belt-Pulley Systems Design with Censored Life Data", 
-    "file": "HanYiChun.pdf", 
+    "chi": "貝氏更新法應用於皮帶系統與不確定性壽命資料之設計整合",
+    "eng": "A Bayesian Based Updating Scheme for Belt-Pulley Systems Design with Censored Life Data",
+    "file": "HanYiChun.pdf",
     "drive": "https://drive.google.com/open?id=1a2fKTyx1whggoMqqYs1xegIUO_GAgZmD"}
 
 pp.set_first_second()
@@ -594,7 +594,7 @@ pp["lab_id"] = "博士候選人 Ph.D. Candidate"
 pp["degrees"][0] = {"chi": "土耳其東地中海大學 學士", "eng": "B.S., Eastern Mediterranean University (08)"}
 pp["degrees"][1] = {"chi": "昆山科技大學 碩士", "eng": "M.S., Kun Shan University (11)"}
 pp["research"] = {
-    "chi": "", 
+    "chi": "",
     "eng": "Modified Principle Component Analysis for Time Varying Data Mining with Uncertainties"}
 pp["papers"][0] = {
     "ref": """J. Millogo and K.-Y. Chan, "Life Cycle Assessment under Uncertainty - a review", the Asia Design Engineering Workshop, Taipei, Taiwan, November 20-22, 2014""",
@@ -622,13 +622,13 @@ pp["year"] = 13
 pp["degrees"][0] = {"chi": "國立臺灣海洋大學 學士", "eng": "B.S., National Taiwan Ocean University (10)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (13)"}
 pp["jobs"][0] = {
-    "chi": "華創車電技術中心股份有限公司", 
-    "eng": "Hua-Chuang Automobile Information Technical Center Co., Ltd.", 
+    "chi": "華創車電技術中心股份有限公司",
+    "eng": "Hua-Chuang Automobile Information Technical Center Co., Ltd.",
     "web": "http://www.haitec.com.tw/tc/"}
 pp["thesis"] = {
-    "chi": "因應資料不確定性之最佳複合式反應曲面", 
-    "eng": "Composites of Surrogates with Data Uncertainty", 
-    "file": "WuDianYun.pdf", 
+    "chi": "因應資料不確定性之最佳複合式反應曲面",
+    "eng": "Composites of Surrogates with Data Uncertainty",
+    "file": "WuDianYun.pdf",
     "drive": "https://drive.google.com/open?id=1jDiz31nnpqRnOXwxQZq31SCqorUWMPtW"}
 
 pp.set_first_second()
@@ -643,9 +643,9 @@ pp["name"]["eng"] = "Dong-Tai Wang"
 pp["year"] = 13
 pp["degrees"][0] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (13)"}
 pp["thesis"] = {
-    "chi": "利用反應曲面輔助 DIRECT 演算法處理耗時工程設計問題", 
-    "eng": "Surrogate-Assisted DIRECT Algorithm for Optimization Problems with Expensive Engineering Simulations", 
-    "file": "WangDongTai.pdf", 
+    "chi": "利用反應曲面輔助 DIRECT 演算法處理耗時工程設計問題",
+    "eng": "Surrogate-Assisted DIRECT Algorithm for Optimization Problems with Expensive Engineering Simulations",
+    "file": "WangDongTai.pdf",
     "drive": "https://drive.google.com/open?id=1y4eWafky0SBvDNfcu9izHSvxE_pV7FhZ"}
 
 pp.set_first_second()
@@ -660,11 +660,11 @@ pp["name"]["eng"] = "Yee-Chun Tan"
 pp["year"] = 13
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (13)"}
 pp["jobs"][0] = {
-    "chi": "", 
-    "eng": "Petrofac Malaysia", 
+    "chi": "",
+    "eng": "Petrofac Malaysia",
     "web": "https://www.petrofac.com/en-gb/home/"}
 pp["research"] = {
-    "chi": "", 
+    "chi": "",
     "eng": "Design and Analysis of Vehicle Belt-driven Starter Generator"}
 
 pp.set_first_second()
@@ -679,13 +679,13 @@ pp["name"]["eng"] = "Min-Cheng Lai"
 pp["year"] = 14
 pp["degrees"][0] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (14)"}
 pp["jobs"][0] = {
-    "chi": "鴻海科技集團", 
-    "eng": "Foxconn Technology Group", 
+    "chi": "鴻海科技集團",
+    "eng": "Foxconn Technology Group",
     "web": "http://www.foxconn.com.tw/"}
 pp["thesis"] = {
-    "chi": "機器手臂在考量關節間隙下之多目標路徑規劃", 
-    "eng": "Multi-objective Path Planning for Robot Manipulators with Joint Clearance", 
-    "file": "LaiMinCheng.pdf", 
+    "chi": "機器手臂在考量關節間隙下之多目標路徑規劃",
+    "eng": "Multi-objective Path Planning for Robot Manipulators with Joint Clearance",
+    "file": "LaiMinCheng.pdf",
     "drive": "https://drive.google.com/open?id=1Y2sWLLN3LIuA0xfLlmubIbMW2vva7ZSw"}
 pp["papers"][0] = {
     "ref": """M.-C. Lai and K.-Y. Chan, "Minimal Deviation Paths for Manipulators with Joint Clearances", Proceedings of the 2014 International Design Engineering Technical Conferences, Buffalo, NY, USA, August 17-20, 2014""",
@@ -713,13 +713,13 @@ pp["year"] = 14
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (12)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (14)"}
 pp["jobs"][0] = {
-    "chi": "愛爾蘭商速聯股份有限公司", 
-    "eng": "SRAM Corporation", 
+    "chi": "愛爾蘭商速聯股份有限公司",
+    "eng": "SRAM Corporation",
     "web": "https://www.sram.com/"}
 pp["thesis"] = {
-    "chi": "人機系統中人為誤差補償方法", 
-    "eng": "Compensating For Operational Uncertainty in Man-Machine System: A case Study On Intelligent Vehicle Parking Assist", 
-    "file": "SuDale.pdf", 
+    "chi": "人機系統中人為誤差補償方法",
+    "eng": "Compensating For Operational Uncertainty in Man-Machine System: A case Study On Intelligent Vehicle Parking Assist",
+    "file": "SuDale.pdf",
     "drive": "https://drive.google.com/open?id=1h0j4ZwE9-A_vo84hVN0e4R1J6LZ7pqnA"}
 pp["papers"][0] = {
     "ref": """D. Su and K.-Y. Chan, "Compensating for Operational Uncertainty in Man-Machine Systems - a case study on intelligent vehicle parking assist", Proceedings of the ASME 2014 International Design and Engineering Technical Conference and Computers and Information in Engineering Conference, Buffalo, New York, USA, Aug 17-20, 2014""",
@@ -746,13 +746,13 @@ pp["name"]["eng"] = "Chao-Yu Yen"
 pp["year"] = 14
 pp["degrees"][0] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (14)"}
 pp["jobs"][0] = {
-    "chi": "泰金寶電通股份有限公司", 
-    "eng": "Cal-Comp Electronics & Communications Co., Ltd", 
+    "chi": "泰金寶電通股份有限公司",
+    "eng": "Cal-Comp Electronics & Communications Co., Ltd",
     "web": "http://www.newkinpogroup.com/big5/"}
 pp["thesis"] = {
-    "chi": "結合重要性指標與敏感度以提升連鎖失效系統之可靠度", 
-    "eng": "Integrating Importance Measure with Sensitivity Analysis to Improve the Reliability of Cascading Failure System", 
-    "file": "YenChaoYu.pdf", 
+    "chi": "結合重要性指標與敏感度以提升連鎖失效系統之可靠度",
+    "eng": "Integrating Importance Measure with Sensitivity Analysis to Improve the Reliability of Cascading Failure System",
+    "file": "YenChaoYu.pdf",
     "drive": "https://drive.google.com/open?id=16sOiHehxvbhwUj9LzBVcBquO8EA0nJFg"}
 
 pp.set_first_second()
@@ -767,13 +767,13 @@ pp["name"]["eng"] = "Chih-Jung Chang"
 pp["year"] = 14
 pp["degrees"][0] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (14)"}
 pp["jobs"][0] = {
-    "chi": "鴻海科技集團", 
-    "eng": "Foxconn Technology Group", 
+    "chi": "鴻海科技集團",
+    "eng": "Foxconn Technology Group",
     "web": "http://www.foxconn.com.tw/"}
 pp["thesis"] = {
-    "chi": "不確定因素下異構風場的多目標分析", 
-    "eng": "Multi-criteria Analysis of Heterogeneous Wind Farms under Uncertainty", 
-    "file": "ChangChihJung.pdf", 
+    "chi": "不確定因素下異構風場的多目標分析",
+    "eng": "Multi-criteria Analysis of Heterogeneous Wind Farms under Uncertainty",
+    "file": "ChangChihJung.pdf",
     "drive": "https://drive.google.com/open?id=1e74x5eeLSNq2643eUPlBUzirpH_qGT3S"}
 pp["papers"][0] = {
     "ref": """C.-J. Chang, P.-S. Lin, and K.-Y. Chan, "The Concept of Heterogeneity in Wind Farm Optimization", the Asia Design Engineering Workshop, Taipei, Taiwan, November 20-22, 2014""",
@@ -787,7 +787,7 @@ pp["papers"][1] = {
     "drive": "",
     "type": "ic",
     "year": 2014}
-    
+
 pp.set_first_second()
 data[i] = pp
 
@@ -800,13 +800,13 @@ pp["name"]["eng"] = "You-An Lin"
 pp["year"] = 15
 pp["degrees"][0] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (15)"}
 pp["jobs"][0] = {
-    "chi": "漢翔航空工業股份有限公司", 
-    "eng": "Aerospace Industrial Development Corporation", 
+    "chi": "漢翔航空工業股份有限公司",
+    "eng": "Aerospace Industrial Development Corporation",
     "web": "http://www.aidc.com.tw/tw/"}
 pp["thesis"] = {
-    "chi": "車流模擬與車輛設計於都會區機車油耗減量之整合", 
-    "eng": "Reducing the Fuel Consumption of Urban Scooter Fleet via Integrating Traffic Simulation in Vehicle Design", 
-    "file": "LinYouAn.pdf", 
+    "chi": "車流模擬與車輛設計於都會區機車油耗減量之整合",
+    "eng": "Reducing the Fuel Consumption of Urban Scooter Fleet via Integrating Traffic Simulation in Vehicle Design",
+    "file": "LinYouAn.pdf",
     "drive": "https://drive.google.com/open?id=1N9PvtFqLt2lWo1C0-NPMFoCOf0gTSxsz"}
 pp["papers"][0] = {
     "ref": """Y.-A. Lin and K.-Y. Chan, "A Direct Simulation Method for Continuous Variable Transmission with Component-wise Design Specifications", the 17st Chinese Society of Mechanism and Machine Theory Conference, Taichung, Taiwan, Nov. 14, 2014""",
@@ -845,13 +845,13 @@ pp["name"]["eng"] = "You-Chen Chang"
 pp["year"] = 15
 pp["degrees"][0] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (15)"}
 pp["jobs"][0] = {
-    "chi": "建準電機工業股份有限公司", 
-    "eng": "Sunonwealth Electric Machine Industry co., lt", 
+    "chi": "建準電機工業股份有限公司",
+    "eng": "Sunonwealth Electric Machine Industry co., lt",
     "web": "http://www.sunon.com.tw/"}
 pp["thesis"] = {
-    "chi": "用於提升電子系統可靠度之貝式失效診斷法", 
-    "eng": "A Bayesian-Based Fault Diagnosis Method for Reliability Improvement of Electric System", 
-    "file": "ChangYouChen.pdf", 
+    "chi": "用於提升電子系統可靠度之貝式失效診斷法",
+    "eng": "A Bayesian-Based Fault Diagnosis Method for Reliability Improvement of Electric System",
+    "file": "ChangYouChen.pdf",
     "drive": "https://drive.google.com/open?id=1RDu8mAbWHuNPJtTlzy8XHVtVC0ECE9L_"}
 pp["papers"][0] = {
     "ref": """Y.-C. Chang, H.-W. Huang, K.-Y. Chan, W.-F. Wu and T.-C. Liu, "Enhanced Markovian Model with Physics of Failures for Long-term Reliability Analysis of Electrical Systems", the 14th World Congress in Mechanism and Machine Science, Taipei, Taiwan, October 25-30, 2015""",
@@ -872,13 +872,13 @@ pp["name"]["eng"] = "Pao-An Chen"
 pp["year"] = 16
 pp["degrees"][0] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (16)"}
 pp["jobs"][0] = {
-    "chi": "將群智權集團", 
-    "eng": "JC IP Group", 
+    "chi": "將群智權集團",
+    "eng": "JC IP Group",
     "web": "http://www.jcipgroup.com/"}
 pp["thesis"] = {
-    "chi": "以混合車流模型為基礎之最佳路網避障路徑規劃", 
-    "eng": "The Optimal Route Planning for Road Network with Obstacles using Mixed Fleets", 
-    "file": "PaoAnChen.pdf", 
+    "chi": "以混合車流模型為基礎之最佳路網避障路徑規劃",
+    "eng": "The Optimal Route Planning for Road Network with Obstacles using Mixed Fleets",
+    "file": "PaoAnChen.pdf",
     "drive": "https://drive.google.com/open?id=1VQYagihZIT_zWvew3umSBxBp3vg8s0uF"}
 pp["papers"][0] = {
     "ref": """P.-A. Chen and K.-Y. Chan, "A Novel Traffic Simulation with Mixed Flow for Obstacle Avoidance Analysis and Strategy", the 32nd Chinese Society of Mechanical Engineers Conference, Kaohsiung, Taiwan, December 11-12, 2015""",
@@ -900,13 +900,13 @@ pp["year"] = 16
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (14)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (16)"}
 pp["jobs"][0] = {
-    "chi": "台達電子工業股份有限公司", 
-    "eng": "Delta Electronics, Inc.", 
+    "chi": "台達電子工業股份有限公司",
+    "eng": "Delta Electronics, Inc.",
     "web": "http://www.deltaww.com/"}
 pp["thesis"] = {
-    "chi": "機械手臂之關節間隙評估與運行精度提升之方法", 
-    "eng": "Analysis and Accuracy Improvement of Robot Manipulators with Joint Clearance", 
-    "file": "KuanLinLi.pdf", 
+    "chi": "機械手臂之關節間隙評估與運行精度提升之方法",
+    "eng": "Analysis and Accuracy Improvement of Robot Manipulators with Joint Clearance",
+    "file": "KuanLinLi.pdf",
     "drive": "https://drive.google.com/open?id=1m8XLDGgIIyljSsjk4bxAOdzoFrOh1NDP"}
 pp["papers"][0] = {
     "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
@@ -951,9 +951,9 @@ pp["name"]["eng"] = "Po-Shen Lin"
 pp["year"] = 16
 pp["degrees"][0] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (16)"}
 pp["thesis"] = {
-    "chi": "考量葉片幾何形狀之風場設計自動化", 
-    "eng": "Design Automation of Wind Farm Planning with Turbine Blade Geometry", 
-    "file": "PoShenLin.pdf", 
+    "chi": "考量葉片幾何形狀之風場設計自動化",
+    "eng": "Design Automation of Wind Farm Planning with Turbine Blade Geometry",
+    "file": "PoShenLin.pdf",
     "drive": "https://drive.google.com/open?id=1c-kVdsDfJBxRAphrijrYuUg8OfwNq1bs"}
 
 pp.set_first_second()
@@ -968,13 +968,13 @@ pp["name"]["eng"] = "Yueh-I Lin"
 pp["year"] = 16
 pp["degrees"][0] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (16)"}
 pp["jobs"][0] = {
-    "chi": "台達電子工業股份有限公司", 
-    "eng": "Delta Electronics, Inc.", 
+    "chi": "台達電子工業股份有限公司",
+    "eng": "Delta Electronics, Inc.",
     "web": "http://www.deltaww.com/"}
 pp["thesis"] = {
-    "chi": "使用模型校準以識別複雜系統參數數值之方法", 
-    "eng": "Identifying Parameter Uncertainties in Model Calibration of Complex Systems", 
-    "file": "YuehILin.pdf", 
+    "chi": "使用模型校準以識別複雜系統參數數值之方法",
+    "eng": "Identifying Parameter Uncertainties in Model Calibration of Complex Systems",
+    "file": "YuehILin.pdf",
     "drive": "https://drive.google.com/open?id=1P7bjDBSKUW8QXsOVuMZqEASKoFZsci0V"}
 
 pp.set_first_second()
@@ -990,13 +990,13 @@ pp["year"] = 16
 pp["degrees"][0] = {"chi": "國立台灣大學 學士", "eng": "B.S., National Taiwan University (14)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (17)"}
 pp["jobs"][0] = {
-    "chi": "光寶科技股份有限公司", 
-    "eng": "LITE-ON Technology Group", 
+    "chi": "光寶科技股份有限公司",
+    "eng": "LITE-ON Technology Group",
     "web": "https://www.liteon.com/zh-tw"}
 pp["thesis"] = {
-    "chi": "跆拳道踢擊的生物力學不確定因素", 
-    "eng": "Uncertainty in the Biomechanics of Taekwondo Kick", 
-    "file": "LowShinYi.pdf", 
+    "chi": "跆拳道踢擊的生物力學不確定因素",
+    "eng": "Uncertainty in the Biomechanics of Taekwondo Kick",
+    "file": "LowShinYi.pdf",
     "drive": "https://drive.google.com/open?id=1dBAxdFs839G99lXTOFYu2m5ZFSwFV5Ry"}
 pp["papers"][0] = {
     "ref": """S. Low and K.-Y. Chan, "Uncertainty in the Biomechanics of Taekwondo Kick", International Workshop on Reliability for Advanced Technology, Taipei, Taiwan, Feb 16, 2017""",
@@ -1017,9 +1017,9 @@ pp["year"] = 17
 pp["degrees"][0] = {"chi": "國立台灣大學 學士", "eng": "B.S., National Taiwan University (15)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (17)"}
 pp["thesis"] = {
-    "chi": "人與自動駕駛的不確定因素分析與可靠度比較應用於現有車輛上－變換車道案例分析", 
-    "eng": "Uncertainty Analysis and Reliability Comparisons between Human and Computer Drivers for On-Road Vehicles : A Case on Lane-change", 
-    "file": "YuYuChun.pdf", 
+    "chi": "人與自動駕駛的不確定因素分析與可靠度比較應用於現有車輛上－變換車道案例分析",
+    "eng": "Uncertainty Analysis and Reliability Comparisons between Human and Computer Drivers for On-Road Vehicles : A Case on Lane-change",
+    "file": "YuYuChun.pdf",
     "drive": "https://drive.google.com/open?id=1ea7-sWDjCF1KeNP8yw6dfbocWrJ6cOoJ"}
 pp["papers"][0] = {
     "ref": """Y.-C. Yu and K.-Y. Chan, "A Study on the Lane-changing Intension and Detection for Autonomous Vehicles", the 21st National Conference on Vehicle Engineering, Tainan, Taiwan, Nov 18, 2016""",
@@ -1041,13 +1041,13 @@ pp["year"] = 17
 pp["degrees"][0] = {"chi": "國立台灣大學 學士", "eng": "B.S., National Taiwan University (15)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (17)"}
 pp["jobs"][0] = {
-    "chi": "永宏電機股份有限公司", 
-    "eng": "FATEK Automation Corporation", 
+    "chi": "永宏電機股份有限公司",
+    "eng": "FATEK Automation Corporation",
     "web": "http://www.fatek.com/en/"}
 pp["thesis"] = {
-    "chi": "動態行為之參數辨識與校正", 
-    "eng": "Uncertainty Parameter Identification and Calibration in Dynamic Performances", 
-    "file": "ChuYingHua.pdf", 
+    "chi": "動態行為之參數辨識與校正",
+    "eng": "Uncertainty Parameter Identification and Calibration in Dynamic Performances",
+    "file": "ChuYingHua.pdf",
     "drive": "https://drive.google.com/open?id=1N7YUV68kbeGGhi0VAsaLKqAtaIU4VH04"}
 pp["papers"][0] = {
     "ref": """Y.-H. Chu and K.-Y. Chan, "Uncertainty Parameter Identification and Calibration in Dynamic Performances", International Workshop on Reliability for Advanced Technology, Taipei, Taiwan, Feb 16, 2017""",
@@ -1070,13 +1070,13 @@ pp["year"] = 17
 pp["degrees"][0] = {"chi": "國立台灣大學 學士", "eng": "B.S., National Taiwan University (15)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (18)"}
 pp["jobs"][0] = {
-    "chi": "鼎天國際股份有限公司", 
-    "eng": "RoyalTek Company Ltd.", 
+    "chi": "鼎天國際股份有限公司",
+    "eng": "RoyalTek Company Ltd.",
     "web": "http://www.royaltek.com/"}
 pp["thesis"] = {
-    "chi": "使用反應曲面以提升電池電量在動態運行下的預測精度", 
-    "eng": "Improved State of Charge Estimation of Lithium-Ion Cells via Surrogate Modeling under Dynamic Operating Conditions", 
-    "file": "ChongXianZhu.pdf", 
+    "chi": "使用反應曲面以提升電池電量在動態運行下的預測精度",
+    "eng": "Improved State of Charge Estimation of Lithium-Ion Cells via Surrogate Modeling under Dynamic Operating Conditions",
+    "file": "ChongXianZhu.pdf",
     "drive": "https://drive.google.com/open?id=1Lz1UeP31cz0yOEOruxich7D-I-9dAy43"}
 pp["papers"][0] = {
     "ref": """J. Chong and K.-Y. Chan, "Improved State of Charge Estimation of Lithium-ion Battery via Surrogate Modeling Under Dynamic Operating Conditions", International Workshop on Reliability for Advanced Technology, Feb 16, 2017, Taipei, Taiwan""",
@@ -1099,9 +1099,9 @@ pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., Nati
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (18)"}
 pp["degrees"][2] = {"chi": "美國德州農工大學 博士班學生", "eng": "Ph.D. Student, Texas A&M University (19~)"}
 pp["thesis"] = {
-    "chi": "垂直多關節機械手臂與並聯式機械手臂之不確定因素評估與工作表現最佳化", 
-    "eng": "Uncertainty Estimation and Performance Optimization for Vertical Articulated and Parallel Robot Manipulators", 
-    "file": "YingKuanTsai.pdf", 
+    "chi": "垂直多關節機械手臂與並聯式機械手臂之不確定因素評估與工作表現最佳化",
+    "eng": "Uncertainty Estimation and Performance Optimization for Vertical Articulated and Parallel Robot Manipulators",
+    "file": "YingKuanTsai.pdf",
     "drive": "https://drive.google.com/open?id=1ivC-HnH40XqYlPAtcd4JWi9atGYzP6Dt"}
 pp["papers"][0] = {
     "ref": """K.-L. Li, Y.-K. Tsai, and K.-Y. Chan, "Identifying Joint Clearance via Robot Manipulation", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science 232, no. 15, August, 2018""",
@@ -1114,7 +1114,7 @@ pp["papers"][1] = {
     "type": "ic",
     "file": "",
     "drive": "",
-    "year": 2018}   
+    "year": 2018}
 pp["papers"][2] = {
     "ref": """Y.-K. Tsai, and K.-Y. Chan, "Investigation on the Impact of Non-geometric Uncertainty in Dynamic Performance of Serial and Parallel Robot Manipulators", Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, Vol. 233, issue 10, pp.3487-3511, May 1, 2019""",
     "type": "j",
@@ -1126,7 +1126,7 @@ pp["papers"][3] = {
     "type": "j",
     "file": "",
     "drive": "",
-    "year": 2018}   
+    "year": 2018}
 
 pp.set_first_second()
 data[i] = pp
@@ -1141,13 +1141,13 @@ pp["year"] = 18
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (16)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (18)"}
 pp["jobs"][0] = {
-    "chi": "新代科技股份有限公司", 
-    "eng": "SYNTEC Technology Co. Ltd.", 
+    "chi": "新代科技股份有限公司",
+    "eng": "SYNTEC Technology Co. Ltd.",
     "web": "https://www.syntecclub.com.tw/"}
 pp["thesis"] = {
-    "chi": "以多重性能偏移特性辨識與校準複雜系統參數之方法", 
-    "eng": "Identification and Calibration of Complex Model Parameters via Multiple Performance Deviations", 
-    "file": "LeeMinHsien .pdf", 
+    "chi": "以多重性能偏移特性辨識與校準複雜系統參數之方法",
+    "eng": "Identification and Calibration of Complex Model Parameters via Multiple Performance Deviations",
+    "file": "LeeMinHsien .pdf",
     "drive": "https://drive.google.com/open?id=1UI-EiW85FZzHUKyxDl5BUn0tBrxSpYrJ"}
 
 pp.set_first_second()
@@ -1163,9 +1163,9 @@ pp["year"] = 18
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (16)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (18)"}
 pp["thesis"] = {
-    "chi": "自主駕駛車輛的佔有比對都會混流交通的影響", 
-    "eng": "A Study on the Effect of Autonomous Vehicle Penetration Rate in Urban Mix-fleet Traffic", 
-    "file": "LinChunTing.pdf", 
+    "chi": "自主駕駛車輛的佔有比對都會混流交通的影響",
+    "eng": "A Study on the Effect of Autonomous Vehicle Penetration Rate in Urban Mix-fleet Traffic",
+    "file": "LinChunTing.pdf",
     "drive": "https://drive.google.com/open?id=1h1cEqxy63Il_p97xt-4aDefSKTsrS4sD"}
 
 pp.set_first_second()
@@ -1182,7 +1182,7 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (16)"}
 pp["research"] = {
-    "chi": "以振動分析模擬技術提升電動車輛控制器之可靠度", 
+    "chi": "以振動分析模擬技術提升電動車輛控制器之可靠度",
     "eng": "Simulation-Based Vibration Analysis for Reliability Improvement of Motor Drive Controllers"}
 pp["papers"][0] = {
     "ref": """S.-C. Hsu and K.-Y. Chan, "Simulation-based Vibration Analysis for Reliability Improvement of Motor Drive Controllers", International Workshop on Reliability for Advanced Technology, Taipei, Taiwan, Feb 16, 2017""",
@@ -1206,9 +1206,9 @@ pp["lab_id"] = "博士候選人 Ph.D. Candidate"
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (07)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (09)"}
 pp["thesis"] = {
-    "chi": "針對機率拘束空間內最大可靠度問題之 EGO 演算法修正", 
-    "eng": "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space", 
-    "file": "HuangYenChih.pdf", 
+    "chi": "針對機率拘束空間內最大可靠度問題之 EGO 演算法修正",
+    "eng": "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space",
+    "file": "HuangYenChih.pdf",
     "drive": "https://drive.google.com/open?id=1L1nhqYLK1nobKftAjdLjzQnIsHtoA1F_"}
 pp["papers"][0] = {
     "ref": """K.-Y. Chan and Y.-C. Huang, "An Active Set Sequential Quadratic Programming with Variable Probabilistic Constraint Evaluations for Optimization Problems under Non-Gaussian Uncertainties", Journal of Mechanical Engineering Science 226(6), pp.1273-1285, 2010""",
@@ -1238,7 +1238,7 @@ pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
 pp["research"] = {
-    "chi": "以機率模型預測在都市十字路口的駕駛行為", 
+    "chi": "以機率模型預測在都市十字路口的駕駛行為",
     "eng": "Probabilistic Modeling and Prediction of Driver Behaviors at Urban Crossroads"}
 pp["papers"][0] = {
     "ref": """Y.-C. Liu and K.-Y. Chan, "Probabilistic Modeling of Driver Behaviors at Urban Crossroads", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
@@ -1261,7 +1261,7 @@ pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
 pp["research"] = {
-    "chi": "", 
+    "chi": "",
     "eng": "Pose Calibration with Machine Vision for Uncertainty Modeling of Cyber-Physical Robot Systems"}
 pp["papers"][0] = {
     "ref": """P.-Y. Chen and K.-Y. Chan, "Improving Hole-Searching Accuracy for Peg-in-Hole Assemble with Manipulator Harmonic Drive Uncertainty", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
@@ -1284,7 +1284,7 @@ pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
 pp["research"] = {
-    "chi": "感測器誤差對自駕車變換車道策略的敏感性評估", 
+    "chi": "感測器誤差對自駕車變換車道策略的敏感性評估",
     "eng": "Assessing the sensitivity of sensor uncertainty to autonomous vehicle driving strategies during lane change maneuver"}
 pp["papers"][0] = {
     "ref": """H.-T. Tsai and K.-Y. Chan, "Investigating the Impact of Component Uncertainty on Autonomous Vehicles Overtaking Maneuvers", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
@@ -1307,7 +1307,7 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (18)"}
 pp["research"] = {
-    "chi": "用於車輛設計中的不確定因素及失效檢測方法", 
+    "chi": "用於車輛設計中的不確定因素及失效檢測方法",
     "eng": "Uncertainty Modeling and Failure Identification in Vehicle Design"}
 
 pp.set_first_second()
@@ -1425,7 +1425,7 @@ pp["alumni"] = True
 pp["lab_id"] = "專題生 Graduate Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (21)"}
 pp["research"] = {
-    "chi": "四連桿公差制定與動態模擬", 
+    "chi": "四連桿公差制定與動態模擬",
     "eng": "Four Bar Linkage Mechanism Tolerance Allocation and Dynamic Simulation"}
 
 pp.set_first_second()
@@ -1487,28 +1487,40 @@ pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National T
 pp.set_first_second()
 data[i] = pp
 
-# -- 
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "游家權"
+pp["name"]["eng"] = "Jia-Quan Yu"
+pp["year"] = 17
+pp["alumni"] = False
+pp["lab_id"] = "研究助理 Research Assistant"
+pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
+
+pp.set_first_second()
+data[i] = pp
 
 # i += 1
 # pp = tool.People()
 # pp["name"]["chi"] = ""
 # pp["name"]["eng"] = ""
-# pp["year"] = 
+# pp["year"] =
 # pp["alumni"] = False
 # pp["lab_id"] = "碩士班學生 M.S. Student"
 # pp["degrees"][0] = {"chi": "", "eng": ""}
 # pp["degrees"][1] = {"chi": "", "eng": ""}
 # pp["jobs"][0] = {
-#     "chi": "", 
-#     "eng": "", 
+#     "chi": "",
+#     "eng": "",
 #     "web": ""}
 # pp["thesis"] = {
-#     "chi": "", 
-#     "eng": "", 
-#     "file": "", 
+#     "chi": "",
+#     "eng": "",
+#     "file": "",
 #     "drive": ""}
 # pp["research"] = {
-#     "chi": "", 
+#     "chi": "",
 #     "eng": ""}
 # pp["papers"][0] = {
 #     "ref": """""",
@@ -1521,4 +1533,3 @@ data[i] = pp
 
 with open('people.json', 'w', encoding='utf-8') as fp:
     json.dump(data, fp, ensure_ascii=False)
-    
