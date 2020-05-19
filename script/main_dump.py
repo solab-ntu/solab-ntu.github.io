@@ -1309,6 +1309,12 @@ pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National C
 pp["research"] = {
     "chi": "用於車輛設計中的不確定因素及失效檢測方法",
     "eng": "Uncertainty Modeling and Failure Identification in Vehicle Design"}
+pp["papers"][0] = {
+    "ref": """Y.-P. Chen and K.-Y. Chan, "Designing Excitation Maneuvers with Maximal Parameter Sensitivity for an X-By-Wire Autonomous Tricycle", Proceedings of the ASME 2020 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, St. Louis, USA, Aug. 16-19, 2020""",
+    "file": "2020_ASME_IDETC_Chenyp.pdf",
+    "drive": "https://drive.google.com/file/d/1omiyid5HVUlMnDuMoZVAdhJZvLF3s2kV",
+    "type": "ic",
+    "year": 2020}
 
 pp.set_first_second()
 data[i] = pp
@@ -1533,3 +1539,5 @@ data[i] = pp
 
 with open('people.json', 'w', encoding='utf-8') as fp:
     json.dump(data, fp, ensure_ascii=False)
+
+print("write to people.json")
