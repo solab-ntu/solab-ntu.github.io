@@ -1,3 +1,5 @@
+#/usr/bin/python3
+
 import json
 
 import tool
@@ -589,10 +591,10 @@ pp = tool.People()
 pp["name"]["chi"] = "米約瑟"
 pp["name"]["eng"] = "Joseph Millogo"
 pp["year"] = 13
-pp["alumni"] = False
-pp["lab_id"] = "博士候選人 Ph.D. Candidate"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "土耳其東地中海大學 學士", "eng": "B.S., Eastern Mediterranean University (08)"}
 pp["degrees"][1] = {"chi": "昆山科技大學 碩士", "eng": "M.S., Kun Shan University (11)"}
+pp["degrees"][2] = {"chi": "國立台灣大學 博士", "eng": "Ph.D., National Taiwan University (20)"}
 pp["research"] = {
     "chi": "",
     "eng": "Modified Principle Component Analysis for Time Varying Data Mining with Uncertainties"}
@@ -1147,7 +1149,7 @@ pp["jobs"][0] = {
 pp["thesis"] = {
     "chi": "以多重性能偏移特性辨識與校準複雜系統參數之方法",
     "eng": "Identification and Calibration of Complex Model Parameters via Multiple Performance Deviations",
-    "file": "LeeMinHsien .pdf",
+    "file": "LeeMinHsien.pdf",
     "drive": "https://drive.google.com/open?id=1UI-EiW85FZzHUKyxDl5BUn0tBrxSpYrJ"}
 
 pp.set_first_second()
@@ -1233,8 +1235,7 @@ pp = tool.People()
 pp["name"]["chi"] = "劉員成"
 pp["name"]["eng"] = "Yuan-Cheng Liu"
 pp["year"] = 19
-pp["alumni"] = False
-pp["lab_id"] = "研究助理 Research Assistant"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
 pp["research"] = {
@@ -1260,9 +1261,11 @@ pp["year"] = 19
 pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
-pp["research"] = {
-    "chi": "",
-    "eng": "Pose Calibration with Machine Vision for Uncertainty Modeling of Cyber-Physical Robot Systems"}
+pp["thesis"] = {
+    "chi": "垂直多關節機械手臂應用於高精密插件組裝任務之離線校正方法",
+    "eng": "Offline Calibration for Vertical Articulated Robot Manipulator in High Precision Peg-in-Hole Assembly",
+    "file": "ChenPoYu.pdf",
+    "drive": "https://drive.google.com/open?id=1ixaH_ZPUqq9B2SzZs0AWM2GOCM7Ne41m"}
 pp["papers"][0] = {
     "ref": """P.-Y. Chen and K.-Y. Chan, "Improving Hole-Searching Accuracy for Peg-in-Hole Assemble with Manipulator Harmonic Drive Uncertainty", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
     "file": "2019_ASME_IDETC_chenpy.pdf",
@@ -1283,9 +1286,11 @@ pp["year"] = 19
 pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
-pp["research"] = {
-    "chi": "感測器誤差對自駕車變換車道策略的敏感性評估",
-    "eng": "Assessing the sensitivity of sensor uncertainty to autonomous vehicle driving strategies during lane change maneuver"}
+pp["thesis"] = {
+    "chi": "使用全域敏感度分析感測誤差對超車的影響",
+    "eng": "Assessing the sensitivity of sensor uncertainty to autonomous vehicle driving strategies during lane change maneuver",
+    "file": "TsaiHsinTing.pdf",
+    "drive": "https://drive.google.com/open?id=1XL-7Jsu2GAfmM-MUEqY285r43Vs7ylpb"}
 pp["papers"][0] = {
     "ref": """H.-T. Tsai and K.-Y. Chan, "Investigating the Impact of Component Uncertainty on Autonomous Vehicles Overtaking Maneuvers", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
     "file": "2019_ASME_IDETC_tsaiht.pdf",
