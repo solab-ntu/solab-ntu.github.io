@@ -934,12 +934,6 @@ pp["papers"][3] = {
     "drive": "https://drive.google.com/open?id=1SQ-gNonKEOLpVgICCrkjjzgYB8nFnYLB",
     "type": "j",
     "year": 2018}
-pp["papers"][0] = {
-    "ref": """K.-L. Li, M.-C. Lai, Y.-C. Hsueh and K.-Y Chan, "Analysis of Uncertainties in Planar Robot Manipulation", the 31st Chinese Society of Mechanical Engineers Conference, Taichung, Taiwan, 2014""",
-    "file": "2014CSME_AURM2D.pdf",
-    "drive": "https://drive.google.com/open?id=1mq_NoiO-_Us1w6PyJ1qjnocEc8FiZOnV",
-    "type": "ic",
-    "year": 2014}
 
 pp.set_first_second()
 data[i] = pp
@@ -1057,7 +1051,6 @@ pp["papers"][0] = {
     "drive": "",
     "type": "ic",
     "year": 2017}
-data[i] = pp
 
 pp.set_first_second()
 data[i] = pp
@@ -1238,9 +1231,12 @@ pp["year"] = 19
 pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
-pp["research"] = {
-    "chi": "以機率模型預測在都市十字路口的駕駛行為",
-    "eng": "Probabilistic Modeling and Prediction of Driver Behaviors at Urban Crossroads"}
+pp["degrees"][2] = {"chi": "德國慕尼黑工業大學, 博士班學生", "eng": "Ph.D. Student, Technische Universität München (20~)"}
+pp["thesis"] = {
+    "chi": "以機率模型預測都會區路口的駕駛行為",
+    "eng": "Probabilistic Modelingof Driver Behaviors at Urban Crossroads",
+    "file": "ChenPoYu.pdf",
+    "drive": "https://drive.google.com/open?id=1qiva6dNm0wgWOqfZ0dewHYvbU-7PThsb"}
 pp["papers"][0] = {
     "ref": """Y.-C. Liu and K.-Y. Chan, "Probabilistic Modeling of Driver Behaviors at Urban Crossroads", Proceedings of the ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, Anaheim, California, USA, Aug. 18-21, 2019""",
     "file": "2019_ASME_IDETC_LiuYC.pdf",
