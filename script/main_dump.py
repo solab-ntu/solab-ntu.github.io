@@ -591,10 +591,11 @@ pp = tool.People()
 pp["name"]["chi"] = "米約瑟"
 pp["name"]["eng"] = "Joseph Millogo"
 pp["year"] = 13
-pp["alumni"] = True
+pp["alumni"] = False
 pp["degrees"][0] = {"chi": "土耳其東地中海大學 學士", "eng": "B.S., Eastern Mediterranean University (08)"}
 pp["degrees"][1] = {"chi": "昆山科技大學 碩士", "eng": "M.S., Kun Shan University (11)"}
-pp["degrees"][2] = {"chi": "國立台灣大學 博士", "eng": "Ph.D., National Taiwan University (20)"}
+# pp["degrees"][2] = {"chi": "國立台灣大學 博士", "eng": "Ph.D., National Taiwan University (20)"}
+pp["lab_id"] = "博士候選人 Ph.D. Candidate"
 pp["research"] = {
     "chi": "",
     "eng": "Modified Principle Component Analysis for Time Varying Data Mining with Uncertainties"}
