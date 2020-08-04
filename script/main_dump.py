@@ -1305,12 +1305,14 @@ pp = tool.People()
 pp["name"]["chi"] = "陳怡平"
 pp["name"]["eng"] = "Yi-Ping Chen"
 pp["year"] = 20
-pp["alumni"] = False
-pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (18)"}
-pp["research"] = {
-    "chi": "用於車輛設計中的不確定因素及失效檢測方法",
-    "eng": "Uncertainty Modeling and Failure Identification in Vehicle Design"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (20)"}
+pp["thesis"] = {
+    "chi": "不確定參數之最佳激發與校準：以車輛模型開發為例",
+    "eng": "Optimal Uncertian Parameter Excitation and Estimation: a Case Study on Vehicle Model Development",
+    "file": "",
+    "drive": ""}
 pp["papers"][0] = {
     "ref": """Y.-P. Chen and K.-Y. Chan, "Designing Excitation Maneuvers with Maximal Parameter Sensitivity for an X-By-Wire Autonomous Tricycle", Proceedings of the ASME 2020 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, St. Louis, USA, Aug. 16-19, 2020""",
     "file": "2020_ASME_IDETC_Chenyp.pdf",
@@ -1328,9 +1330,14 @@ pp = tool.People()
 pp["name"]["chi"] = "吳中信"
 pp["name"]["eng"] = "Chung-Hsin Wu"
 pp["year"] = 20
-pp["alumni"] = False
-pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (18)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (20)"}
+pp["thesis"] = {
+    "chi": "移動式機器人運用二維光達在動態環境下之追蹤與避障方法",
+    "eng": "A 2D LIDAR Based Object Tracking and Collision Avoidance Method for Mobile Robots in Dynamic Environment",
+    "file": "ChungHsinWu.pdf",
+    "drive": "https://drive.google.com/file/d/1lRQFIEqY9wUpxGjo5WLf6Nb_JjQ8bJq5"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1342,9 +1349,14 @@ pp = tool.People()
 pp["name"]["chi"] = "陳奕憲"
 pp["name"]["eng"] = "Yi-Sian Chen"
 pp["year"] = 20
-pp["alumni"] = False
-pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立中山大學 學士", "eng": "B.S., National Sun Yat-sen University (18)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (20)"}
+pp["thesis"] = {
+    "chi": "雙眼視覺在機械手臂末端多腳位物件之辨識定位方法",
+    "eng": "Binocular Vision in Recognition and Positioning of Multi-pin Objects in Robot Manipulators",
+    "file": "",
+    "drive": ""}
 
 pp.set_first_second()
 data[i] = pp
@@ -1505,6 +1517,20 @@ pp["year"] = 17
 pp["alumni"] = False
 pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "江柏賢"
+pp["name"]["eng"] = "Po-Hsien Jiang"
+pp["year"] = 22
+pp["alumni"] = False
+pp["lab_id"] = "博士班學生 Ph.D. Student"
+pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (17)"}
 
 pp.set_first_second()
 data[i] = pp
