@@ -1174,12 +1174,14 @@ pp = tool.People()
 pp["name"]["chi"] = "徐世哲"
 pp["name"]["eng"] = "Shin-Che Hsu"
 pp["year"] = 18
-pp["alumni"] = False
-pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (16)"}
-pp["research"] = {
-    "chi": "以振動分析模擬技術提升電動車輛控制器之可靠度",
-    "eng": "Simulation-Based Vibration Analysis for Reliability Improvement of Motor Drive Controllers"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (18)"}
+pp["thesis"] = {
+    "chi": "一個提供加速壽命測試之參數制定方法：以印刷電路板焊接錫球之疲勞壽命評估為例",
+    "eng": "Accelerated Life Test Parameters Setting under Uncertainty: An Example on Fatigue Life of Solder Joints of Printed Circuit Board",
+    "file": "",
+    "drive": ""}
 pp["papers"][0] = {
     "ref": """S.-C. Hsu and K.-Y. Chan, "Simulation-based Vibration Analysis for Reliability Improvement of Motor Drive Controllers", International Workshop on Reliability for Advanced Technology, Taipei, Taiwan, Feb 16, 2017""",
     "file": "",
