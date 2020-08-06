@@ -1313,8 +1313,8 @@ pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National T
 pp["thesis"] = {
     "chi": "不確定參數之最佳激發與校準：以車輛模型開發為例",
     "eng": "Optimal Uncertian Parameter Excitation and Estimation: a Case Study on Vehicle Model Development",
-    "file": "",
-    "drive": ""}
+    "file": "ChenYiPing.pdf",
+    "drive": "https://drive.google.com/file/d/1qSsB-PxBak5Bcdt0bzZNtRGVBfXdfpTK"}
 pp["papers"][0] = {
     "ref": """Y.-P. Chen and K.-Y. Chan, "Designing Excitation Maneuvers with Maximal Parameter Sensitivity for an X-By-Wire Autonomous Tricycle", Proceedings of the ASME 2020 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, St. Louis, USA, Aug. 16-19, 2020""",
     "file": "2020_ASME_IDETC_Chenyp.pdf",
@@ -1533,6 +1533,20 @@ pp["year"] = 22
 pp["alumni"] = False
 pp["lab_id"] = "博士班學生 Ph.D. Student"
 pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (17)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "郭冠成"
+pp["name"]["eng"] = "Kuan-Cheng Kuo"
+pp["year"] = 22
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
 
 pp.set_first_second()
 data[i] = pp
