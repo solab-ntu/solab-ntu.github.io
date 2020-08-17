@@ -1551,6 +1551,20 @@ pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National T
 pp.set_first_second()
 data[i] = pp
 
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "鍾詔東"
+pp["name"]["eng"] = "Chao-Tung Chung"
+pp["year"] = 22
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
+
+pp.set_first_second()
+data[i] = pp
+
 # i += 1
 # pp = tool.People()
 # pp["name"]["chi"] = ""
