@@ -606,7 +606,7 @@ pp["papers"][0] = {
     "type": "ic",
     "year": 2014}
 pp["papers"][1] = {
-    "ref": """J. Millogo and K.-Y. Chan, "Multivariate Analysis of Extrapolating Time-Invariant Data with Uncertainty", International Journal for Uncertainty Quantification, DOI://10.1615/Int.J.UncertaintyQuantification.2019028125""",
+    "ref": """J. Millogo and K.-Y. Chan, "Multivariate Analysis of Extrapolating Time-Invariant Data with Uncertainty", International Journal for Uncertainty Quantification, Vol. 9, Issue 6, pp. 569-587, 2019""",
     "file": "",
     "drive": "",
     "type": "j",
