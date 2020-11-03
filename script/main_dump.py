@@ -607,8 +607,8 @@ pp["papers"][0] = {
     "year": 2014}
 pp["papers"][1] = {
     "ref": """J. Millogo and K.-Y. Chan, "Multivariate Analysis of Extrapolating Time-Invariant Data with Uncertainty", International Journal for Uncertainty Quantification, Vol. 9, Issue 6, pp. 569-587, 2019""",
-    "file": "",
-    "drive": "",
+    "file": "2019MultivariateAnalysisOfExtrapolatingTimeInvariantDataWithUncertainty_IJUQ",
+    "drive": "https://drive.google.com/open?id=12T9nHfqsVjZaQ_TKeILhvfpP5LVRF5Lt",
     "type": "j",
     "year": 2019}
 
