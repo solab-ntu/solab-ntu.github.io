@@ -1516,9 +1516,12 @@ pp = tool.People()
 pp["name"]["chi"] = "游家權"
 pp["name"]["eng"] = "Jia-Quan Yu"
 pp["year"] = 17
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
+pp["research"] = {
+    "chi": "建立 ROS 架構下的 DSDD 方法實現多台移動式機器人協同搬運任務",
+    "eng": "DSDD Method to Enable Multiple Mobile Robots in Collaboration Tasks in ROS"}
 
 pp.set_first_second()
 data[i] = pp
