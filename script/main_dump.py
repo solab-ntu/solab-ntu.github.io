@@ -1321,6 +1321,18 @@ pp["papers"][0] = {
     "drive": "https://drive.google.com/file/d/1omiyid5HVUlMnDuMoZVAdhJZvLF3s2kV",
     "type": "ic",
     "year": 2020}
+pp["papers"][1] = {
+    "ref": """Y.-P. Chen and K.-Y. Chan, "以全域敏感度設計激發操作之模型驗證方法", the 37st Chinese Society of Mechanical Engineers Conference, Yunlin, Taiwan, Nov. 20-21, 2020""",
+    "file": "2020_CSME_Math_ChenYP.pdf",
+    "drive": "https://drive.google.com/file/d/1KIspxDNjJyYkzKO8Tu1SBr_KP2e3kBlX",
+    "type": "dc",
+    "year": 2020}
+pp["papers"][2] = {
+    "ref": """Y.-P. Chen and K.-Y. Chan, "車輛模型不確定參數激發與校準", the 37st Chinese Society of Mechanical Engineers Conference, Yunlin, Taiwan, Nov. 20-21, 2020""",
+    "file": "2020_CSME_Vehicle_ChenYP.pdf",
+    "drive": "https://drive.google.com/file/d/1Ws6ETgyLajfe8XX71XsvFxtJ-mdT-hp3",
+    "type": "dc",
+    "year": 2020}
 
 pp.set_first_second()
 data[i] = pp
