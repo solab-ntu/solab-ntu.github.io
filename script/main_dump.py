@@ -1203,6 +1203,9 @@ pp["alumni"] = False
 pp["lab_id"] = "博士候選人 Ph.D. Candidate"
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (07)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (09)"}
+pp["research"] = {
+    "chi": "結合式移動機器人之路徑規劃與動態避障",
+    "eng": "Path Planning and Obstacle Avoidance of Docked Multiple Mobile Robots"}
 pp["thesis"] = {
     "chi": "針對機率拘束空間內最大可靠度問題之 EGO 演算法修正",
     "eng": "A Modified Efficient Global Optimization Algorithm for Maximal Reliability in a Probabilistic Constrained Space",

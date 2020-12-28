@@ -303,7 +303,7 @@ class MemberPage():
     """
 
     script2_2 = u"""
-                            <span style="font:14px Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#000000;font-weight:bold; "><u>研究領域 Research</u></span>
+                            <span style="font:14px Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#000000;font-weight:bold; "><u>研究主題 Research</u></span>
                             <br />
                             <code><p style="line-height:15px"></code>
                             <span style="font:13px STHeitiTC-Light;">
@@ -314,6 +314,7 @@ class MemberPage():
                                 {1}
                             </span>
                             <code></p></code>
+                            <br />
     """
 
     script3_1 = u"""
@@ -912,7 +913,7 @@ Version: 1.3
     script2_1 = u"""
                                             <li><span style="font-size:12px; ">{0} </span></li><br />
     """
-    
+
     script2_2 = u"""
                                             <li><span style="font-size:12px; ">{0} <a href="{1}">(Link)</a></span></li><br />
     """
