@@ -1402,6 +1402,9 @@ pp["year"] = 20
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "中原大學 學士", "eng": "B.S., Chung Yuan Christian University (18)"}
+pp["research"] = {
+    "chi": "以 GAZEBO 模擬雙機器人協同搬運與最佳路徑規劃",
+    "eng": "Design and Analysis of Dual-Robot Cooperative and Path Planning using GAZEBO"}
 
 pp.set_first_second()
 data[i] = pp
