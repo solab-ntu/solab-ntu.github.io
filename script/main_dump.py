@@ -1389,8 +1389,8 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
 pp["research"] = {
-    "chi": "",
-    "eng": ""}
+    "chi": "基於關節運動之相似度量測方法應用於離線人體下肢動作識別",
+    "eng": "Similarity Measurement of Offline Human Lower Extremity Motion Recognition Based on Joint Kinematics"}
 
 pp.set_first_second()
 data[i] = pp
