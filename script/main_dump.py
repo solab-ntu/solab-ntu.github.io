@@ -1481,6 +1481,9 @@ pp["year"] = 21
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (19)"}
+pp["research"] = {
+    "chi": "融合巨微觀車流模式以評估自駕車對多種道路匯流之影響",
+    "eng": "Integrating Macro and Micro Traffic Flow Models to Evaluate the Impact of Autonomous Vehicle on Various Road Junctions"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1495,6 +1498,9 @@ pp["year"] = 21
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立台北科技大學 學士", "eng": "B.S., National Taipei University of Technology (19)"}
+pp["research"] = {
+    "chi": "基於循環統計之車輛空間軌跡差異分析與量化",
+    "eng": "Analysis and Quantification of Vehicle Space Trajectory Differences based on Circular Statistics"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1509,6 +1515,9 @@ pp["year"] = 21
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (19)"}
+pp["research"] = {
+    "chi": "基於有限元素法之最佳機械手臂軟性插件任務",
+    "eng": "Finite Element Method based Optimal Compliant Peg-in-Hole Assembly for Robot Manipulators"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1523,6 +1532,9 @@ pp["year"] = 21
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (19)"}
+pp["research"] = {
+    "chi": "",
+    "eng": ""}
 
 pp.set_first_second()
 data[i] = pp
@@ -1554,6 +1566,9 @@ pp["year"] = 22
 pp["alumni"] = False
 pp["lab_id"] = "博士班學生 Ph.D. Student"
 pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (17)"}
+pp["research"] = {
+    "chi": "一種基於動態行為辨識與預測之下肢外骨骼輔助裝置",
+    "eng": "A Human Lower Limb Assistive Device based on Dynamic Action Recognition and Prediction"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1568,6 +1583,9 @@ pp["year"] = 22
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
+pp["research"] = {
+    "chi": "多機器人的任務分配問題之最佳化探討",
+    "eng": "Optimal Tasks Allocations in Multi-Robot Systems"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1582,6 +1600,9 @@ pp["year"] = 22
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
+pp["research"] = {
+    "chi": "利用機率密度以及駕駛行為分析道路設計中車流行駛風險",
+    "eng": "Using Probability Density and Drivers Behavior to Analyze Drivers’ Risks on Road Design"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1596,6 +1617,9 @@ pp["year"] = 22
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (20)"}
+pp["research"] = {
+    "chi": "",
+    "eng": ""}
 
 pp.set_first_second()
 data[i] = pp
@@ -1610,6 +1634,9 @@ pp["year"] = 22
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
+pp["research"] = {
+    "chi": "",
+    "eng": ""}
 
 pp.set_first_second()
 data[i] = pp
