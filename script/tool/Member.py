@@ -31,7 +31,7 @@ class Member:
                 script += template.Member.script3_1
             else:
                 script += template.Member.script3_2
-                    
+
             col_num += 1
 
         return script
@@ -84,7 +84,8 @@ class Member:
                 script_member_page += template.MemberPage.script2_1_1.format(tmp)
 
             if any(value is not None for value in research.values()):
-                script_member_page += template.MemberPage.script2_2.format(research["chi"], research["eng"])
+                if any(value != "" for value in research.values()):
+                    script_member_page += template.MemberPage.script2_2.format(research["chi"], research["eng"])
 
             if any(value is not None for value in thesis.values()):
                 script_member_page += template.AlumniPage.script2_4
@@ -100,9 +101,9 @@ class Member:
                         script_member_page += template.MemberPage.script3_2.format(v["ref"])
                     else:
                         script_member_page += template.MemberPage.script3_3.format(v["ref"], v["drive"])
-                
+
             script_member_page += template.MemberPage.script4
-            
+
             try:
                 os.remove("../People/Member/" + name["eng"] + ".html")
             except OSError:
@@ -110,7 +111,7 @@ class Member:
 
             with codecs.open("../People/Member/" + name["eng"] + ".html", "w", encoding='utf8') as file:
                 file.write(script_member_page)
-                file.close()    
+                file.close()
 
     def _get_alumni_grid_script(self):
 
