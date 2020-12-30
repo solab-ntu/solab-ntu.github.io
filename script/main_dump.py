@@ -1388,6 +1388,9 @@ pp["year"] = 20
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
+pp["research"] = {
+    "chi": "",
+    "eng": ""}
 
 pp.set_first_second()
 data[i] = pp
@@ -1533,8 +1536,8 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (19)"}
 pp["research"] = {
-    "chi": "",
-    "eng": ""}
+    "chi": "基於室內多機器人的格點佔據式地圖合併法",
+    "eng": "Occupancy Grid Map Merging based on Indoor Multi-robots Systems"}
 
 pp.set_first_second()
 data[i] = pp
