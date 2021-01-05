@@ -1638,8 +1638,8 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
 pp["research"] = {
-    "chi": "",
-    "eng": ""}
+    "chi": "動態物體間相對位置之即時量測方式建立",
+    "eng": "Development of a Real-Time Measurement of the Relative Positions Between Dynamic Objects"}
 
 pp.set_first_second()
 data[i] = pp
