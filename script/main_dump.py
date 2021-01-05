@@ -1621,8 +1621,8 @@ pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (20)"}
 pp["research"] = {
-    "chi": "",
-    "eng": ""}
+    "chi": "廣用肌肉骨骼系統之動作辨識與不確定性分析",
+    "eng": "Motion Recognition and Uncertainty Analysis of Musculoskeletal Systems"}
 
 pp.set_first_second()
 data[i] = pp
