@@ -1336,6 +1336,12 @@ pp["papers"][2] = {
     "drive": "https://drive.google.com/file/d/1Ws6ETgyLajfe8XX71XsvFxtJ-mdT-hp3",
     "type": "dc",
     "year": 2020}
+pp["papers"][3] = {
+    "ref": """Y.-P. Chen and K.-Y. Chan, "Unknown Parameter Excitation and Estimation for Complex Systems With Dynamic Performances", ASME Journal of Mechanical Design, 143(9):1-25, 2021""",
+    "file": "2021UnknownParameterExcitationandEstimationforComplexSystemwithDynamicPerformances_ASME.pdf",
+    "drive": "https://drive.google.com/file/d/1wNgJMrtHWiSR6O7SSmyBNsJtmS29pokl",
+    "type": "j",
+    "year": 2021}
 
 pp.set_first_second()
 data[i] = pp
