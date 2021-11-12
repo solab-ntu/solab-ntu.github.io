@@ -1378,8 +1378,8 @@ pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National T
 pp["thesis"] = {
     "chi": "雙眼視覺在機械手臂末端多腳位物件之辨識定位方法",
     "eng": "Binocular Vision in Recognition and Positioning of Multi-pin Objects in Robot Manipulators",
-    "file": "",
-    "drive": ""}
+    "file": "ChenYiSian.pdf",
+    "drive": "https://drive.google.com/file/d/1rNByxMVZy2AnvHTrnFnRvfHWfEvZUMwo"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1391,12 +1391,15 @@ pp = tool.People()
 pp["name"]["chi"] = "陳宥廷"
 pp["name"]["eng"] = "Yu-Ting Chen"
 pp["year"] = 20
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
-pp["research"] = {
-    "chi": "基於關節運動之相似度量測方法應用於離線人體下肢動作識別",
-    "eng": "Similarity Measurement of Offline Human Lower Extremity Motion Recognition Based on Joint Kinematics"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
+pp["thesis"] = {
+    "chi": "基於距離之時間序列分析與模板匹配應用於人體下肢動作識別",
+    "eng": "Lower Body Action Recognition using Distance-Based Time Series Analysis and Template Matching",
+    "file": "ChenYuTing.pdf",
+    "drive": "https://drive.google.com/file/d/1S7nLKkhtzlAQtu5F7TQs_xWqUKwNXntg"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1411,9 +1414,12 @@ pp["year"] = 20
 pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "中原大學 學士", "eng": "B.S., Chung Yuan Christian University (18)"}
-pp["research"] = {
-    "chi": "以 GAZEBO 模擬雙機器人協同搬運與最佳路徑規劃",
-    "eng": "Design and Analysis of Dual-Robot Cooperative and Path Planning using GAZEBO"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
+pp["thesis"] = {
+    "chi": "六自由度機械手臂路徑規劃之多目標考量",
+    "eng": "Multi-Objective Considerations of Path Planning for Six-DOF Manipulator",
+    "file": "XiaoLuNing.pdf",
+    "drive": "https://drive.google.com/file/d/1SIIr3Loxa_iccNh9ZYFvPW2Gb3Uat5qL"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1490,9 +1496,12 @@ pp["year"] = 21
 pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (19)"}
-pp["research"] = {
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
+pp["thesis"] = {
     "chi": "融合巨微觀車流模式以評估自駕車對多種道路匯流之影響",
-    "eng": "Integrating Macro and Micro Traffic Flow Models to Evaluate the Impact of Autonomous Vehicle on Various Road Junctions"}
+    "eng": "A Hybird Micro-Macro Model for Understanding the Impact of Autonomous Vehicle Strategies on Traffic Flow",
+    "file": "YangYaYuan.pdf",
+    "drive": "https://drive.google.com/file/d/1Gg8qFGJf-_lTwzxiYOk1Vk6dRPuSUW0X"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1507,9 +1516,12 @@ pp["year"] = 21
 pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立台北科技大學 學士", "eng": "B.S., National Taipei University of Technology (19)"}
-pp["research"] = {
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
+pp["thesis"] = {
     "chi": "基於循環統計之車輛空間軌跡差異分析與量化",
-    "eng": "Analysis and Quantification of Vehicle Space Trajectory Differences based on Circular Statistics"}
+    "eng": "A Composite Similarity Index in Analysis and Quantification of Two-dimensional Trajectories",
+    "file": "LiJinYi.pdf",
+    "drive": "https://drive.google.com/file/d/1tt5LgKzqk7ILv3S3-b_k_3dzfSRMkSAZ"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1524,9 +1536,12 @@ pp["year"] = 21
 pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (19)"}
-pp["research"] = {
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
+pp["thesis"] = {
     "chi": "基於有限元素法之最佳機械手臂軟性插件任務",
-    "eng": "Finite Element Method based Optimal Compliant Peg-in-Hole Assembly for Robot Manipulators"}
+    "eng": "Finte Element Method based Optimal Compliant Recoprocating Deformable Linear Objects Assembly for Robot Manipulators",
+    "file": "LiJyunJie.pdf",
+    "drive": "https://drive.google.com/file/d/1IiXwOXiyEmemeYNfBdxNHwlTbHznfV5V"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1541,9 +1556,12 @@ pp["year"] = 21
 pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (19)"}
-pp["research"] = {
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
+pp["thesis"] = {
     "chi": "基於室內多機器人的格點佔據式地圖合併法",
-    "eng": "Occupancy Grid Map Merging based on Indoor Multi-robots Systems"}
+    "eng": "An Occupancy Grid Map Merging Method Based on Morphology Image Pre-process and Feature Matching",
+    "file": "ChenYuLin.pdf",
+    "drive": "https://drive.google.com/file/d/1uNOFFtDC4zr33ugpPccK0doA1b2O9ygC"}
 
 pp.set_first_second()
 data[i] = pp
