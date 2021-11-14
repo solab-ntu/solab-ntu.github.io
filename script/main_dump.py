@@ -1449,7 +1449,7 @@ pp["year"] = 20
 pp["alumni"] = True
 pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
-pp["degrees"][1] = {"chi": "美國伊利諾大學 碩士班學生", "eng": "M.S. Student, University of Illinois, Urbana-Champaign (19~)"}
+pp["degrees"][1] = {"chi": "美國伊利諾大學 碩士", "eng": "M.S., University of Illinois, Urbana-Champaign (21)"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1464,7 +1464,7 @@ pp["year"] = 20
 pp["alumni"] = True
 pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (18)"}
-pp["degrees"][1] = {"chi": "美國密西根大學 碩士班學生", "eng": "M.S. Student, The University of Michigan (19~)"}
+pp["degrees"][1] = {"chi": "美國密西根大學 碩士", "eng": "M.S., The University of Michigan (21)"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1576,9 +1576,10 @@ pp["year"] = 17
 pp["alumni"] = True
 pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (17)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 電信工程研究所 碩士", "eng": "M.S., Institute of Communications Engineering, National Taiwan University (22)"}
 pp["research"] = {
     "chi": "建立 ROS 架構下的 DSDD 方法實現多台移動式機器人協同搬運任務",
-    "eng": "DSDD Method to Enable Multiple Mobile Robots in Collaboration Tasks in ROS"}
+    "eng": "Double-Steering Double-Driving Control Method in Multi-Robot Collaboration Tasks with ROS"}
 
 pp.set_first_second()
 data[i] = pp
