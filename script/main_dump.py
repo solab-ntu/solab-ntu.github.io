@@ -1592,7 +1592,7 @@ pp["name"]["chi"] = "江柏賢"
 pp["name"]["eng"] = "Po-Hsien Jiang"
 pp["year"] = 22
 pp["alumni"] = False
-pp["lab_id"] = "博士班學生 Ph.D. Student"
+pp["lab_id"] = "博士候選人 Ph.D. Candidate"
 pp["degrees"][0] = {"chi": "國立清華大學 學士", "eng": "B.S., National Tsing Hua University (17)"}
 pp["research"] = {
     "chi": "一種基於動態行為辨識與預測之下肢外骨骼輔助裝置",
