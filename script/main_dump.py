@@ -1741,6 +1741,9 @@ pp["year"] = 23
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (21)"}
+pp["research"] = {
+    "chi": "車輛不確定參數敏感度分析與校準",
+    "eng": "Sensitivity Analysis and Estimation of Vehicle Uncertain Parameters"}
 
 pp.set_first_second()
 data[i] = pp
