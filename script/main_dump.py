@@ -72,7 +72,7 @@ pp["degrees"][0] = {"chi": "元智大學 學士", "eng": "B.S., Yuan Ze Universi
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "National Cheng Kung University (08)"}
 pp["jobs"][0] = {
     "chi": "德賽自動化技術有限公司",
-    "eng": "Huizhou Desay Automation Technology Co., LTD",
+    "eng": "Huizhou Desay Automation Technology Co., Ltd.",
     "web": "http://auto.desay.com/"}
 pp["thesis"] = {
     "chi": "多目標最佳化之解集合在不確定因素下之分析及預測",
@@ -158,7 +158,7 @@ pp["year"] = 8
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (08)"}
 pp["jobs"][0] = {
     "chi": "勁勝科技有限公司",
-    "eng": "Jing Sheng Technology Co., LTD",
+    "eng": "Jing Sheng Technology Co., Ltd.",
     "web": "http://www.jhing-sheng.com.tw/"}
 pp["research"] = {
     "chi": "",
@@ -573,7 +573,7 @@ pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National C
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (13)"}
 pp["jobs"][0] = {
     "chi": "泰金寶電通股份有限公司",
-    "eng": "Cal-Comp Electronics & Communications Co., Ltd",
+    "eng": "Cal-Comp Electronics & Communications Co., Ltd.",
     "web": "http://www.newkinpogroup.com/big5/"}
 pp["thesis"] = {
     "chi": "貝氏更新法應用於皮帶系統與不確定性壽命資料之設計整合",
@@ -750,7 +750,7 @@ pp["year"] = 14
 pp["degrees"][0] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (14)"}
 pp["jobs"][0] = {
     "chi": "泰金寶電通股份有限公司",
-    "eng": "Cal-Comp Electronics & Communications Co., Ltd",
+    "eng": "Cal-Comp Electronics & Communications Co., Ltd.",
     "web": "http://www.newkinpogroup.com/big5/"}
 pp["thesis"] = {
     "chi": "結合重要性指標與敏感度以提升連鎖失效系統之可靠度",
@@ -1158,6 +1158,10 @@ pp["name"]["eng"] = "Chun-Ting Lin"
 pp["year"] = 18
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (16)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (18)"}
+pp["jobs"][0] = {
+    "chi": "國家中山科學研究院",
+    "eng": "National Chung-Shan Institute of Science & Technology",
+    "web": "https://www.ncsist.org.tw/csistdup/main/Default.aspx"}
 pp["thesis"] = {
     "chi": "自主駕駛車輛的佔有比對都會混流交通的影響",
     "eng": "A Study on the Effect of Autonomous Vehicle Penetration Rate in Urban Mix-fleet Traffic",
@@ -1188,6 +1192,10 @@ pp["papers"][0] = {
     "drive": "",
     "type": "ic",
     "year": 2017}
+pp["jobs"][0] = {
+    "chi": "台灣國際航電股份有限公司",
+    "eng": "Garmin Corporation",
+    "web": "https://www.garmin.com.tw"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1263,6 +1271,10 @@ pp["year"] = 19
 pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立臺灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
+pp["jobs"][0] = {
+    "chi": "台達電子工業股份有限公司",
+    "eng": "Delta Electronics, Inc.",
+    "web": "http://www.deltaww.com/"}
 pp["thesis"] = {
     "chi": "垂直多關節機械手臂應用於高精密插件組裝任務之離線校正方法",
     "eng": "Offline Calibration for Vertical Articulated Robot Manipulator in High Precision Peg-in-Hole Assembly",
@@ -1288,6 +1300,10 @@ pp["year"] = 19
 pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (17)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (19)"}
+pp["jobs"][0] = {
+    "chi": "台灣中油股份有限公司",
+    "eng": "CPC Corporation, Taiwan",
+    "web": "https://www.cpc.com.tw/"}
 pp["thesis"] = {
     "chi": "使用全域敏感度分析感測誤差對超車的影響",
     "eng": "Assessing the sensitivity of sensor uncertainty to autonomous vehicle driving strategies during lane change maneuver",
@@ -1313,6 +1329,10 @@ pp["year"] = 20
 pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (18)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (20)"}
+pp["jobs"][0] = {
+    "chi": "國家中山科學研究院",
+    "eng": "National Chung-Shan Institute of Science & Technology",
+    "web": "https://www.ncsist.org.tw/csistdup/main/Default.aspx"}
 pp["thesis"] = {
     "chi": "不確定參數之最佳激發與校準：以車輛模型開發為例",
     "eng": "Optimal Uncertian Parameter Excitation and Estimation: a Case Study on Vehicle Model Development",
@@ -1375,6 +1395,10 @@ pp["year"] = 20
 pp["alumni"] = True
 pp["degrees"][0] = {"chi": "國立中山大學 學士", "eng": "B.S., National Sun Yat-sen University (18)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (20)"}
+pp["jobs"][0] = {
+    "chi": "群聯電子股份有限公司",
+    "eng": "Phison Electronics Corporation",
+    "web": "https://www.phison.com/zh-tw/"}
 pp["thesis"] = {
     "chi": "雙眼視覺在機械手臂末端多腳位物件之辨識定位方法",
     "eng": "Binocular Vision in Recognition and Positioning of Multi-pin Objects in Robot Manipulators",
@@ -1400,6 +1424,10 @@ pp["thesis"] = {
     "eng": "Lower Body Action Recognition using Distance-Based Time Series Analysis and Template Matching",
     "file": "ChenYuTing.pdf",
     "drive": "https://drive.google.com/file/d/1S7nLKkhtzlAQtu5F7TQs_xWqUKwNXntg"}
+pp["jobs"][0] = {
+    "chi": "梭特科技股份有限公司",
+    "eng": "SAULTECH Technology Co., Ltd.",
+    "web": "https://www.saultech.com.tw/"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1420,6 +1448,10 @@ pp["thesis"] = {
     "eng": "Multi-Objective Considerations of Path Planning for Six-DOF Manipulator",
     "file": "XiaoLuNing.pdf",
     "drive": "https://drive.google.com/file/d/1SIIr3Loxa_iccNh9ZYFvPW2Gb3Uat5qL"}
+pp["jobs"][0] = {
+    "chi": "上海寶信軟件股份有限公司",
+    "eng": "Shanghai Baosight Software Co., Ltd.",
+    "web": "https://www.baosight.com/"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1497,6 +1529,10 @@ pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (19)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
+pp["jobs"][0] = {
+    "chi": "群聯電子股份有限公司",
+    "eng": "Phison Electronics Corporation",
+    "web": "https://www.phison.com/zh-tw/"}
 pp["thesis"] = {
     "chi": "融合巨微觀車流模式以評估自駕車對多種道路匯流之影響",
     "eng": "A Hybird Micro-Macro Model for Understanding the Impact of Autonomous Vehicle Strategies on Traffic Flow",
@@ -1522,6 +1558,10 @@ pp["thesis"] = {
     "eng": "A Composite Similarity Index in Analysis and Quantification of Two-dimensional Trajectories",
     "file": "LiJinYi.pdf",
     "drive": "https://drive.google.com/file/d/1tt5LgKzqk7ILv3S3-b_k_3dzfSRMkSAZ"}
+pp["jobs"][0] = {
+    "chi": "台灣積體電路製造股份有限公司",
+    "eng": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+    "web": "http://www.tsmc.com.tw/chinese/default.htm"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1537,6 +1577,10 @@ pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (19)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
+pp["jobs"][0] = {
+    "chi": "群聯電子股份有限公司",
+    "eng": "Phison Electronics Corporation",
+    "web": "https://www.phison.com/zh-tw/"}
 pp["thesis"] = {
     "chi": "基於有限元素法之最佳機械手臂軟性插件任務",
     "eng": "Finte Element Method based Optimal Compliant Recoprocating Deformable Linear Objects Assembly for Robot Manipulators",
@@ -1562,6 +1606,10 @@ pp["thesis"] = {
     "eng": "An Occupancy Grid Map Merging Method Based on Morphology Image Pre-process and Feature Matching",
     "file": "ChenYuLin.pdf",
     "drive": "https://drive.google.com/file/d/1uNOFFtDC4zr33ugpPccK0doA1b2O9ygC"}
+pp["jobs"][0] = {
+    "chi": "陽程科技股份有限公司",
+    "eng": "USUN Technology Co., Ltd.",
+    "web": "http://www.usuntek.com.tw/homeweb/index.php"}
 
 pp.set_first_second()
 data[i] = pp

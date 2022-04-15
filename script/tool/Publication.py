@@ -31,7 +31,7 @@ class Publication():
         self.domes_conf.sort(key=lambda x: x["year"])
 
     def create_page(self):
-        
+
         script = ""
         script += template.Publication.script1
 
