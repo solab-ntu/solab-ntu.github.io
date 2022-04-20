@@ -1,19 +1,23 @@
 from collections import OrderedDict
 import json
 import os
+from pathlib import Path
 
 import tool
+
+FILE = Path(__file__).resolve()
+REPO = FILE.parents[1]
 
 # --
 
 try:
-    os.remove('../Publication/Publication.html')
+    os.remove(REPO / 'Publication/Publication.html')
 except:
     pass
 
 # --
 
-with open('people.json', encoding='utf-8') as fp:
+with open(REPO / 'people.json', encoding='utf-8') as fp:
     data = json.loads(fp.read())
 
 data = {int(k):v for k, v in data.items()}

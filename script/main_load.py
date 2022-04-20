@@ -1,14 +1,13 @@
 from collections import OrderedDict
 import json
-import operator
+from pathlib import Path
 
-from tool import member
+FILE = Path(__file__).resolve()
+REPO = FILE.parents[1]
 
-with open('people.json', encoding='utf-8') as fp:
+with open(REPO / 'people.json', encoding='utf-8') as fp:
     data = json.loads(fp.read())
 
 data = {int(k):v for k, v in data.items()}
 data = sorted(data.items(), key=lambda x: (x[1]["name"]["first"], x[1]["name"]["second"]))
 data = OrderedDict(data)
-
-print(123)

@@ -1,8 +1,12 @@
 #/usr/bin/python3
 
 import json
+from pathlib import Path
 
 import tool
+
+FILE = Path(__file__).resolve()
+REPO = FILE.parents[1]
 
 data = {}
 
@@ -1786,6 +1790,9 @@ pp["year"] = 23
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (21)"}
+pp["research"] = {
+    "chi": "特定姿勢下基於慣性量測單位傳感器的手臂朝向實時校正與量測",
+    "eng": "Calibration and Measurement of Arm Orientation based on IMU in Real-Time During Specific Pose"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1820,7 +1827,7 @@ data[i] = pp
 # pp.set_first_second()
 # data[i] = pp
 
-with open('people.json', 'w', encoding='utf-8') as fp:
+with open(REPO / 'people.json', 'w', encoding='utf-8') as fp:
     json.dump(data, fp, ensure_ascii=False)
 
-print("write to people.json")
+print(f'write to {str(REPO / "people.json")}')

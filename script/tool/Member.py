@@ -1,6 +1,12 @@
-import os
 import codecs
+import os
+from pathlib import Path
+
 from . import template
+
+FILE = Path(__file__).resolve()
+REPO = FILE.parents[2]
+
 
 class Member:
 
@@ -42,11 +48,11 @@ class Member:
         script = script + template.Member.script4
 
         try:
-            os.remove("../People/Member/Member.html")
+            os.remove(REPO / "People/Member/Member.html")
         except OSError:
             pass
 
-        with codecs.open("../People/Member/Member.html", "w", encoding='utf8') as file:
+        with codecs.open(REPO / "People/Member/Member.html", "w", encoding='utf8') as file:
             file.write(script)
             file.close()
 
@@ -105,11 +111,11 @@ class Member:
             script_member_page += template.MemberPage.script4
 
             try:
-                os.remove("../People/Member/" + name["eng"] + ".html")
+                os.remove(REPO / f'People/Member/{name["eng"]}.html')
             except OSError:
                 pass
 
-            with codecs.open("../People/Member/" + name["eng"] + ".html", "w", encoding='utf8') as file:
+            with codecs.open(REPO / f'People/Member/{name["eng"]}.html', "w", encoding='utf8') as file:
                 file.write(script_member_page)
                 file.close()
 
@@ -140,11 +146,11 @@ class Member:
         script = script + template.Alumni.script4
 
         try:
-            os.remove("../People/Alumni/Alumni.html")
+            os.remove(REPO / "People/Alumni/Alumni.html")
         except OSError:
             pass
 
-        with codecs.open("../People//Alumni/Alumni.html", "w", encoding='utf8') as file:
+        with codecs.open(REPO / "People//Alumni/Alumni.html", "w", encoding='utf8') as file:
             file.write(script)
             file.close()
 
@@ -200,10 +206,10 @@ class Member:
             script_alumni_page += template.AlumniPage.script3
 
             try:
-                os.remove("../People/Alumni/" + name["eng"] + ".html")
+                os.remove(REPO / f'People/Alumni/{name["eng"]}.html')
             except OSError:
                 pass
 
-            with codecs.open("../People/Alumni/" + name["eng"] + ".html", "w", encoding='utf8') as file:
+            with codecs.open(REPO / f'People/Alumni/{name["eng"]}.html', "w", encoding='utf8') as file:
                 file.write(script_alumni_page)
                 file.close()

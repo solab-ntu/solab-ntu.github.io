@@ -3,32 +3,36 @@
 from collections import OrderedDict
 import json
 import os
+from pathlib import Path
 import shutil
 import time
 
 import tool
 
+FILE = Path(__file__).resolve()
+REPO = FILE.parents[1]
+
 # --
 
 try:
-    shutil.rmtree('../People/Member', ignore_errors=True)
+    shutil.rmtree(REPO / 'People/Member', ignore_errors=True)
 except:
     pass
 finally:
     time.sleep(1)
-    os.mkdir('../People/Member')
+    os.mkdir(REPO / 'People/Member')
 
 try:
-    shutil.rmtree('../People/Alumni', ignore_errors=True)
+    shutil.rmtree(REPO / 'People/Alumni', ignore_errors=True)
 except:
     pass
 finally:
     time.sleep(1)
-    os.mkdir('../People/Alumni')
+    os.mkdir(REPO / 'People/Alumni')
 
 # --
 
-with open('people.json', encoding='utf-8') as fp:
+with open(REPO / 'people.json', encoding='utf-8') as fp:
     data = json.loads(fp.read())
 
 data = {int(k):v for k, v in data.items()}

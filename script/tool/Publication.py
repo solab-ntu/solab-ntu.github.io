@@ -1,6 +1,10 @@
-import os
 import codecs
+from pathlib import Path
+
 from . import template
+
+FILE = Path(__file__).resolve()
+REPO = FILE.parents[2]
 
 class Publication():
 
@@ -65,6 +69,6 @@ class Publication():
 
         script += template.Publication.script5
 
-        with codecs.open('../Publication/Publication.html', "w", encoding='utf8') as file:
+        with codecs.open(REPO / 'Publication/Publication.html', "w", encoding='utf8') as file:
             file.write(script)
             file.close()
