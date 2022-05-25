@@ -1762,6 +1762,9 @@ pp["year"] = 23
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中正大學 學士", "eng": "B.S., National Chung Cheng University (21)"}
+pp["research"] = {
+    "chi": "多機器人在重複性特徵環境的格點佔據地圖合併方法",
+    "eng": "An Occupancy Grid Map Merging Method for Multi-Robots in Repetitive Feature Environments"}
 
 pp.set_first_second()
 data[i] = pp
