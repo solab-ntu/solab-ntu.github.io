@@ -291,13 +291,13 @@ pp = tool.People()
 pp["name"]["chi"] = "洪子頡"
 pp["name"]["eng"] = "Tzu-Chieh Hung"
 pp["year"] = 10
-pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (08)"}
+pp["degrees"][0] = {"chi": "國立中山大學 學士", "eng": "B.S., National Sun Yat-sen University (08)"}
 pp["degrees"][1] = {"chi": "國立成功大學 碩士", "eng": "M.S., National Cheng Kung University (10)"}
 pp["degrees"][2] = {"chi": "國立台灣大學 博士", "eng": "Ph.D., National Taiwan University (16)"}
 pp["jobs"][0] = {
-    "chi": "宏碁股份有限公司",
-    "eng": "Acer Incorporated",
-    "web": "https://www.acer.com/ac/zh/TW/content/home"}
+    "chi": "中國鋼鐵股份有限公司",
+    "eng": "China Steel Corporation (CSC)",
+    "web": "https://www.csc.com.tw/"}
 pp["thesis"] = {
     "chi": "不確定因素下整合風能微電網系統之設備規劃與配電策略最佳化",
     "eng": "Optimization of A Wind-Integrated Microgrid System with Equipment Sizing and Dispatch Strategy",
