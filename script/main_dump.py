@@ -1660,9 +1660,10 @@ pp = tool.People()
 pp["name"]["chi"] = "郭冠成"
 pp["name"]["eng"] = "Kuan-Cheng Kuo"
 pp["year"] = 22
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (22)"}
 pp["research"] = {
     "chi": "多機器人的任務分配問題之最佳化探討",
     "eng": "Optimal Tasks Allocations in Multi-Robot Systems"}
@@ -1677,9 +1678,10 @@ pp = tool.People()
 pp["name"]["chi"] = "鍾詔東"
 pp["name"]["eng"] = "Chao-Tung Chung"
 pp["year"] = 22
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (22)"}
 pp["research"] = {
     "chi": "利用機率密度以及駕駛行為分析道路設計中車流行駛風險",
     "eng": "Using Probability Density and Drivers Behavior to Analyze Drivers’ Risks on Road Design"}
@@ -1694,9 +1696,10 @@ pp = tool.People()
 pp["name"]["chi"] = "簡昱凡"
 pp["name"]["eng"] = "Yu-Fan Chien"
 pp["year"] = 22
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (20)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (22)"}
 pp["research"] = {
     "chi": "廣用肌肉骨骼系統之動作辨識與不確定性分析",
     "eng": "Motion Recognition and Uncertainty Analysis of Musculoskeletal Systems"}
@@ -1711,9 +1714,10 @@ pp = tool.People()
 pp["name"]["chi"] = "李亭宜"
 pp["name"]["eng"] = "Ting-I Lee"
 pp["year"] = 22
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (22)"}
 pp["research"] = {
     "chi": "動態物體間相對位置之即時量測方式建立",
     "eng": "Development of a Real-Time Measurement of the Relative Positions Between Dynamic Objects"}
@@ -1816,6 +1820,90 @@ pp["year"] = 23
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "柯琮祐"
+pp["name"]["eng"] = "Tsung-You Ke"
+pp["year"] = 24
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (22)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "張問蕖"
+pp["name"]["eng"] = "Wen-Qu Zhang"
+pp["year"] = 24
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立台北科技大學 學士", "eng": "B.S., National Taipei University of Technology (22)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "陳珮甄"
+pp["name"]["eng"] = "Pei-Tseng Chen"
+pp["year"] = 24
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立台北科技大學 學士", "eng": "B.S., National Taipei University of Technology (22)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "劉怡葶"
+pp["name"]["eng"] = "Yi-Ting Liu"
+pp["year"] = 24
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立中山大學 學士", "eng": "B.S., National Sun Yat-sen University (22)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "蕭敬亭"
+pp["name"]["eng"] = "Ching-Ting Hsiao"
+pp["year"] = 24
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立台灣科技大學 學士", "eng": "B.S., National Taiwan University of Science and Technology (22)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "謝鐘毅"
+pp["name"]["eng"] = "Chung-I Hsieh"
+pp["year"] = 24
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (22)"}
 
 pp.set_first_second()
 data[i] = pp
