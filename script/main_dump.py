@@ -1601,8 +1601,8 @@ pp = tool.People()
 pp["name"]["chi"] = "陳昱霖"
 pp["name"]["eng"] = "Yu-Lin Chen"
 pp["year"] = 21
-pp["alumni"] = True
-pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["alumni"] = False
+pp["lab_id"] = "研究助理 Research Assistant"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (19)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (21)"}
 pp["thesis"] = {
@@ -1610,10 +1610,6 @@ pp["thesis"] = {
     "eng": "An Occupancy Grid Map Merging Method Based on Morphology Image Pre-process and Feature Matching",
     "file": "ChenYuLin.pdf",
     "drive": "https://drive.google.com/file/d/1uNOFFtDC4zr33ugpPccK0doA1b2O9ygC"}
-pp["jobs"][0] = {
-    "chi": "陽程科技股份有限公司",
-    "eng": "USUN Technology Co., Ltd.",
-    "web": "http://www.usuntek.com.tw/homeweb/index.php"}
 
 pp.set_first_second()
 data[i] = pp
