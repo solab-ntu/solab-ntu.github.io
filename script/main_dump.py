@@ -1656,13 +1656,13 @@ pp = tool.People()
 pp["name"]["chi"] = "郭冠成"
 pp["name"]["eng"] = "Kuan-Cheng Kuo"
 pp["year"] = 22
-pp["alumni"] = False
-pp["lab_id"] = "研究助理 Research Assistant"
+pp["alumni"] = True
+pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (22)"}
 pp["research"] = {
-    "chi": "多機器人的任務分配問題之最佳化探討",
-    "eng": "Optimal Tasks Allocations in Multi-Robot Systems"}
+    "chi": "基於混合式 A* 演算法解決差速式機器人於具有狹長通道之環境中執行推箱任務之規劃問題",
+    "eng": "Solving Box-Pushing Problem in Narrow Passages Environment with Differential-Drive Robot based on Hybrid A* Algorithm"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1679,8 +1679,8 @@ pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (22)"}
 pp["research"] = {
-    "chi": "利用機率密度以及駕駛行為分析道路設計中車流行駛風險",
-    "eng": "Using Probability Density and Drivers Behavior to Analyze Drivers’ Risks on Road Design"}
+    "chi": "建立二維駕駛反應模型以評估市區路口風險",
+    "eng": "A Two-Dimensional Driver Reaction Model in Analyzing Urban Intersection Risks"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1697,8 +1697,8 @@ pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立交通大學 學士", "eng": "B.S., National Chiao Tung University (20)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (22)"}
 pp["research"] = {
-    "chi": "廣用肌肉骨骼系統之動作辨識與不確定性分析",
-    "eng": "Motion Recognition and Uncertainty Analysis of Musculoskeletal Systems"}
+    "chi": "利用位移資訊評估特定對象肌肉模型參數之方法",
+    "eng": "A Preliminary Study on Estimating Muscle Model Parameters of A Specific Subject using Displacement Data"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1715,8 +1715,8 @@ pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (20)"}
 pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (22)"}
 pp["research"] = {
-    "chi": "動態物體間相對位置之即時量測方式建立",
-    "eng": "Development of a Real-Time Measurement of the Relative Positions Between Dynamic Objects"}
+    "chi": "一個不限制平面平行的 LED-PD 室內三維定位系統最佳化考量硬體指向與朗博次方參數",
+    "eng": "The Optimal Design of a Three-Dimensional LED-PD Indoor Positioning System Considering Variable Hardware Orientation and Lambertian Order without Parallel Planes Assumptions"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1728,12 +1728,13 @@ pp = tool.People()
 pp["name"]["chi"] = "彭啟瑞"
 pp["name"]["eng"] = "Chi-Jui Peng"
 pp["year"] = 23
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (21)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (23)"}
 pp["research"] = {
-    "chi": "先進車輛系統冗余控制策略研究",
-    "eng": "Robust Control Strategy for Advanced Vehicle System"}
+    "chi": "一融合在環模擬科技之現代電動貨卡模型",
+    "eng": "Modeling of a Modern Electric Truck with the Integration of In-the-Loop Simulation Technologies"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1745,9 +1746,10 @@ pp = tool.People()
 pp["name"]["chi"] = "林怡萱"
 pp["name"]["eng"] = "Yi-Shun Lin"
 pp["year"] = 23
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (21)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (23)"}
 pp["research"] = {
     "chi": "車輛不確定參數敏感度分析與校準",
     "eng": "Sensitivity Analysis and Estimation of Vehicle Uncertain Parameters"}
@@ -1762,12 +1764,13 @@ pp = tool.People()
 pp["name"]["chi"] = "賴重叡"
 pp["name"]["eng"] = "Chung-Jui Lai"
 pp["year"] = 23
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中正大學 學士", "eng": "B.S., National Chung Cheng University (21)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (23)"}
 pp["research"] = {
-    "chi": "多機器人在重複性特徵環境的格點佔據地圖合併方法",
-    "eng": "An Occupancy Grid Map Merging Method for Multi-Robots in Repetitive Feature Environments"}
+    "chi": "在重複特徵環境下針對未知相對初始姿態之多機器人自主探索與地圖合併",
+    "eng": "Map Merging for Multi-Robot Exploration in Repetitive Environments with Unknown Initial Poses"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1779,12 +1782,13 @@ pp = tool.People()
 pp["name"]["chi"] = "徐若瑄"
 pp["name"]["eng"] = "Jo-Hsuan Hsu"
 pp["year"] = 23
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (21)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (23)"}
 pp["research"] = {
-    "chi": "基於光通訊的空間定位系統架設與驗證",
-    "eng": "3-D positioning system based on optical communication"}
+    "chi": "基於無線光通訊的三維相對定位即時量測系統之架設",
+    "eng": "Implementation of Real-Time 3-D Relative Positioning Measurement System based on Optical Wireless Communication"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1796,12 +1800,13 @@ pp = tool.People()
 pp["name"]["chi"] = "林易玄"
 pp["name"]["eng"] = "Yi-Hsuan Lin"
 pp["year"] = 23
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (21)"}
+pp["degrees"][1] = {"chi": "國立臺灣大學 碩士", "eng": "M.S., National Taiwan University (23)"}
 pp["research"] = {
-    "chi": "特定姿勢下基於慣性量測單位傳感器的手臂朝向實時校正與量測",
-    "eng": "Calibration and Measurement of Arm Orientation based on IMU in Real-Time During Specific Pose"}
+    "chi": "利用多特定運動軌跡估測希爾式肌肉骨骼模型之肌肉肌腱參數的最佳化方法",
+    "eng": "Optimization-based Estimation of Musculotendon Parameters in Hill-type Musculoskeletal Models using Multiple Specific Kinematic Trajectories"}
 
 pp.set_first_second()
 data[i] = pp
@@ -1900,6 +1905,62 @@ pp["year"] = 24
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {"chi": "國立成功大學 學士", "eng": "B.S., National Cheng Kung University (22)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "王邑安"
+pp["name"]["eng"] = "Yian Wang"
+pp["year"] = 25
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立中央大學 學士", "eng": "B.S., National Central University (23)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "李京睿"
+pp["name"]["eng"] = "Jing-Ruei Lee"
+pp["year"] = 25
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (23)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "謝定群"
+pp["name"]["eng"] = "Ding-Chun Hsieh"
+pp["year"] = 25
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立臺灣大學 學士", "eng": "B.S., National Taiwan University (23)"}
+
+pp.set_first_second()
+data[i] = pp
+
+# --
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "蘇瑄"
+pp["name"]["eng"] = "Hsuan Su"
+pp["year"] = 25
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {"chi": "國立中山大學 學士", "eng": "B.S., National Sun Yat-sen University (23)"}
 
 pp.set_first_second()
 data[i] = pp
