@@ -1969,7 +1969,7 @@ data[i] = pp
 
 i += 1
 pp = tool.People()
-pp["name"]["chi"] = "吳佳安"
+pp["name"]["chi"] = "吳家安"
 pp["name"]["eng"] = "Chia-An Wu"
 pp["year"] = 25
 pp["alumni"] = False
