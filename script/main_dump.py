@@ -2309,6 +2309,13 @@ pp["research"] = {
     "chi": "在重複特徵環境下針對未知相對初始姿態之多機器人自主探索與地圖合併",
     "eng": "Map Merging for Multi-Robot Exploration in Repetitive Environments with Unknown Initial Poses",
 }
+pp["papers"][0] = {
+    "ref": """C.-J. Lai and K.-Y. Chan, "A Novel Approach to Occupancy Grid Map Merging in Environments with Highly Repetitive Features", Advances in Mechanism and Machine Science: Proceedings of the 16th Iftomm World Congress 2023""",
+    "type": "ic",
+    "file": "",
+    "drive": "",
+    "year": 2023,
+}
 
 pp.set_first_second()
 data[i] = pp
@@ -2359,6 +2366,13 @@ pp["research"] = {
     "chi": "利用多特定運動軌跡估測希爾式肌肉骨骼模型之肌肉肌腱參數的最佳化方法",
     "eng": "Optimization-based Estimation of Musculotendon Parameters in Hill-type Musculoskeletal Models using Multiple Specific Kinematic Trajectories",
 }
+pp["papers"][0] = {
+    "ref": """Y.-H. Lin and K.-Y. Chan, "Investigating the Impact of Multiple Tasks on the Estimation of Non-identifiable Muscle Parameters in Musculokeletal Models: a preliminary study", Advances in Mechanism and Machine Science: Proceedings of the 16th Iftomm World Congress 2023""",
+    "type": "ic",
+    "file": "",
+    "drive": "",
+    "year": 2023,
+}
 
 pp.set_first_second()
 data[i] = pp
@@ -2370,11 +2384,15 @@ pp = tool.People()
 pp["name"]["chi"] = "李冠賢"
 pp["name"]["eng"] = "Kuan-Hsien Li"
 pp["year"] = 23
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立臺灣大學 學士",
     "eng": "B.S., National Taiwan University (20)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (24)",
 }
 
 pp.set_first_second()
@@ -2387,11 +2405,19 @@ pp = tool.People()
 pp["name"]["chi"] = "柯琮祐"
 pp["name"]["eng"] = "Tsung-You Ke"
 pp["year"] = 24
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立成功大學 學士",
     "eng": "B.S., National Cheng Kung University (22)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (24)",
+}
+pp["research"] = {
+    "chi": "基於指數分佈模型的車輛碰撞風險評估改進與應用",
+    "eng": "Improvement and Application of Vehicle Crash Risk Assessment Based on Exponential Distribution Model",
 }
 
 pp.set_first_second()
@@ -2404,11 +2430,19 @@ pp = tool.People()
 pp["name"]["chi"] = "張問蕖"
 pp["name"]["eng"] = "Wen-Qu Zhang"
 pp["year"] = 24
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立台北科技大學 學士",
     "eng": "B.S., National Taipei University of Technology (22)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (24)",
+}
+pp["research"] = {
+    "chi": "以動態最佳化方法結合慣性量測估測人體運動狀態與地面反作用力：反向跳行為分析",
+    "eng": "Estimation of Human Motion and Ground Reaction Forces Using Dynamic Optimization and Inertial Measurement: An Analysis of Countermovement Jump",
 }
 
 pp.set_first_second()
@@ -2421,11 +2455,19 @@ pp = tool.People()
 pp["name"]["chi"] = "陳珮甄"
 pp["name"]["eng"] = "Pei-Tseng Chen"
 pp["year"] = 24
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立台北科技大學 學士",
     "eng": "B.S., National Taipei University of Technology (22)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (24)",
+}
+pp["research"] = {
+    "chi": "利用 IMU 改善純影像技術在人體動作重建中的表現",
+    "eng": "Using IMU to Improve the Performance of Imaging Technology in Human Motion Reconstruction",
 }
 
 pp.set_first_second()
@@ -2438,11 +2480,19 @@ pp = tool.People()
 pp["name"]["chi"] = "劉怡葶"
 pp["name"]["eng"] = "Yi-Ting Liu"
 pp["year"] = 24
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立中山大學 學士",
     "eng": "B.S., National Sun Yat-sen University (22)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (24)",
+}
+pp["research"] = {
+    "chi": "以故障注入與傷害等級模型評估自動煞車系統之風險",
+    "eng": "Risk Assessment of Automated Braking Systems Using Fault Injection and Injury Severity Models",
 }
 
 pp.set_first_second()
@@ -2455,11 +2505,19 @@ pp = tool.People()
 pp["name"]["chi"] = "蕭敬亭"
 pp["name"]["eng"] = "Ching-Ting Hsiao"
 pp["year"] = 24
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立台灣科技大學 學士",
     "eng": "B.S., National Taiwan University of Science and Technology (22)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (24)",
+}
+pp["research"] = {
+    "chi": "無碰撞條件下自動煞車系統的測試情境設計",
+    "eng": "Design of Test Scenarios for Automatic Emergency Braking Systems under Non-Collision Conditions",
 }
 
 pp.set_first_second()
@@ -2470,13 +2528,21 @@ data[i] = pp
 i += 1
 pp = tool.People()
 pp["name"]["chi"] = "謝鐘毅"
-pp["name"]["eng"] = "Chung-I Hsieh"
+pp["name"]["eng"] = "Chung-Yi Hsieh"
 pp["year"] = 24
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立成功大學 學士",
     "eng": "B.S., National Cheng Kung University (22)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (24)",
+}
+pp["research"] = {
+    "chi": "未知重心高度車輛的負載轉移比率估測與傾覆警示系統設計",
+    "eng": "Load Transfer Ratio Estimation and Rollover Warning System Design for Vechicles with Unknown Center of Gravity Height",
 }
 
 pp.set_first_second()
