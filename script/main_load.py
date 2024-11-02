@@ -1,12 +1,10 @@
 from collections import OrderedDict
 import json
-from pathlib import Path
 
-FILE = Path(__file__).resolve()
-REPO = FILE.parents[1]
+from tool import FILE
 
 if __name__ == "__main__":
-    with open(REPO / "people.json", encoding="utf-8") as fp:
+    with open(FILE / "people.json", encoding="utf-8") as fp:
         data = json.loads(fp.read())
 
     data = {int(k): v for k, v in data.items()}

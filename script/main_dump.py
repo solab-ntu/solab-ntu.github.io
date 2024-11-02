@@ -1,10 +1,7 @@
 import json
-from pathlib import Path
 
 import tool
-
-FILE = Path(__file__).resolve()
-REPO = FILE.parents[1]
+from tool import FILE
 
 data = {}
 
@@ -2131,8 +2128,8 @@ pp["degrees"][0] = {
     "eng": "B.S., National Tsing Hua University (17)",
 }
 pp["research"] = {
-    "chi": "一種基於動態行為辨識與預測之下肢外骨骼輔助裝置",
-    "eng": "A Human Lower Limb Assistive Device based on Dynamic Action Recognition and Prediction",
+    "chi": "一種基於多模態數據融合的肌肉骨骼模型參數校準與個人化方法",
+    "eng": "A Multimodal Data Fusion-Based Approach for Calibration and Personalization of Musculoskeletal Model Parameters",
 }
 
 pp.set_first_second()
@@ -2736,7 +2733,7 @@ data[i] = pp
 # data[i] = pp
 
 if __name__ == "__main__":
-    with open(REPO / "people.json", "w", encoding="utf-8") as fp:
+    with open(FILE / "people.json", "w", encoding="utf-8") as fp:
         json.dump(data, fp, ensure_ascii=False)
 
-    print(f'write to {str(REPO / "people.json")}')
+    print(f'write to {str(FILE / "people.json")}')

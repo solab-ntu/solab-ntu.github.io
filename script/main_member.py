@@ -1,16 +1,14 @@
 from collections import OrderedDict
 import json
 import os
-from pathlib import Path
 import shutil
 import time
 
 import tool
-
-FILE = Path(__file__).resolve()
-REPO = FILE.parents[1]
+from tool import REPO, FILE
 
 if __name__ == "__main__":
+    # 移除成員資料夾
     try:
         shutil.rmtree(REPO / "People/Member", ignore_errors=True)
     except Exception:
@@ -19,6 +17,7 @@ if __name__ == "__main__":
         time.sleep(1)
         os.mkdir(REPO / "People/Member")
 
+    # 移除校友資料夾
     try:
         shutil.rmtree(REPO / "People/Alumni", ignore_errors=True)
     except Exception:
@@ -27,9 +26,8 @@ if __name__ == "__main__":
         time.sleep(1)
         os.mkdir(REPO / "People/Alumni")
 
-    # --
-
-    with open(REPO / "people.json", encoding="utf-8") as fp:
+    # 讀取成員資料
+    with open(FILE / "people.json", encoding="utf-8") as fp:
         data = json.loads(fp.read())
 
     data = {int(k): v for k, v in data.items()}
@@ -38,12 +36,9 @@ if __name__ == "__main__":
     )
     data = OrderedDict(data)
 
-    # --
-
+    # 建立成員頁面
     member = tool.Member(data)
-
     member.create_member_page()
     member.create_member_pages()
-
     member.create_alumni_page()
     member.create_alumni_pages()
