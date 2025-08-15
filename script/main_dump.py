@@ -2128,8 +2128,8 @@ pp["degrees"][0] = {
     "eng": "B.S., National Tsing Hua University (17)",
 }
 pp["research"] = {
-    "chi": "一種基於多模態數據融合的肌肉骨骼模型參數校準與個人化方法<br />一種基於多模態數據融合的個人化肌肉活化控制重建與肌肉骨骼模型參數校準方法",
-    "eng": "A Multimodal Data Fusion-Based Approach for Calibration and Personalization of Musculoskeletal Model Parameters<br />A Personalized Method for Muscle Activation Control Reconstruction and Musculoskeletal Model Parameter Calibration Based on Multimodal Data Fusion",
+    "chi": "一種基於多模態數據融合的肌肉骨骼模型參數校準與個人化方法<br /><br />一種基於多模態數據融合的個人化肌肉活化控制重建與肌肉骨骼模型參數校準方法",
+    "eng": "A Multimodal Data Fusion-Based Approach for Calibration and Personalization of Musculoskeletal Model Parameters<br /><br />A Personalized Method for Muscle Activation Control Reconstruction and Musculoskeletal Model Parameter Calibration Based on Multimodal Data Fusion",
 }
 pp.set_first_second()
 data[i] = pp
@@ -2411,9 +2411,11 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (24)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "基於指數分佈模型的車輛碰撞風險評估改進與應用",
     "eng": "Improvement and Application of Vehicle Crash Risk Assessment Based on Exponential Distribution Model",
+    "file": "Tsung-You Ke.pdf",
+    "drive": "https://drive.google.com/file/d/1KPQhuB8Bn1Mvcx7hY13BTroAU1AQcrM1/view?usp=drive_link",
 }
 
 pp.set_first_second()
@@ -2436,9 +2438,11 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (24)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "以動態最佳化方法結合慣性量測估測人體運動狀態與地面反作用力：反向跳行為分析",
     "eng": "Estimation of Human Motion and Ground Reaction Forces Using Dynamic Optimization and Inertial Measurement: An Analysis of Countermovement Jump",
+    "file": "Wen-Qu Zhang.pdf",
+    "drive": "https://drive.google.com/file/d/1vvp17XRYGdJk3c-a4_602BZFaNDTU7n2/view?usp=drive_link",
 }
 
 pp.set_first_second()
@@ -2461,9 +2465,11 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (24)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "利用 IMU 改善純影像技術在人體動作重建中的表現",
     "eng": "Using IMU to Improve the Performance of Imaging Technology in Human Motion Reconstruction",
+    "file": "Pei-Tseng Chen.pdf",
+    "drive": "https://drive.google.com/file/d/1f-_XMJoacwFYhJyF44-2LtbljnIdPpGs/view?usp=sharing",
 }
 
 pp.set_first_second()
@@ -2486,9 +2492,11 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (24)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "以故障注入與傷害等級模型評估自動煞車系統之風險",
     "eng": "Risk Assessment of Automated Braking Systems Using Fault Injection and Injury Severity Models",
+    "file": "Yi-Ting Liu.pdf",
+    "drive": "https://drive.google.com/file/d/1aL5FPquqTq_TphDqba1JSuyAIY0vABFP/view?usp=sharing",
 }
 
 pp.set_first_second()
@@ -2511,9 +2519,11 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (24)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "無碰撞條件下自動煞車系統的測試情境設計",
     "eng": "Design of Test Scenarios for Automatic Emergency Braking Systems under Non-Collision Conditions",
+    "file": "Ching-Ting Hsiao.pdf",
+    "drive": "https://drive.google.com/file/d/1uQKASUJxkCWfrEoezofJt_tpL6s5azCd/view?usp=sharing",
 }
 
 pp.set_first_second()
@@ -2536,9 +2546,11 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (24)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "未知重心高度車輛的負載轉移比率估測與傾覆警示系統設計",
     "eng": "Load Transfer Ratio Estimation and Rollover Warning System Design for Vechicles with Unknown Center of Gravity Height",
+    "file": "Chung-Yi Hsieh.pdf",
+    "drive": "https://drive.google.com/file/d/1v8Avhf3u3MHtzu_TZC_YXuUOEuw2Qv90/view?usp=sharing",
 }
 
 pp.set_first_second()
@@ -2671,8 +2683,10 @@ pp["degrees"][1] = {
     "eng": "M.S., National Taiwan University (25)",
 }
 pp["thesis"] = {
-    "chi": "--",
-    "eng": "--",
+    "chi": "確認中",
+    "eng": "no",
+    "file": "Yian Wang.pdf",
+    "drive": "https://drive.google.com/file/d/1R6AJpreGwQcaqV6cdnnSvt7w9Skn0NLe/view?usp=drive_link",
 }
 
 
