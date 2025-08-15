@@ -2739,23 +2739,6 @@ pp["research"] = {
 pp.set_first_second()
 data[i] = pp
 
-i += 1
-pp = tool.People()
-pp["name"]["chi"] = "巫泓毅"
-pp["name"]["eng"] = "Hong-Yi Wu"
-pp["year"] = 26
-pp["alumni"] = False
-pp["lab_id"] = "碩士班學生 M.S. Student"
-pp["degrees"][0] = {
-    "chi": "國立中央大學 學士",
-    "eng": "B.S., National Central University (24)",
-}
-pp["research"] = {
-    "chi": "人機協同駕駛：自然語言即時介入之自主避障控制研究",
-    "eng": "Human- AI Collaborative Driving: Natural Language Intervention for Real-Time Autonomous Obstacle Avoidance",
-}
-pp.set_first_second()
-data[i] = pp
 
 i += 1
 pp = tool.People()
