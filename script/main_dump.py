@@ -2127,13 +2127,9 @@ pp["degrees"][0] = {
     "chi": "國立清華大學 學士",
     "eng": "B.S., National Tsing Hua University (17)",
 }
-pp["research"][0] = {
-    "chi": "一種基於多模態數據融合的肌肉骨骼模型參數校準與個人化方法",
-    "eng": "A Multimodal Data Fusion-Based Approach for Calibration and Personalization of Musculoskeletal Model Parameters",
-}
-pp["research"][1] = {
-    "chi": "一種基於多模態數據融合的個人化肌肉活化控制重建與肌肉骨骼模型參數校準方法",
-    "eng": "A Personalized Method for Muscle Activation Control Reconstruction and Musculoskeletal Model Parameter Calibration Based on Multimodal Data Fusion",
+pp["research"] = {
+    "chi": "一種基於多模態數據融合的肌肉骨骼模型參數校準與個人化方法<br />一種基於多模態數據融合的個人化肌肉活化控制重建與肌肉骨骼模型參數校準方法",
+    "eng": "A Multimodal Data Fusion-Based Approach for Calibration and Personalization of Musculoskeletal Model Parameters<br />A Personalized Method for Muscle Activation Control Reconstruction and Musculoskeletal Model Parameter Calibration Based on Multimodal Data Fusion",
 }
 pp.set_first_second()
 data[i] = pp
@@ -2565,7 +2561,7 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (25)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "用於動態且意圖不確定環境之模型預測與速度障礙整合規劃方法",
     "eng": "Model Predictive Velocity Obstacle Planning in Dynamic Environments with Intention Uncertainty",
     "file": "Yian Wang.pdf",
@@ -2592,7 +2588,7 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (25)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "無優先權機制之多任意形狀物體協同與避障方法",
     "eng": "Collision-Free Coordination of Heterogeneously Shaped Agents Without Yielding Priorities",
     "file": "Jing-Ruei Lee.pdf",
@@ -2620,7 +2616,7 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (25)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "基於肌肉骨骼模型之全域敏感度分析的肌肉識別與動作最佳化方法",
     "eng": "Motion Optimization for Target Muscle Identification via Global Sensitivity Maximization in Musculoskeletal Models",
     "file": "Ding-Chun Hsieh.pdf",
@@ -2647,7 +2643,7 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (25)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "反向跳躍中肌肉力分布之最佳化估算：階段性分析與局部肌電圖驗證",
     "eng": "Optimization-Based Estimation of Muscle Force Distribution in Countermovement Jump: Stage-Wise Analysis with Partial EMG Validation",
     "file": "Hsuan Su.pdf",
@@ -2674,7 +2670,7 @@ pp["degrees"][1] = {
     "chi": "國立臺灣大學 碩士",
     "eng": "M.S., National Taiwan University (25)",
 }
-pp["research"] = {
+pp["thesis"] = {
     "chi": "--",
     "eng": "--",
 }
