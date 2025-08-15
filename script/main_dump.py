@@ -2752,7 +2752,7 @@ pp["degrees"][0] = {
 }
 pp["research"] = {
     "chi": "人機協同駕駛：自然語言即時介入之自主避障控制研究",
-    "eng": "Human-AI Collaborative Driving: Natural Language Intervention for Real-Time Autonomous Obstacle Avoidance",
+    "eng": "Human- AI Collaborative Driving: Natural Language Intervention for Real-Time Autonomous Obstacle Avoidance",
 }
 pp.set_first_second()
 data[i] = pp
