@@ -2127,6 +2127,10 @@ pp["degrees"][0] = {
     "chi": "國立清華大學 學士",
     "eng": "B.S., National Tsing Hua University (17)",
 }
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 博士",
+    "eng": "Ph.D., National Taiwan University (25)",
+}
 pp["research"] = {
     "chi": "一種基於多模態數據融合的肌肉骨骼模型參數校準與個人化方法<br /><br />一種基於多模態數據融合的個人化肌肉活化控制重建與肌肉骨骼模型參數校準方法",
     "eng": "A Multimodal Data Fusion-Based Approach for Calibration and Personalization of Musculoskeletal Model Parameters<br /><br />A Personalized Method for Muscle Activation Control Reconstruction and Musculoskeletal Model Parameter Calibration Based on Multimodal Data Fusion",
