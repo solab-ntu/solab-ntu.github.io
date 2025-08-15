@@ -2675,8 +2675,8 @@ pp["degrees"][1] = {
     "eng": "M.S., National Taiwan University (25)",
 }
 pp["research"] = {
-    "chi": "-",
-    "eng": "-",
+    "chi": "--",
+    "eng": "--",
 }
 
 
