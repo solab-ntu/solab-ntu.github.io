@@ -2121,17 +2121,20 @@ pp = tool.People()
 pp["name"]["chi"] = "江柏賢"
 pp["name"]["eng"] = "Po-Hsien Jiang"
 pp["year"] = 22
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "博士候選人 Ph.D. Candidate"
 pp["degrees"][0] = {
     "chi": "國立清華大學 學士",
     "eng": "B.S., National Tsing Hua University (17)",
 }
-pp["research"] = {
+pp["research"][0] = {
     "chi": "一種基於多模態數據融合的肌肉骨骼模型參數校準與個人化方法",
     "eng": "A Multimodal Data Fusion-Based Approach for Calibration and Personalization of Musculoskeletal Model Parameters",
 }
-
+pp["research"][1] = {
+    "chi": "一種基於多模態數據融合的個人化肌肉活化控制重建與肌肉骨骼模型參數校準方法",
+    "eng": "A Personalized Method for Muscle Activation Control Reconstruction and Musculoskeletal Model Parameter Calibration Based on Multimodal Data Fusion",
+}
 pp.set_first_second()
 data[i] = pp
 
@@ -2552,11 +2555,21 @@ pp = tool.People()
 pp["name"]["chi"] = "王邑安"
 pp["name"]["eng"] = "Yian Wang"
 pp["year"] = 25
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立中央大學 學士",
     "eng": "B.S., National Central University (23)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (25)",
+}
+pp["research"] = {
+    "chi": "用於動態且意圖不確定環境之模型預測與速度障礙整合規劃方法",
+    "eng": "Model Predictive Velocity Obstacle Planning in Dynamic Environments with Intention Uncertainty",
+    "file": "Yian Wang.pdf",
+    "drive": "https://drive.google.com/file/d/1R6AJpreGwQcaqV6cdnnSvt7w9Skn0NLe/view?usp=drive_link",
 }
 
 pp.set_first_second()
@@ -2569,12 +2582,23 @@ pp = tool.People()
 pp["name"]["chi"] = "李京睿"
 pp["name"]["eng"] = "Jing-Ruei Lee"
 pp["year"] = 25
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立臺灣大學 學士",
     "eng": "B.S., National Taiwan University (23)",
 }
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (25)",
+}
+pp["research"] = {
+    "chi": "無優先權機制之多任意形狀物體協同與避障方法",
+    "eng": "Collision-Free Coordination of Heterogeneously Shaped Agents Without Yielding Priorities",
+    "file": "Jing-Ruei Lee.pdf",
+    "drive": "https://drive.google.com/file/d/1Sup5XY3Lft7wTWPkpWJUKKHdOSGC2RlJ/view?usp=drive_link",
+}
+
 
 pp.set_first_second()
 data[i] = pp
@@ -2586,11 +2610,21 @@ pp = tool.People()
 pp["name"]["chi"] = "謝定群"
 pp["name"]["eng"] = "Ding-Chun Hsieh"
 pp["year"] = 25
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立臺灣大學 學士",
     "eng": "B.S., National Taiwan University (23)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (25)",
+}
+pp["research"] = {
+    "chi": "基於肌肉骨骼模型之全域敏感度分析的肌肉識別與動作最佳化方法",
+    "eng": "Motion Optimization for Target Muscle Identification via Global Sensitivity Maximization in Musculoskeletal Models",
+    "file": "Ding-Chun Hsieh.pdf",
+    "drive": "https://drive.google.com/file/d/10_XcQ2OrWr1FOIOMsqNt62kbRSvIiORu/view?usp=drive_link",
 }
 
 pp.set_first_second()
@@ -2603,11 +2637,21 @@ pp = tool.People()
 pp["name"]["chi"] = "蘇瑄"
 pp["name"]["eng"] = "Hsuan Su"
 pp["year"] = 25
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立中山大學 學士",
     "eng": "B.S., National Sun Yat-sen University (23)",
+}
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (25)",
+}
+pp["research"] = {
+    "chi": "反向跳躍中肌肉力分布之最佳化估算：階段性分析與局部肌電圖驗證",
+    "eng": "Optimization-Based Estimation of Muscle Force Distribution in Countermovement Jump: Stage-Wise Analysis with Partial EMG Validation",
+    "file": "Hsuan Su.pdf",
+    "drive": "https://drive.google.com/file/d/1kwuWEd2Y4-MU7FqtjH5Cbzb78F78l6T4/view?usp=drive_link",
 }
 
 pp.set_first_second()
@@ -2620,12 +2664,21 @@ pp = tool.People()
 pp["name"]["chi"] = "吳家安"
 pp["name"]["eng"] = "Chia-An Wu"
 pp["year"] = 25
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立中央大學 學士",
     "eng": "B.S., National Central University (23)",
 }
+pp["degrees"][1] = {
+    "chi": "國立臺灣大學 碩士",
+    "eng": "M.S., National Taiwan University (25)",
+}
+pp["research"] = {
+    "chi": "-",
+    "eng": "-",
+}
+
 
 pp.set_first_second()
 data[i] = pp
@@ -2635,13 +2688,17 @@ data[i] = pp
 i += 1
 pp = tool.People()
 pp["name"]["chi"] = "高廣鈞"
-pp["name"]["eng"] = "GUANG-JUN GAO"
+pp["name"]["eng"] = "Kuang-Chun Kao"
 pp["year"] = 26
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立中山大學 學士",
     "eng": "B.S., National Sun Yat-sen University (24)",
+}
+pp["research"] = {
+    "chi": "基於MPC之感測式自主超車模型",
+    "eng": "Model Predictive Control-Based Sensor-Driven Autonomous Overtaking Model",
 }
 pp.set_first_second()
 data[i] = pp
@@ -2657,6 +2714,10 @@ pp["degrees"][0] = {
     "chi": "國立台北科技大學 學士",
     "eng": "B.S., National Taipei University of Technology (24)",
 }
+pp["research"] = {
+    "chi": "基於距離量度量化分析不同受試者深蹲動作差異與成因",
+    "eng": "Quantitative Analysis of Squat Motion Differences and Their Causes among Subjects Based on Distance Metrics",
+}
 pp.set_first_second()
 data[i] = pp
 
@@ -2670,6 +2731,10 @@ pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立台北科技大學 學士",
     "eng": "B.S., National Taipei University of Technology (24)",
+}
+pp["research"] = {
+    "chi": "基於數位孿生的車輛動態模型建立與驗證",
+    "eng": "Development and Validation of a Vehicle Dynamics Model Based on Digital Twin Technology",
 }
 pp.set_first_second()
 data[i] = pp
@@ -2685,6 +2750,10 @@ pp["degrees"][0] = {
     "chi": "國立中央大學 學士",
     "eng": "B.S., National Central University (24)",
 }
+pp["research"] = {
+    "chi": "人機協同駕駛：自然語言即時介入之自主避障控制研究",
+    "eng": "Human-AI Collaborative Driving: Natural Language Intervention for Real-Time Autonomous Obstacle Avoidance",
+}
 pp.set_first_second()
 data[i] = pp
 
@@ -2699,6 +2768,55 @@ pp["degrees"][0] = {
     "chi": "國立中央大學 學士",
     "eng": "B.S., National Central University (24)",
 }
+pp["research"] = {
+    "chi": "腦性麻痺患者步態手術策略最佳化",
+    "eng": "Optimization of Gait Surgery Strategies for Patients with Cerebral Palsy",
+}
+pp.set_first_second()
+data[i] = pp
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "王泰傑"
+pp["name"]["eng"] = "Tai-Jie Wang"
+pp["year"] = 27
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立臺灣大學 學士",
+    "eng": "B.S., National Taiwan University (25)",
+}
+
+pp.set_first_second()
+data[i] = pp
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "魏凱聖"
+pp["name"]["eng"] = "Kai-Sheng Wei"
+pp["year"] = 27
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立臺灣大學 學士",
+    "eng": "B.S., National Taiwan University (25)",
+}
+
+pp.set_first_second()
+data[i] = pp
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "林培苓"
+pp["name"]["eng"] = "Pei-Ling Lin"
+pp["year"] = 27
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立陽明交通大學 學士",
+    "eng": "B.S., National Yang Ming Chiao Tung University (25)",
+}
+
 pp.set_first_second()
 data[i] = pp
 
