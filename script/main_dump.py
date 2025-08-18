@@ -2687,10 +2687,10 @@ pp["degrees"][1] = {
     "eng": "M.S., National Taiwan University (25)",
 }
 pp["thesis"] = {
-    "chi": "確認中",
-    "eng": "no",
-    "file": "Yian Wang.pdf",
-    "drive": "https://drive.google.com/file/d/1R6AJpreGwQcaqV6cdnnSvt7w9Skn0NLe/view?usp=drive_link",
+    "chi": "針對未知且變動重心高度下之半聯結車主動防翻覆系統設計與控制",
+    "eng": "Design and Control of a Semi-Trailer Rollover Prevention System under Unknown and Varying Center of Gravity Conditions",
+    "file": "Chia-An Wu.pdf",
+    "drive": "https://drive.google.com/file/d/14DhCIPPTWFxfHJuNMq8-jjgCrPZMAZNN/view?usp=sharing",
 }
 
 
