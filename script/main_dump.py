@@ -2834,6 +2834,21 @@ pp["degrees"][0] = {
 pp.set_first_second()
 data[i] = pp
 
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "林承君"
+pp["name"]["eng"] = "Cheng-Chun Lin"
+pp["year"] = 27
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立臺灣師範大學 學士",
+    "eng": "B.S., National Taiwan Normal University (25)",
+}
+
+pp.set_first_second()
+data[i] = pp
+
 # i += 1
 # pp = tool.People()
 # pp["name"]["chi"] = ""
