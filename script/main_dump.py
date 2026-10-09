@@ -2704,7 +2704,7 @@ pp = tool.People()
 pp["name"]["chi"] = "高廣鈞"
 pp["name"]["eng"] = "Kuang-Chun Kao"
 pp["year"] = 26
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立中山大學 學士",
@@ -2722,7 +2722,7 @@ pp = tool.People()
 pp["name"]["chi"] = "吳培慈"
 pp["name"]["eng"] = "Pei-Tzu Wu"
 pp["year"] = 26
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立台北科技大學 學士",
@@ -2740,7 +2740,7 @@ pp = tool.People()
 pp["name"]["chi"] = "徐暘程"
 pp["name"]["eng"] = "Yang-Cheng Hsu"
 pp["year"] = 26
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立台北科技大學 學士",
@@ -2758,7 +2758,7 @@ pp = tool.People()
 pp["name"]["chi"] = "巫泓毅"
 pp["name"]["eng"] = "Hong-Yi Wu"
 pp["year"] = 26
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立中央大學 學士",
@@ -2776,7 +2776,7 @@ pp = tool.People()
 pp["name"]["chi"] = "唐睿鵬"
 pp["name"]["eng"] = "Jui-Peng Tang"
 pp["year"] = 26
-pp["alumni"] = False
+pp["alumni"] = True
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
     "chi": "國立中央大學 學士",
@@ -2849,6 +2849,80 @@ pp["degrees"][0] = {
 pp.set_first_second()
 data[i] = pp
 
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "林愛晨"
+pp["name"]["eng"] = "Ai-Chen Lin"
+pp["year"] = 28
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立臺灣師範大學 學士",
+    "eng": "B.S., National Taiwan Normal University (26)",
+}
+
+pp.set_first_second()
+data[i] = pp
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "洪勻"
+pp["name"]["eng"] = "Yun Hung"
+pp["year"] = 28
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立成功大學 學士",
+    "eng": "B.S., National Cheng Kung University (26)",
+}
+
+pp.set_first_second()
+data[i] = pp
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "許宸碩"
+pp["name"]["eng"] = "Chen-Shuo Hsu"
+pp["year"] = 28
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立臺灣大學 學士",
+    "eng": "B.S., National Taiwan University (26)",
+}
+
+pp.set_first_second()
+data[i] = pp
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "周瑋"
+pp["name"]["eng"] = "Woei Chou"
+pp["year"] = 28
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立臺灣科技大學 學士",
+    "eng": "B.S., National Taiwan University of Science and Technology (26)",
+}
+
+pp.set_first_second()
+data[i] = pp
+
+i += 1
+pp = tool.People()
+pp["name"]["chi"] = "葉子揚"
+pp["name"]["eng"] = "Zih-Yang Yeh"
+pp["year"] = 28
+pp["alumni"] = False
+pp["lab_id"] = "碩士班學生 M.S. Student"
+pp["degrees"][0] = {
+    "chi": "國立臺灣大學 學士",
+    "eng": "B.S., National Taiwan University (26)",
+}
+
+pp.set_first_second()
+data[i] = pp
 # i += 1
 # pp = tool.People()
 # pp["name"]["chi"] = ""
