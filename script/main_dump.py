@@ -2857,8 +2857,8 @@ pp["year"] = 28
 pp["alumni"] = False
 pp["lab_id"] = "碩士班學生 M.S. Student"
 pp["degrees"][0] = {
-    "chi": "國立臺灣師範大學 學士",
-    "eng": "B.S., National Taiwan Normal University (26)",
+    "chi": "國立臺灣大學 學士",
+    "eng": "B.S., National Taiwan University (26)",
 }
 
 pp.set_first_second()
